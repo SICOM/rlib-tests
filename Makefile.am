@@ -4,6 +4,10 @@ ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = src
 
-tests-c: all
-	$(MAKE) -C src/c tests
+test-c: all
+	@echo
+	@echo Running C test cases
+	@echo
+	$(MAKE) -C src/c test
 
+test: test-c

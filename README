@@ -4,3 +4,12 @@ Licensed under MIT, see the LICENCE file.
 
 This means you can base your own reports on these as examples
 without needing to publish them.
+
+To run the tests, first you need to install RLIB from https://github.com/SICOM/rlib
+
+Then in this project:
+
+autoreconf -vif -W no-portability
+./configure
+make
+make tests

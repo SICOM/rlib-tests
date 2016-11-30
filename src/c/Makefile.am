@@ -29,7 +29,7 @@ noinst_DATA = \
 %.xml:
 	$(LN_S) ../common-xml/$@ $@
 
-tests: $(noinst_DATA) $(noinst_PROGRAMS)
+test: $(noinst_DATA) $(noinst_PROGRAMS)
 	@$(top_srcdir)/src/scripts/runtests.sh $(abs_builddir) $(noinst_PROGRAMS)
 
 CLEANFILES = $(noinst_DATA)
