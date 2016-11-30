@@ -41,36 +41,12 @@ noinst_PROGRAMS = \
 AM_CFLAGS = $(RLIB_CFLAGS) $(LIBGLIB_CFLAGS)
 AM_LDFLAGS = $(RLIB_LIBS)
 
-#noinst_SCRIPTS = \
-#	graph.xml products.xml follower.xml follower-breaks.xml \
-#	breaks.xml breaks2.xml hyperinflation.xml formatstring.xml \
-#	hungary.xml
+noinst_DATA = \
+	graph.xml products.xml follower.xml follower-breaks.xml \
+	breaks.xml breaks2.xml hyperinflation.xml formatstring.xml \
+	hungary.xml
 
-graph.xml:
-	$(LN_S) ../php/graph.xml
+%.xml:
+	$(LN_S) ../common-xml/$@ $@
 
-products.xml:
-	$(LN_S) ../common/products.xml
-
-follower.xml:
-	$(LN_S) ../php/follower.xml
-
-follower-breaks.xml:
-	$(LN_S) ../php/follower-breaks.xml
-
-breaks.xml:
-	$(LN_S) ../php/breaks.xml
-
-breaks2.xml:
-	$(LN_S) ../php/breaks2.xml
-
-hyperinflation.xml:
-	$(LN_S) ../php/hyperinflation.xml
-
-formatstring.xml:
-	$(LN_S) ../php/formatstring.xml
-
-hungary.xml:
-	$(LN_S) ../php/hungary.xml
-
-CLEANFILES = $(noinst_SCRIPTS)
+CLEANFILES = $(noinst_DATA)
