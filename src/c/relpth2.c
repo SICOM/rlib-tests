@@ -17,15 +17,21 @@
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
  * Boston, MA 02111-1307, USA.
  */
- 
+
+#include <stdio.h>
 #include <rlib.h>
 
-int main(void) {
+int main(int argc, char **argv) {
 	rlib *r;
+
+	if (argc == 1) {
+		printf("usage: %s [ pdf | xml | txt | csv | html ]\n", argv[0]);
+		return 1;
+	}
 
 	r = rlib_init();
 	rlib_add_report(r, "relpath/relpath-png.xml");
-	rlib_set_output_format(r, RLIB_FORMAT_PDF);
+	rlib_set_output_format_from_text(r, argv[1]);
 	rlib_execute(r);
 	rlib_spool(r);
 	rlib_free(r);

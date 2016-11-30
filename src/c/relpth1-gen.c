@@ -18,6 +18,7 @@
  * Boston, MA 02111-1307, USA.
  */
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -26,11 +27,16 @@
 
 #include <rlib.h>
 
-int main(void) {
+int main(int argc, char **argv) {
 	struct stat st;
 	char *buf;
 	int fd;
 	rlib *r;
+
+	if (argc == 1) {
+		printf("usage: %s [ pdf | xml | txt | csv | html ]\n", argv[0]);
+		return 1;
+	}
 
 	stat("relpath/relpath.xml", &st);
 
@@ -48,7 +54,7 @@ int main(void) {
 	r = rlib_init();
 	rlib_add_search_path(r, "relpath");
 	rlib_add_report_from_buffer(r, buf);
-	rlib_set_output_format(r, RLIB_FORMAT_HTML);
+	rlib_set_output_format_from_text(r, argv[1]);
 	rlib_execute(r);
 	rlib_spool(r);
 	rlib_free(r);

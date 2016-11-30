@@ -24,9 +24,14 @@
 #include <rlib.h>
 #include <rlib_input.h>
 
-int main(void) {
+int main(int argc, char **argv) {
 	const char *source, *username, *password;
 	rlib *r;
+
+	if (argc == 1) {
+		printf("usage: %s [ pdf | xml | txt | csv | html ]\n", argv[0]);
+		return 1;
+	}
 
 	source = "rlib";
 	username = "rlib";
@@ -39,7 +44,7 @@ int main(void) {
 	}
 	rlib_add_query_as(r, "local_odbc", "select * FROM products", "products");
 	rlib_add_report(r, "products.xml");
-	rlib_set_output_format(r, RLIB_FORMAT_PDF);
+	rlib_set_output_format_from_text(r, argv[1]);
 	rlib_execute(r);
 	rlib_spool(r);
 	rlib_free(r);
