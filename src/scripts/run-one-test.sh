@@ -14,6 +14,8 @@ if [ ! -f "${DIR}/${FILE}.test" ]; then
 	exit 1
 fi
 
+EXTRA_COMMAND=
+
 . $DIR/$FILE.test
 
 runtest1 () {
@@ -46,6 +48,7 @@ runtest1 () {
 }
 
 export RPDF_DEBUGGING=1
+export RLIB_DEBUGGING=1
 
 for FORMAT in $FORMATS ; do
 	${COMMAND} $FORMAT >"${DIR}/results/${FILE}.${FORMAT}.stdout" 2>"${DIR}/results/${FILE}.${FORMAT}.stderr"
@@ -92,6 +95,10 @@ for FORMAT in $FORMATS ; do
 		echo ${bold}Check these files:${normal}
 		echo "${DIR}/results/${FILE}.${FORMAT}.stdout"
 		echo "${DIR}/results/${FILE}.${FORMAT}.stderr"
+	fi
+
+	if [ -n "$EXTRA_COMMAND" ]; then
+		$EXTRA_COMMAND
 	fi
 done
 

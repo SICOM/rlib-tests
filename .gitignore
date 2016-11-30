@@ -36,13 +36,13 @@ mkinstalldirs
 stamp-h1
 stamp-h2
 
+src/c/*.xml
 src/c/example_mysql
 src/c/example_mysql.exe
 src/c/example_pg
 src/c/example_pg.exe
 src/c/example_odbc
 src/c/example_odbc.exe
-src/c/products.xml
 src/c/relprt
 src/c/relprt.exe
 src/c/relpth1
@@ -55,15 +55,12 @@ src/c/srcpth
 src/c/srcpth.exe
 src/c/breaks
 src/c/breaks.exe
-src/c/breaks.xml
 src/c/breaks.html
 src/c/breaks2
 src/c/breaks2.exe
 src/c/breaks2.html
-src/c/breaks2.xml
 src/c/graph
 src/c/graph.exe
-src/c/graph.xml
 src/c/follower
 src/c/follower.exe
 src/c/follower2
@@ -88,16 +85,11 @@ src/c/follower_circular
 src/c/follower_circular.exe
 src/c/follower-breaks
 src/c/follower-breaks.exe
-src/c/follower.xml
-src/c/follower-breaks.xml
 src/c/hungary
 src/c/hungary.exe
-src/c/hungary.xml
 src/c/hyperinflation
 src/c/hyperinflation.exe
-src/c/hyperinflation.xml
 src/c/formatstring
 src/c/formatstring.exe
-src/c/formatstring.xml
 
 src/c/results/*

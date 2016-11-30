@@ -19,6 +19,8 @@
  */
 
 #include <stdio.h>
+#include <unistd.h>
+#include <string.h>
 #include <rlib.h>
 
 int main(int argc, char **argv) {
@@ -30,6 +32,7 @@ int main(int argc, char **argv) {
 	}
 
 	r = rlib_init();
+	rlib_set_output_parameter(r, "html_image_directory", "/tmp");
 	rlib_add_report(r, "relpath/relpath-png.xml");
 	rlib_set_output_format_from_text(r, argv[1]);
 	rlib_execute(r);

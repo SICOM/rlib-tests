@@ -121,17 +121,23 @@ char *moredata[60][1] = {
 
 int main(int argc, char **argv) {
 	rlib *r;
-	int runquery = 0;
+	int runquery = 1;
+	char *format = "pdf";
 
-	if (argc == 1)
-		runquery = 1;
-	else if (strcasecmp(argv[1], "-n") == 0 || strcasecmp(argv[1], "--no-query") == 0)
-		runquery = 0;
-	else if (strcasecmp(argv[1], "-h") == 0 || strcasecmp(argv[1], "--help") == 0) {
-		printf("%s [options]\n", argv[0]);
-		printf("-h, --help\tthis help\n");
-		printf("-n, --no-query\tDon't run queries needed by the report\n");
-		return 0;
+	if (argc == 1) {
+		printf("usage: %s [-n] [ pdf | xml | txt | csv | html ]\n", argv[0]);
+		return 1;
+	}
+
+	if (argc == 2) {
+		if (strcasecmp(argv[1], "-n") == 0 || strcasecmp(argv[1], "--no-query") == 0)
+			runquery = 0;
+		else
+			format = argv[1];
+	} else {
+		if (strcasecmp(argv[1], "-n") == 0 || strcasecmp(argv[1], "--no-query") == 0)
+			runquery = 0;
+		format = argv[2];
 	}
 
 	r = rlib_init();
@@ -142,7 +148,7 @@ int main(int argc, char **argv) {
 		rlib_add_query_array_as(r, "local_array", moredata, 60, 1, "moredata");
 	}
 	rlib_add_report(r, "parts/flow_part_subdir.xml");
-	rlib_set_output_format(r, RLIB_FORMAT_PDF);
+	rlib_set_output_format_from_text(r, format);
 	rlib_execute(r);
 	rlib_spool(r);
 	rlib_free(r);

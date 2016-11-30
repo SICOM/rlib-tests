@@ -23,8 +23,8 @@ AM_LDFLAGS = $(RLIB_LIBS)
 
 noinst_DATA = \
 	graph.xml products.xml follower.xml follower-breaks.xml \
-	breaks.xml breaks2.xml hyperinflation.xml formatstring.xml \
-	hungary.xml
+	follower-3data.xml breaks.xml breaks2.xml hyperinflation.xml \
+	formatstring.xml hungary.xml
 
 %.xml:
 	$(LN_S) ../common-xml/$@ $@
