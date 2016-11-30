@@ -18,6 +18,9 @@ noinst_PROGRAMS = \
 	formatstring \
 	hungary
 
+RLIB_TESTS = $(noinst_PROGRAMS) \
+	relprt-noquery
+
 AM_CFLAGS = $(RLIB_CFLAGS) $(LIBGLIB_CFLAGS)
 AM_LDFLAGS = $(RLIB_LIBS)
 
@@ -30,6 +33,6 @@ noinst_DATA = \
 	$(LN_S) ../common-xml/$@ $@
 
 test: $(noinst_DATA) $(noinst_PROGRAMS)
-	@$(top_srcdir)/src/scripts/runtests.sh $(abs_builddir) $(noinst_PROGRAMS)
+	@$(top_srcdir)/src/scripts/runtests.sh $(abs_builddir) $(RLIB_TESTS)
 
 CLEANFILES = $(noinst_DATA)

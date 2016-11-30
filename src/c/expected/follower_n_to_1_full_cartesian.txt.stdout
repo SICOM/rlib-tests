@@ -1,0 +1,25 @@
+Test Report (Normal) AND THE REPORT FORMAT IS: TXT       3    
+Test Report (Bold)
+Test Report (Italics)
+Test Report (Bold and Italics)
+BOO: mike is a 
+First Name           Last Name            Color               
+Bob                  Doan                 blue                 WRD   MATCH    MATCH    MATCH    MATCH   
+Bob                  Doan                 blue                 TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Doan                 blue                 ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 TD    MATCH    MATCH    MATCH    MATCH   
+Terry                Doan                 blue                 ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                ERB   MATCH    MATCH    MATCH    MATCH   
+Mike                 Roth                 yellow               WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Page:   1

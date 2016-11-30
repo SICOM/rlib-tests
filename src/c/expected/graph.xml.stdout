@@ -1,0 +1,2311 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rlib>
+<part>
+<part_page_footer>
+<output>
+<line>
+<data col="0" width="6" font_point="14" bold="0" italics="0" align="left" >Page: </data>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="right" type="number" >  0</data>
+<data col="0" width="1" font_point="14" bold="0" italics="0" align="left" >/</data>
+</line>
+</output>
+</part_page_footer>
+<part_header>
+</part_header>
+<part_page_header>
+<output>
+<line>
+<data col="0" width="23" font_point="26" bold="0" italics="0" align="left" bgcolor="#ffff00" >RLIB IS Graphing       </data>
+<data col="0" width="4" font_point="26" bold="0" italics="0" align="left" bgcolor="#ffff00" >YES!</data>
+</line>
+</output>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+<output>
+<line>
+<data col="1" width="41" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >THIS TEXT SHOULD NOT FLOW INTO THE GRAPH </data>
+</line>
+<line>
+<data col="1" width="41" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >THIS TEXT SHOULD NOT FLOW INTO THE GRAPH </data>
+</line>
+<line>
+<data col="1" width="41" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >THIS TEXT SHOULD NOT FLOW INTO THE GRAPH </data>
+</line>
+<line>
+<data col="1" width="41" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >THIS TEXT SHOULD NOT FLOW INTO THE GRAPH </data>
+</line>
+<line>
+<data col="1" width="41" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >THIS TEXT SHOULD NOT FLOW INTO THE GRAPH </data>
+</line>
+<line>
+<data col="1" width="41" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >THIS TEXT SHOULD NOT FLOW INTO THE GRAPH </data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="740.000000" height="250.000000">
+<title>Double Y Axix!</title>
+<x_axis_title>Day Of Week</x_axis_title>
+<y_axis_title side="left">Sales $$$</y_axis_title>
+<y_axis_title side="right">Avg Check</y_axis_title>
+<x_iterations>4</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="5000.000000" max="8000.000000" origin="5000.000000"/>
+<y_iterations_label side="left" iteration="0">5000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">5300</y_iterations_label>
+<y_iterations_label side="left" iteration="2">5600</y_iterations_label>
+<y_iterations_label side="left" iteration="3">5900</y_iterations_label>
+<y_iterations_label side="left" iteration="4">6200</y_iterations_label>
+<y_iterations_label side="left" iteration="5">6500</y_iterations_label>
+<y_iterations_label side="left" iteration="6">6800</y_iterations_label>
+<y_iterations_label side="left" iteration="7">7100</y_iterations_label>
+<y_iterations_label side="left" iteration="8">7400</y_iterations_label>
+<y_iterations_label side="left" iteration="9">7700</y_iterations_label>
+<y_iterations_label side="left" iteration="10">8000</y_iterations_label>
+<limits side="right" min="4.500000" max="7.000000" origin="4.500000"/>
+<y_iterations_label side="right" iteration="0">4.5</y_iterations_label>
+<y_iterations_label side="right" iteration="1">4.8</y_iterations_label>
+<y_iterations_label side="right" iteration="2">5.0</y_iterations_label>
+<y_iterations_label side="right" iteration="3">5.2</y_iterations_label>
+<y_iterations_label side="right" iteration="4">5.5</y_iterations_label>
+<y_iterations_label side="right" iteration="5">5.8</y_iterations_label>
+<y_iterations_label side="right" iteration="6">6.0</y_iterations_label>
+<y_iterations_label side="right" iteration="7">6.2</y_iterations_label>
+<y_iterations_label side="right" iteration="8">6.5</y_iterations_label>
+<y_iterations_label side="right" iteration="9">6.8</y_iterations_label>
+<y_iterations_label side="right" iteration="10">7.0</y_iterations_label>
+<x_iterations_label iteration="0">Monday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="1.000000" p2_last_height="0.000000" color="#4684ee" value="8000.000000" label="Net Sales"/>
+<plot_line side="right" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.200000" p2_last_height="0.000000" color="#dc3912" value="5.000000" label="Avg Check"/>
+<x_iterations_label iteration="1">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="1.000000" p1_last_height="0.000000" p2_height="0.333333" p2_last_height="0.000000" color="#4684ee" value="6000.000000" label="Net Sales"/>
+<plot_line side="right" iteration="1" p1_height="0.200000" p1_last_height="0.000000" p2_height="0.400000" p2_last_height="0.000000" color="#dc3912" value="5.500000" label="Avg Check"/>
+<x_iterations_label iteration="2">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="0.333333" p1_last_height="0.000000" p2_height="0.500000" p2_last_height="0.000000" color="#4684ee" value="6500.000000" label="Net Sales"/>
+<plot_line side="right" iteration="2" p1_height="0.400000" p1_last_height="0.000000" p2_height="0.000000" p2_last_height="0.000000" color="#dc3912" value="4.500000" label="Avg Check"/>
+<x_iterations_label iteration="3">Thursday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.500000" p1_last_height="0.000000" p2_height="0.000000" p2_last_height="0.000000" color="#4684ee" value="5000.000000" label="Net Sales"/>
+<plot_line side="right" iteration="3" p1_height="0.000000" p1_last_height="0.000000" p2_height="1.000000" p2_last_height="0.000000" color="#dc3912" value="7.000000" label="Avg Check"/>
+</graph>
+</td>
+</tr>
+<tr>
+<td width="98.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Dow       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Net Sales </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Avg Check </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Monday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >8000      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5.00      </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Tuesday   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >6000      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >5.50      </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Wednesday </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >6500      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >4.50      </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Thursday  </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >5000      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >7.00      </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Pie Charts (Bob Kratz Emotions)</title>
+<grid draw_lines="false"/>
+<plot_pie start="0.000000" end="0.250000" offset="false" color="#4684ee" value="25.000000" label="Happy"/><plot_pie start="0.250000" end="0.500000" offset="false" color="#dc3912" value="25.000000" label="Sad"/><plot_pie start="0.500000" end="0.750000" offset="false" color="#ff9900" value="25.000000" label="Grumpy"/><plot_pie start="0.750000" end="1.000000" offset="false" color="#008000" value="25.000000" label="Sleepy"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Emotion   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Value</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Happy     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Sad       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Grumpy    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Sleepy    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Pie Charts (Bob Kratz Emotions)</title>
+<grid draw_lines="false"/>
+<plot_pie start="0.000000" end="0.250000" offset="false" color="#4684ee" value="25.000000" label="Happy"/><plot_pie start="0.250000" end="0.500000" offset="false" color="#dc3912" value="25.000000" label="Sad"/><plot_pie start="0.500000" end="0.750000" offset="false" color="#ff9900" value="25.000000" label="Grumpy"/><plot_pie start="0.750000" end="1.000000" offset="false" color="#008000" value="25.000000" label="Sleepy"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Emotion   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Value</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Happy     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Sad       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Grumpy    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Sleepy    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Normal Bar Charts!</title>
+<x_axis_title>i can label a x axis</x_axis_title>
+<y_axis_title side="left">y axis</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>9</y_iterations>
+<limits side="left" min="2100.000000" max="4800.000000" origin="2100.000000"/>
+<y_iterations_label side="left" iteration="0">2100</y_iterations_label>
+<y_iterations_label side="left" iteration="1">2400</y_iterations_label>
+<y_iterations_label side="left" iteration="2">2700</y_iterations_label>
+<y_iterations_label side="left" iteration="3">3000</y_iterations_label>
+<y_iterations_label side="left" iteration="4">3300</y_iterations_label>
+<y_iterations_label side="left" iteration="5">3600</y_iterations_label>
+<y_iterations_label side="left" iteration="6">3900</y_iterations_label>
+<y_iterations_label side="left" iteration="7">4200</y_iterations_label>
+<y_iterations_label side="left" iteration="8">4500</y_iterations_label>
+<y_iterations_label side="left" iteration="9">4800</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.333333" color="#4684ee" last_height="0.000000" divide_iterations="true" value="3000.000000" label="Sales"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.111111" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2400.000000" label="Sales"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.703704" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4000.000000" label="Sales"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.962963" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4700.000000" label="Sales"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.148148" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2500.000000" label="Sales"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 2</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>8</y_iterations>
+<limits side="left" min="1600.000000" max="5600.000000" origin="1600.000000"/>
+<y_iterations_label side="left" iteration="0">1600</y_iterations_label>
+<y_iterations_label side="left" iteration="1">2100</y_iterations_label>
+<y_iterations_label side="left" iteration="2">2600</y_iterations_label>
+<y_iterations_label side="left" iteration="3">3100</y_iterations_label>
+<y_iterations_label side="left" iteration="4">3600</y_iterations_label>
+<y_iterations_label side="left" iteration="5">4100</y_iterations_label>
+<y_iterations_label side="left" iteration="6">4600</y_iterations_label>
+<y_iterations_label side="left" iteration="7">5100</y_iterations_label>
+<y_iterations_label side="left" iteration="8">5600</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.350000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="3000.000000" label="TY Sales"/><plot_bar side="left" iteration="0" plot="1" height_percent="0.425000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="3300.000000" label="LY Sales"/><plot_bar side="left" iteration="0" plot="2" height_percent="0.425000" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3300.000000" label="Projection"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.200000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2400.000000" label="TY Sales"/><plot_bar side="left" iteration="1" plot="1" height_percent="0.125000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="2100.000000" label="LY Sales"/><plot_bar side="left" iteration="1" plot="2" height_percent="0.425250" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3301.000000" label="Projection"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.600000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4000.000000" label="TY Sales"/><plot_bar side="left" iteration="2" plot="1" height_percent="0.625000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="2" plot="2" height_percent="0.425500" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3302.000000" label="Projection"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.775000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4700.000000" label="TY Sales"/><plot_bar side="left" iteration="3" plot="1" height_percent="0.625000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="3" plot="2" height_percent="0.425750" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3303.000000" label="Projection"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.225000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2500.000000" label="TY Sales"/><plot_bar side="left" iteration="4" plot="1" height_percent="0.975000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="5500.000000" label="LY Sales"/><plot_bar side="left" iteration="4" plot="2" height_percent="0.426000" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3304.000000" label="Projection"/></graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 3</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="-2.000000" max="8.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-2</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-1</y_iterations_label>
+<y_iterations_label side="left" iteration="2">00</y_iterations_label>
+<y_iterations_label side="left" iteration="3">01</y_iterations_label>
+<y_iterations_label side="left" iteration="4">02</y_iterations_label>
+<y_iterations_label side="left" iteration="5">03</y_iterations_label>
+<y_iterations_label side="left" iteration="6">04</y_iterations_label>
+<y_iterations_label side="left" iteration="7">05</y_iterations_label>
+<y_iterations_label side="left" iteration="8">06</y_iterations_label>
+<y_iterations_label side="left" iteration="9">07</y_iterations_label>
+<y_iterations_label side="left" iteration="10">08</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="-0.150000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-1.500000" label="Sold"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.100000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="1.000000" label="Sold"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.200000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2.000000" label="Sold"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.300000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="3.000000" label="Sold"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.800000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="8.000000" label="Sold"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 4</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="-10.000000" max="0.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-10</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-09</y_iterations_label>
+<y_iterations_label side="left" iteration="2">-08</y_iterations_label>
+<y_iterations_label side="left" iteration="3">-07</y_iterations_label>
+<y_iterations_label side="left" iteration="4">-06</y_iterations_label>
+<y_iterations_label side="left" iteration="5">-05</y_iterations_label>
+<y_iterations_label side="left" iteration="6">-04</y_iterations_label>
+<y_iterations_label side="left" iteration="7">-03</y_iterations_label>
+<y_iterations_label side="left" iteration="8">-02</y_iterations_label>
+<y_iterations_label side="left" iteration="9">-01</y_iterations_label>
+<y_iterations_label side="left" iteration="10">000</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="-0.200000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-2.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="-0.400000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-4.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="-0.600000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-6.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="-0.800000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-8.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="-1.000000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-10.000000" label="A Really Long Label Foo!"/></graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Pie Charts (Bob Kratz Food)</title>
+<grid draw_lines="false"/>
+<plot_pie start="0.000000" end="0.072727" offset="false" color="#4684ee" value="20.000000" label="Pizza"/><plot_pie start="0.072727" end="0.181818" offset="false" color="#dc3912" value="30.000000" label="Chicken"/><plot_pie start="0.181818" end="0.254545" offset="false" color="#ff9900" value="20.000000" label="Meat"/><plot_pie start="0.254545" end="0.290909" offset="false" color="#008000" value="10.000000" label="Potatos"/><plot_pie start="0.290909" end="0.327273" offset="false" color="#666666" value="10.000000" label="Vegies"/><plot_pie start="0.327273" end="0.381818" offset="false" color="#4942cc" value="15.000000" label="Fruit"/><plot_pie start="0.381818" end="0.400000" offset="false" color="#cb4ac5" value="5.000000" label="Fish"/><plot_pie start="0.400000" end="0.472727" offset="false" color="#d6ae00" value="20.000000" label="Pasta"/><plot_pie start="0.472727" end="0.509091" offset="false" color="#336699" value="10.000000" label="Ice Cream"/><plot_pie start="0.509091" end="0.690909" offset="false" color="#dd4477" value="50.000000" label="Fresca"/><plot_pie start="0.690909" end="0.763636" offset="false" color="#aaaa11" value="20.000000" label="Water"/><plot_pie start="0.763636" end="0.836364" offset="false" color="#66aa00" value="20.000000" label="Soda"/><plot_pie start="0.836364" end="0.854545" offset="false" color="#888888" value="5.000000" label="Milk"/><plot_pie start="0.854545" end="0.872727" offset="false" color="#994499" value="5.000000" label="Oj"/><plot_pie start="0.872727" end="0.945455" offset="false" color="#dd5511" value="20.000000" label="Cake"/><plot_pie start="0.945455" end="0.981818" offset="false" color="#22aa99" value="10.000000" label="Pie"/><plot_pie start="0.981818" end="1.000000" offset="false" color="#999999" value="5.000000" label="Pudding"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+<output>
+<line>
+<data col="1" width="30" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >HEADER Testing SUM (Delayed): </data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Food!     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Value</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Pizza     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Chicken   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >30   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Meat      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Potatos   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Vegies    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Fruit     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >15   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Fish      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pasta     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Ice Cream </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Fresca    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >50   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Water     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Soda      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Milk      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Oj        </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Cake      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pie       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Pudding   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="1" width="20" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Footer Testing SUM: </data>
+</line>
+</output>
+</report_footer>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Offset Pie Charts (Bob Kratz Emotions)</title>
+<grid draw_lines="false"/>
+<plot_pie start="0.000000" end="0.250000" offset="true" color="#4684ee" value="25.000000" label="Happy"/><plot_pie start="0.250000" end="0.500000" offset="true" color="#dc3912" value="25.000000" label="Sad"/><plot_pie start="0.500000" end="0.750000" offset="true" color="#ff9900" value="25.000000" label="Grumpy"/><plot_pie start="0.750000" end="1.000000" offset="true" color="#008000" value="25.000000" label="Sleepy"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Emotion   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Value</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Happy     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Sad       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Grumpy    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Sleepy    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >25   </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Offset Pie Charts (Bob Kratz Food)</title>
+<grid draw_lines="false"/>
+<plot_pie start="0.000000" end="0.072727" offset="true" color="#4684ee" value="20.000000" label="Pizza"/><plot_pie start="0.072727" end="0.181818" offset="true" color="#dc3912" value="30.000000" label="Chicken"/><plot_pie start="0.181818" end="0.254545" offset="true" color="#ff9900" value="20.000000" label="Meat"/><plot_pie start="0.254545" end="0.290909" offset="true" color="#008000" value="10.000000" label="Potatos"/><plot_pie start="0.290909" end="0.327273" offset="true" color="#666666" value="10.000000" label="Vegies"/><plot_pie start="0.327273" end="0.381818" offset="true" color="#4942cc" value="15.000000" label="Fruit"/><plot_pie start="0.381818" end="0.400000" offset="true" color="#cb4ac5" value="5.000000" label="Fish"/><plot_pie start="0.400000" end="0.472727" offset="true" color="#d6ae00" value="20.000000" label="Pasta"/><plot_pie start="0.472727" end="0.509091" offset="true" color="#336699" value="10.000000" label="Ice Cream"/><plot_pie start="0.509091" end="0.690909" offset="true" color="#dd4477" value="50.000000" label="Fresca"/><plot_pie start="0.690909" end="0.763636" offset="true" color="#aaaa11" value="20.000000" label="Water"/><plot_pie start="0.763636" end="0.836364" offset="true" color="#66aa00" value="20.000000" label="Soda"/><plot_pie start="0.836364" end="0.854545" offset="true" color="#888888" value="5.000000" label="Milk"/><plot_pie start="0.854545" end="0.872727" offset="true" color="#994499" value="5.000000" label="Oj"/><plot_pie start="0.872727" end="0.945455" offset="true" color="#dd5511" value="20.000000" label="Cake"/><plot_pie start="0.945455" end="0.981818" offset="true" color="#22aa99" value="10.000000" label="Pie"/><plot_pie start="0.981818" end="1.000000" offset="true" color="#999999" value="5.000000" label="Pudding"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Food      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Value</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Pizza     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Chicken   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >30   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Meat      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Potatos   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Vegies    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Fruit     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >15   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Fish      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pasta     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Ice Cream </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Fresca    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >50   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Water     </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Soda      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Milk      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Oj        </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Cake      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pie       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Pudding   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >5    </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Normal Line Charts!</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left">Sales $$$</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>7</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>7</y_iterations>
+<limits side="left" min="30.000000" max="170.000000" origin="30.000000"/>
+<y_iterations_label side="left" iteration="0">030</y_iterations_label>
+<y_iterations_label side="left" iteration="1">050</y_iterations_label>
+<y_iterations_label side="left" iteration="2">070</y_iterations_label>
+<y_iterations_label side="left" iteration="3">090</y_iterations_label>
+<y_iterations_label side="left" iteration="4">110</y_iterations_label>
+<y_iterations_label side="left" iteration="5">130</y_iterations_label>
+<y_iterations_label side="left" iteration="6">150</y_iterations_label>
+<y_iterations_label side="left" iteration="7">170</y_iterations_label>
+<x_iterations_label iteration="0">Sunday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.500000" p2_last_height="0.000000" color="#4684ee" value="100.000000" label="BK 1"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#dc3912" value="120.000000" label="BK 2"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.714286" p2_last_height="0.000000" color="#ff9900" value="130.000000" label="BK 3"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.571429" p2_last_height="0.000000" color="#008000" value="110.000000" label="BK 4"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="3293568830019140529042161636982976123000322921916209827364425056650335498932495243286013474985391089866557270027964549440460293681009915018839444252090986771325973180805088821641216.000000" p2_height="0.642857" p2_last_height="0.000000" color="#666666" value="120.000000" label="BK 5"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="2642781548453911539271210042839605058273450846937080877957051051643125181908669027841325954608403992681781612387664457109320740362692456868283014092410040600507016801627872574832640.000000" p2_height="0.714286" p2_last_height="0.000000" color="#4942cc" value="130.000000" label="BK 6"/>
+<x_iterations_label iteration="1">Monday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="0.500000" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#4684ee" value="120.000000" label="BK 1"/>
+<plot_line side="left" iteration="1" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.571429" p2_last_height="0.000000" color="#dc3912" value="110.000000" label="BK 2"/>
+<plot_line side="left" iteration="1" p1_height="0.714286" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#ff9900" value="120.000000" label="BK 3"/>
+<plot_line side="left" iteration="1" p1_height="0.571429" p1_last_height="0.000000" p2_height="0.785714" p2_last_height="0.000000" color="#008000" value="140.000000" label="BK 4"/>
+<plot_line side="left" iteration="1" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.857143" p2_last_height="0.000000" color="#666666" value="150.000000" label="BK 5"/>
+<plot_line side="left" iteration="1" p1_height="0.714286" p1_last_height="0.000000" p2_height="0.928571" p2_last_height="0.000000" color="#4942cc" value="160.000000" label="BK 6"/>
+<x_iterations_label iteration="2">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.571429" p2_last_height="0.000000" color="#4684ee" value="110.000000" label="BK 1"/>
+<plot_line side="left" iteration="2" p1_height="0.571429" p1_last_height="0.000000" p2_height="0.714286" p2_last_height="0.000000" color="#dc3912" value="130.000000" label="BK 2"/>
+<plot_line side="left" iteration="2" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.571429" p2_last_height="0.000000" color="#ff9900" value="110.000000" label="BK 3"/>
+<plot_line side="left" iteration="2" p1_height="0.785714" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#008000" value="120.000000" label="BK 4"/>
+<plot_line side="left" iteration="2" p1_height="0.857143" p1_last_height="0.000000" p2_height="0.714286" p2_last_height="0.000000" color="#666666" value="130.000000" label="BK 5"/>
+<plot_line side="left" iteration="2" p1_height="0.928571" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#4942cc" value="120.000000" label="BK 6"/>
+<x_iterations_label iteration="3">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.571429" p1_last_height="0.000000" p2_height="0.000000" p2_last_height="0.000000" color="#4684ee" value="30.000000" label="BK 1"/>
+<plot_line side="left" iteration="3" p1_height="0.714286" p1_last_height="0.000000" p2_height="0.142857" p2_last_height="0.000000" color="#dc3912" value="50.000000" label="BK 2"/>
+<plot_line side="left" iteration="3" p1_height="0.571429" p1_last_height="0.000000" p2_height="0.071429" p2_last_height="0.000000" color="#ff9900" value="40.000000" label="BK 3"/>
+<plot_line side="left" iteration="3" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.428571" p2_last_height="0.000000" color="#008000" value="90.000000" label="BK 4"/>
+<plot_line side="left" iteration="3" p1_height="0.714286" p1_last_height="0.000000" p2_height="0.000000" p2_last_height="0.000000" color="#666666" value="30.000000" label="BK 5"/>
+<plot_line side="left" iteration="3" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.071429" p2_last_height="0.000000" color="#4942cc" value="40.000000" label="BK 6"/>
+<x_iterations_label iteration="4">Thusday</x_iterations_label>
+<plot_line side="left" iteration="4" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.214286" p2_last_height="0.000000" color="#4684ee" value="60.000000" label="BK 1"/>
+<plot_line side="left" iteration="4" p1_height="0.142857" p1_last_height="0.000000" p2_height="0.500000" p2_last_height="0.000000" color="#dc3912" value="100.000000" label="BK 2"/>
+<plot_line side="left" iteration="4" p1_height="0.071429" p1_last_height="0.000000" p2_height="0.428571" p2_last_height="0.000000" color="#ff9900" value="90.000000" label="BK 3"/>
+<plot_line side="left" iteration="4" p1_height="0.428571" p1_last_height="0.000000" p2_height="0.357143" p2_last_height="0.000000" color="#008000" value="80.000000" label="BK 4"/>
+<plot_line side="left" iteration="4" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.285714" p2_last_height="0.000000" color="#666666" value="70.000000" label="BK 5"/>
+<plot_line side="left" iteration="4" p1_height="0.071429" p1_last_height="0.000000" p2_height="0.392857" p2_last_height="0.000000" color="#4942cc" value="85.000000" label="BK 6"/>
+<x_iterations_label iteration="5">Friday</x_iterations_label>
+<plot_line side="left" iteration="5" p1_height="0.214286" p1_last_height="0.000000" p2_height="0.500000" p2_last_height="0.000000" color="#4684ee" value="100.000000" label="BK 1"/>
+<plot_line side="left" iteration="5" p1_height="0.500000" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#dc3912" value="120.000000" label="BK 2"/>
+<plot_line side="left" iteration="5" p1_height="0.428571" p1_last_height="0.000000" p2_height="0.714286" p2_last_height="0.000000" color="#ff9900" value="130.000000" label="BK 3"/>
+<plot_line side="left" iteration="5" p1_height="0.357143" p1_last_height="0.000000" p2_height="0.571429" p2_last_height="0.000000" color="#008000" value="110.000000" label="BK 4"/>
+<plot_line side="left" iteration="5" p1_height="0.285714" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#666666" value="120.000000" label="BK 5"/>
+<plot_line side="left" iteration="5" p1_height="0.392857" p1_last_height="0.000000" p2_height="0.714286" p2_last_height="0.000000" color="#4942cc" value="130.000000" label="BK 6"/>
+<x_iterations_label iteration="6">Saturday</x_iterations_label>
+<plot_line side="left" iteration="6" p1_height="0.500000" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#4684ee" value="120.000000" label="BK 1"/>
+<plot_line side="left" iteration="6" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.571429" p2_last_height="0.000000" color="#dc3912" value="110.000000" label="BK 2"/>
+<plot_line side="left" iteration="6" p1_height="0.714286" p1_last_height="0.000000" p2_height="0.642857" p2_last_height="0.000000" color="#ff9900" value="120.000000" label="BK 3"/>
+<plot_line side="left" iteration="6" p1_height="0.571429" p1_last_height="0.000000" p2_height="0.785714" p2_last_height="0.000000" color="#008000" value="140.000000" label="BK 4"/>
+<plot_line side="left" iteration="6" p1_height="0.642857" p1_last_height="0.000000" p2_height="0.857143" p2_last_height="0.000000" color="#666666" value="150.000000" label="BK 5"/>
+<plot_line side="left" iteration="6" p1_height="0.714286" p1_last_height="0.000000" p2_height="0.928571" p2_last_height="0.000000" color="#4942cc" value="160.000000" label="BK 6"/>
+</graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Stacked Line Charts!</title>
+<x_axis_title>Day Of Week</x_axis_title>
+<y_axis_title side="left">Sales $$$</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>7</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="0.000000" max="800.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">080</y_iterations_label>
+<y_iterations_label side="left" iteration="2">160</y_iterations_label>
+<y_iterations_label side="left" iteration="3">240</y_iterations_label>
+<y_iterations_label side="left" iteration="4">320</y_iterations_label>
+<y_iterations_label side="left" iteration="5">400</y_iterations_label>
+<y_iterations_label side="left" iteration="6">480</y_iterations_label>
+<y_iterations_label side="left" iteration="7">560</y_iterations_label>
+<y_iterations_label side="left" iteration="8">640</y_iterations_label>
+<y_iterations_label side="left" iteration="9">720</y_iterations_label>
+<y_iterations_label side="left" iteration="10">800</y_iterations_label>
+<x_iterations_label iteration="0">Sunday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.125000" p2_last_height="0.000000" color="#4684ee" value="100.000000" label="BK 1"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.150000" p2_last_height="0.125000" color="#dc3912" value="120.000000" label="BK 2"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.162500" p2_last_height="0.275000" color="#ff9900" value="130.000000" label="BK 3"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.137500" p2_last_height="0.437500" color="#008000" value="110.000000" label="BK 4"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.150000" p2_last_height="0.575000" color="#666666" value="120.000000" label="BK 5"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.162500" p2_last_height="0.725000" color="#4942cc" value="130.000000" label="BK 6"/>
+<x_iterations_label iteration="1">Monday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="0.125000" p1_last_height="0.000000" p2_height="0.150000" p2_last_height="0.000000" color="#4684ee" value="120.000000" label="BK 1"/>
+<plot_line side="left" iteration="1" p1_height="0.150000" p1_last_height="0.125000" p2_height="0.137500" p2_last_height="0.150000" color="#dc3912" value="110.000000" label="BK 2"/>
+<plot_line side="left" iteration="1" p1_height="0.162500" p1_last_height="0.275000" p2_height="0.150000" p2_last_height="0.287500" color="#ff9900" value="120.000000" label="BK 3"/>
+<plot_line side="left" iteration="1" p1_height="0.137500" p1_last_height="0.437500" p2_height="0.175000" p2_last_height="0.437500" color="#008000" value="140.000000" label="BK 4"/>
+<plot_line side="left" iteration="1" p1_height="0.150000" p1_last_height="0.575000" p2_height="0.187500" p2_last_height="0.612500" color="#666666" value="150.000000" label="BK 5"/>
+<plot_line side="left" iteration="1" p1_height="0.162500" p1_last_height="0.725000" p2_height="0.200000" p2_last_height="0.800000" color="#4942cc" value="160.000000" label="BK 6"/>
+<x_iterations_label iteration="2">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="0.150000" p1_last_height="0.000000" p2_height="0.137500" p2_last_height="0.000000" color="#4684ee" value="110.000000" label="BK 1"/>
+<plot_line side="left" iteration="2" p1_height="0.137500" p1_last_height="0.150000" p2_height="0.162500" p2_last_height="0.137500" color="#dc3912" value="130.000000" label="BK 2"/>
+<plot_line side="left" iteration="2" p1_height="0.150000" p1_last_height="0.287500" p2_height="0.137500" p2_last_height="0.300000" color="#ff9900" value="110.000000" label="BK 3"/>
+<plot_line side="left" iteration="2" p1_height="0.175000" p1_last_height="0.437500" p2_height="0.150000" p2_last_height="0.437500" color="#008000" value="120.000000" label="BK 4"/>
+<plot_line side="left" iteration="2" p1_height="0.187500" p1_last_height="0.612500" p2_height="0.162500" p2_last_height="0.587500" color="#666666" value="130.000000" label="BK 5"/>
+<plot_line side="left" iteration="2" p1_height="0.200000" p1_last_height="0.800000" p2_height="0.150000" p2_last_height="0.750000" color="#4942cc" value="120.000000" label="BK 6"/>
+<x_iterations_label iteration="3">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.137500" p1_last_height="0.000000" p2_height="0.037500" p2_last_height="0.000000" color="#4684ee" value="30.000000" label="BK 1"/>
+<plot_line side="left" iteration="3" p1_height="0.162500" p1_last_height="0.137500" p2_height="0.062500" p2_last_height="0.037500" color="#dc3912" value="50.000000" label="BK 2"/>
+<plot_line side="left" iteration="3" p1_height="0.137500" p1_last_height="0.300000" p2_height="0.050000" p2_last_height="0.100000" color="#ff9900" value="40.000000" label="BK 3"/>
+<plot_line side="left" iteration="3" p1_height="0.150000" p1_last_height="0.437500" p2_height="0.112500" p2_last_height="0.150000" color="#008000" value="90.000000" label="BK 4"/>
+<plot_line side="left" iteration="3" p1_height="0.162500" p1_last_height="0.587500" p2_height="0.037500" p2_last_height="0.262500" color="#666666" value="30.000000" label="BK 5"/>
+<plot_line side="left" iteration="3" p1_height="0.150000" p1_last_height="0.750000" p2_height="0.050000" p2_last_height="0.300000" color="#4942cc" value="40.000000" label="BK 6"/>
+<x_iterations_label iteration="4">Thusday</x_iterations_label>
+<plot_line side="left" iteration="4" p1_height="0.037500" p1_last_height="0.000000" p2_height="0.075000" p2_last_height="0.000000" color="#4684ee" value="60.000000" label="BK 1"/>
+<plot_line side="left" iteration="4" p1_height="0.062500" p1_last_height="0.037500" p2_height="0.125000" p2_last_height="0.075000" color="#dc3912" value="100.000000" label="BK 2"/>
+<plot_line side="left" iteration="4" p1_height="0.050000" p1_last_height="0.100000" p2_height="0.112500" p2_last_height="0.200000" color="#ff9900" value="90.000000" label="BK 3"/>
+<plot_line side="left" iteration="4" p1_height="0.112500" p1_last_height="0.150000" p2_height="0.100000" p2_last_height="0.312500" color="#008000" value="80.000000" label="BK 4"/>
+<plot_line side="left" iteration="4" p1_height="0.037500" p1_last_height="0.262500" p2_height="0.087500" p2_last_height="0.412500" color="#666666" value="70.000000" label="BK 5"/>
+<plot_line side="left" iteration="4" p1_height="0.050000" p1_last_height="0.300000" p2_height="0.106250" p2_last_height="0.500000" color="#4942cc" value="85.000000" label="BK 6"/>
+<x_iterations_label iteration="5">Friday</x_iterations_label>
+<plot_line side="left" iteration="5" p1_height="0.075000" p1_last_height="0.000000" p2_height="0.125000" p2_last_height="0.000000" color="#4684ee" value="100.000000" label="BK 1"/>
+<plot_line side="left" iteration="5" p1_height="0.125000" p1_last_height="0.075000" p2_height="0.150000" p2_last_height="0.125000" color="#dc3912" value="120.000000" label="BK 2"/>
+<plot_line side="left" iteration="5" p1_height="0.112500" p1_last_height="0.200000" p2_height="0.162500" p2_last_height="0.275000" color="#ff9900" value="130.000000" label="BK 3"/>
+<plot_line side="left" iteration="5" p1_height="0.100000" p1_last_height="0.312500" p2_height="0.137500" p2_last_height="0.437500" color="#008000" value="110.000000" label="BK 4"/>
+<plot_line side="left" iteration="5" p1_height="0.087500" p1_last_height="0.412500" p2_height="0.150000" p2_last_height="0.575000" color="#666666" value="120.000000" label="BK 5"/>
+<plot_line side="left" iteration="5" p1_height="0.106250" p1_last_height="0.500000" p2_height="0.162500" p2_last_height="0.725000" color="#4942cc" value="130.000000" label="BK 6"/>
+<x_iterations_label iteration="6">Saturday</x_iterations_label>
+<plot_line side="left" iteration="6" p1_height="0.125000" p1_last_height="0.000000" p2_height="0.150000" p2_last_height="0.000000" color="#4684ee" value="120.000000" label="BK 1"/>
+<plot_line side="left" iteration="6" p1_height="0.150000" p1_last_height="0.125000" p2_height="0.137500" p2_last_height="0.150000" color="#dc3912" value="110.000000" label="BK 2"/>
+<plot_line side="left" iteration="6" p1_height="0.162500" p1_last_height="0.275000" p2_height="0.150000" p2_last_height="0.287500" color="#ff9900" value="120.000000" label="BK 3"/>
+<plot_line side="left" iteration="6" p1_height="0.137500" p1_last_height="0.437500" p2_height="0.175000" p2_last_height="0.437500" color="#008000" value="140.000000" label="BK 4"/>
+<plot_line side="left" iteration="6" p1_height="0.150000" p1_last_height="0.575000" p2_height="0.187500" p2_last_height="0.612500" color="#666666" value="150.000000" label="BK 5"/>
+<plot_line side="left" iteration="6" p1_height="0.162500" p1_last_height="0.725000" p2_height="0.200000" p2_last_height="0.800000" color="#4942cc" value="160.000000" label="BK 6"/>
+</graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Percent Line Charts!</title>
+<x_axis_title>Day Of Week</x_axis_title>
+<y_axis_title side="left">Sales $$$</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>7</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="0.000000" max="100.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">010</y_iterations_label>
+<y_iterations_label side="left" iteration="2">020</y_iterations_label>
+<y_iterations_label side="left" iteration="3">030</y_iterations_label>
+<y_iterations_label side="left" iteration="4">040</y_iterations_label>
+<y_iterations_label side="left" iteration="5">050</y_iterations_label>
+<y_iterations_label side="left" iteration="6">060</y_iterations_label>
+<y_iterations_label side="left" iteration="7">070</y_iterations_label>
+<y_iterations_label side="left" iteration="8">080</y_iterations_label>
+<y_iterations_label side="left" iteration="9">090</y_iterations_label>
+<y_iterations_label side="left" iteration="10">100</y_iterations_label>
+<x_iterations_label iteration="0">Sunday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.140845" p2_last_height="0.000000" color="#4684ee" value="100.000000" label="BK 1"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.169014" p2_last_height="0.140845" color="#dc3912" value="120.000000" label="BK 2"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.183099" p2_last_height="0.309859" color="#ff9900" value="130.000000" label="BK 3"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.154930" p2_last_height="0.492958" color="#008000" value="110.000000" label="BK 4"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.169014" p2_last_height="0.647887" color="#666666" value="120.000000" label="BK 5"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.183099" p2_last_height="0.816901" color="#4942cc" value="130.000000" label="BK 6"/>
+<x_iterations_label iteration="1">Monday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="0.140845" p1_last_height="0.000000" p2_height="0.150000" p2_last_height="0.000000" color="#4684ee" value="120.000000" label="BK 1"/>
+<plot_line side="left" iteration="1" p1_height="0.169014" p1_last_height="0.140845" p2_height="0.137500" p2_last_height="0.150000" color="#dc3912" value="110.000000" label="BK 2"/>
+<plot_line side="left" iteration="1" p1_height="0.183099" p1_last_height="0.309859" p2_height="0.150000" p2_last_height="0.287500" color="#ff9900" value="120.000000" label="BK 3"/>
+<plot_line side="left" iteration="1" p1_height="0.154930" p1_last_height="0.492958" p2_height="0.175000" p2_last_height="0.437500" color="#008000" value="140.000000" label="BK 4"/>
+<plot_line side="left" iteration="1" p1_height="0.169014" p1_last_height="0.647887" p2_height="0.187500" p2_last_height="0.612500" color="#666666" value="150.000000" label="BK 5"/>
+<plot_line side="left" iteration="1" p1_height="0.183099" p1_last_height="0.816901" p2_height="0.200000" p2_last_height="0.800000" color="#4942cc" value="160.000000" label="BK 6"/>
+<x_iterations_label iteration="2">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="0.150000" p1_last_height="0.000000" p2_height="0.152778" p2_last_height="0.000000" color="#4684ee" value="110.000000" label="BK 1"/>
+<plot_line side="left" iteration="2" p1_height="0.137500" p1_last_height="0.150000" p2_height="0.180556" p2_last_height="0.152778" color="#dc3912" value="130.000000" label="BK 2"/>
+<plot_line side="left" iteration="2" p1_height="0.150000" p1_last_height="0.287500" p2_height="0.152778" p2_last_height="0.333333" color="#ff9900" value="110.000000" label="BK 3"/>
+<plot_line side="left" iteration="2" p1_height="0.175000" p1_last_height="0.437500" p2_height="0.166667" p2_last_height="0.486111" color="#008000" value="120.000000" label="BK 4"/>
+<plot_line side="left" iteration="2" p1_height="0.187500" p1_last_height="0.612500" p2_height="0.180556" p2_last_height="0.652778" color="#666666" value="130.000000" label="BK 5"/>
+<plot_line side="left" iteration="2" p1_height="0.200000" p1_last_height="0.800000" p2_height="0.166667" p2_last_height="0.833333" color="#4942cc" value="120.000000" label="BK 6"/>
+<x_iterations_label iteration="3">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.152778" p1_last_height="0.000000" p2_height="0.107143" p2_last_height="0.000000" color="#4684ee" value="30.000000" label="BK 1"/>
+<plot_line side="left" iteration="3" p1_height="0.180556" p1_last_height="0.152778" p2_height="0.178571" p2_last_height="0.107143" color="#dc3912" value="50.000000" label="BK 2"/>
+<plot_line side="left" iteration="3" p1_height="0.152778" p1_last_height="0.333333" p2_height="0.142857" p2_last_height="0.285714" color="#ff9900" value="40.000000" label="BK 3"/>
+<plot_line side="left" iteration="3" p1_height="0.166667" p1_last_height="0.486111" p2_height="0.321429" p2_last_height="0.428571" color="#008000" value="90.000000" label="BK 4"/>
+<plot_line side="left" iteration="3" p1_height="0.180556" p1_last_height="0.652778" p2_height="0.107143" p2_last_height="0.750000" color="#666666" value="30.000000" label="BK 5"/>
+<plot_line side="left" iteration="3" p1_height="0.166667" p1_last_height="0.833333" p2_height="0.142857" p2_last_height="0.857143" color="#4942cc" value="40.000000" label="BK 6"/>
+<x_iterations_label iteration="4">Thusday</x_iterations_label>
+<plot_line side="left" iteration="4" p1_height="0.107143" p1_last_height="0.000000" p2_height="0.123711" p2_last_height="0.000000" color="#4684ee" value="60.000000" label="BK 1"/>
+<plot_line side="left" iteration="4" p1_height="0.178571" p1_last_height="0.107143" p2_height="0.206186" p2_last_height="0.123711" color="#dc3912" value="100.000000" label="BK 2"/>
+<plot_line side="left" iteration="4" p1_height="0.142857" p1_last_height="0.285714" p2_height="0.185567" p2_last_height="0.329897" color="#ff9900" value="90.000000" label="BK 3"/>
+<plot_line side="left" iteration="4" p1_height="0.321429" p1_last_height="0.428571" p2_height="0.164948" p2_last_height="0.515464" color="#008000" value="80.000000" label="BK 4"/>
+<plot_line side="left" iteration="4" p1_height="0.107143" p1_last_height="0.750000" p2_height="0.144330" p2_last_height="0.680412" color="#666666" value="70.000000" label="BK 5"/>
+<plot_line side="left" iteration="4" p1_height="0.142857" p1_last_height="0.857143" p2_height="0.175258" p2_last_height="0.824742" color="#4942cc" value="85.000000" label="BK 6"/>
+<x_iterations_label iteration="5">Friday</x_iterations_label>
+<plot_line side="left" iteration="5" p1_height="0.123711" p1_last_height="0.000000" p2_height="0.140845" p2_last_height="0.000000" color="#4684ee" value="100.000000" label="BK 1"/>
+<plot_line side="left" iteration="5" p1_height="0.206186" p1_last_height="0.123711" p2_height="0.169014" p2_last_height="0.140845" color="#dc3912" value="120.000000" label="BK 2"/>
+<plot_line side="left" iteration="5" p1_height="0.185567" p1_last_height="0.329897" p2_height="0.183099" p2_last_height="0.309859" color="#ff9900" value="130.000000" label="BK 3"/>
+<plot_line side="left" iteration="5" p1_height="0.164948" p1_last_height="0.515464" p2_height="0.154930" p2_last_height="0.492958" color="#008000" value="110.000000" label="BK 4"/>
+<plot_line side="left" iteration="5" p1_height="0.144330" p1_last_height="0.680412" p2_height="0.169014" p2_last_height="0.647887" color="#666666" value="120.000000" label="BK 5"/>
+<plot_line side="left" iteration="5" p1_height="0.175258" p1_last_height="0.824742" p2_height="0.183099" p2_last_height="0.816901" color="#4942cc" value="130.000000" label="BK 6"/>
+<x_iterations_label iteration="6">Saturday</x_iterations_label>
+<plot_line side="left" iteration="6" p1_height="0.140845" p1_last_height="0.000000" p2_height="0.150000" p2_last_height="0.000000" color="#4684ee" value="120.000000" label="BK 1"/>
+<plot_line side="left" iteration="6" p1_height="0.169014" p1_last_height="0.140845" p2_height="0.137500" p2_last_height="0.150000" color="#dc3912" value="110.000000" label="BK 2"/>
+<plot_line side="left" iteration="6" p1_height="0.183099" p1_last_height="0.309859" p2_height="0.150000" p2_last_height="0.287500" color="#ff9900" value="120.000000" label="BK 3"/>
+<plot_line side="left" iteration="6" p1_height="0.154930" p1_last_height="0.492958" p2_height="0.175000" p2_last_height="0.437500" color="#008000" value="140.000000" label="BK 4"/>
+<plot_line side="left" iteration="6" p1_height="0.169014" p1_last_height="0.647887" p2_height="0.187500" p2_last_height="0.612500" color="#666666" value="150.000000" label="BK 5"/>
+<plot_line side="left" iteration="6" p1_height="0.183099" p1_last_height="0.816901" p2_height="0.200000" p2_last_height="0.800000" color="#4942cc" value="160.000000" label="BK 6"/>
+</graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Dow       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 1 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 2 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 3 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 4 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 5 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 6 </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Sunday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  100</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  130</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  110</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  130</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Monday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  110</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  140</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  150</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  160</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Tuesday   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  110</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  130</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  110</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  130</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Wednesday </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   30</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   50</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   40</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   90</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   30</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   40</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Thusday   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   60</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  100</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   90</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   80</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   70</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   85</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Friday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  100</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  130</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  110</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >  130</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Saturday  </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  110</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  120</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  140</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  150</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >  160</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Normal Line Charts!</title>
+<x_axis_title>Day Of Week</x_axis_title>
+<y_axis_title side="left">OS $$$</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>7</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>11</y_iterations>
+<limits side="left" min="-8.000000" max="14.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-8</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-6</y_iterations_label>
+<y_iterations_label side="left" iteration="2">-4</y_iterations_label>
+<y_iterations_label side="left" iteration="3">-2</y_iterations_label>
+<y_iterations_label side="left" iteration="4">00</y_iterations_label>
+<y_iterations_label side="left" iteration="5">02</y_iterations_label>
+<y_iterations_label side="left" iteration="6">04</y_iterations_label>
+<y_iterations_label side="left" iteration="7">06</y_iterations_label>
+<y_iterations_label side="left" iteration="8">08</y_iterations_label>
+<y_iterations_label side="left" iteration="9">10</y_iterations_label>
+<y_iterations_label side="left" iteration="10">12</y_iterations_label>
+<y_iterations_label side="left" iteration="11">14</y_iterations_label>
+<x_iterations_label iteration="0">Sunday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.227273" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.150000" p2_height="0.454545" p2_last_height="0.000000" color="#dc3912" value="10.000000" label="BK 2"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.287500" p2_height="-0.090909" p2_last_height="0.000000" color="#ff9900" value="-2.000000" label="BK 3"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.437500" p2_height="-0.181818" p2_last_height="0.000000" color="#008000" value="-4.000000" label="BK 4"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.612500" p2_height="0.181818" p2_last_height="0.000000" color="#666666" value="4.000000" label="BK 5"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.800000" p2_height="-0.045455" p2_last_height="0.000000" color="#4942cc" value="-1.000000" label="BK 6"/>
+<x_iterations_label iteration="1">Monday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="0.227273" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#4684ee" value="-2.000000" label="BK 1"/>
+<plot_line side="left" iteration="1" p1_height="0.454545" p1_last_height="0.000000" p2_height="0.181818" p2_last_height="0.000000" color="#dc3912" value="4.000000" label="BK 2"/>
+<plot_line side="left" iteration="1" p1_height="-0.090909" p1_last_height="0.000000" p2_height="0.136364" p2_last_height="0.000000" color="#ff9900" value="3.000000" label="BK 3"/>
+<plot_line side="left" iteration="1" p1_height="-0.181818" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#008000" value="-2.000000" label="BK 4"/>
+<plot_line side="left" iteration="1" p1_height="0.181818" p1_last_height="0.000000" p2_height="0.090909" p2_last_height="0.000000" color="#666666" value="2.000000" label="BK 5"/>
+<plot_line side="left" iteration="1" p1_height="-0.045455" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#4942cc" value="-2.000000" label="BK 6"/>
+<x_iterations_label iteration="2">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="-0.090909" p1_last_height="0.000000" p2_height="0.545455" p2_last_height="0.000000" color="#4684ee" value="12.000000" label="BK 1"/>
+<plot_line side="left" iteration="2" p1_height="0.181818" p1_last_height="0.000000" p2_height="0.545455" p2_last_height="0.000000" color="#dc3912" value="12.000000" label="BK 2"/>
+<plot_line side="left" iteration="2" p1_height="0.136364" p1_last_height="0.000000" p2_height="-0.227273" p2_last_height="0.000000" color="#ff9900" value="-5.000000" label="BK 3"/>
+<plot_line side="left" iteration="2" p1_height="-0.090909" p1_last_height="0.000000" p2_height="0.090909" p2_last_height="0.000000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="2" p1_height="0.090909" p1_last_height="0.000000" p2_height="-0.181818" p2_last_height="0.000000" color="#666666" value="-4.000000" label="BK 5"/>
+<plot_line side="left" iteration="2" p1_height="-0.090909" p1_last_height="0.000000" p2_height="0.227273" p2_last_height="0.000000" color="#4942cc" value="5.000000" label="BK 6"/>
+<x_iterations_label iteration="3">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.545455" p1_last_height="0.000000" p2_height="-0.227273" p2_last_height="0.000000" color="#4684ee" value="-5.000000" label="BK 1"/>
+<plot_line side="left" iteration="3" p1_height="0.545455" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#dc3912" value="-2.000000" label="BK 2"/>
+<plot_line side="left" iteration="3" p1_height="-0.227273" p1_last_height="0.000000" p2_height="0.454545" p2_last_height="0.000000" color="#ff9900" value="10.000000" label="BK 3"/>
+<plot_line side="left" iteration="3" p1_height="0.090909" p1_last_height="0.000000" p2_height="0.545455" p2_last_height="0.000000" color="#008000" value="12.000000" label="BK 4"/>
+<plot_line side="left" iteration="3" p1_height="-0.181818" p1_last_height="0.000000" p2_height="0.590909" p2_last_height="0.000000" color="#666666" value="13.000000" label="BK 5"/>
+<plot_line side="left" iteration="3" p1_height="0.227273" p1_last_height="0.000000" p2_height="-0.181818" p2_last_height="0.000000" color="#4942cc" value="-4.000000" label="BK 6"/>
+<x_iterations_label iteration="4">Thusday</x_iterations_label>
+<plot_line side="left" iteration="4" p1_height="-0.227273" p1_last_height="0.000000" p2_height="0.227273" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="4" p1_height="-0.090909" p1_last_height="0.000000" p2_height="0.181818" p2_last_height="0.000000" color="#dc3912" value="4.000000" label="BK 2"/>
+<plot_line side="left" iteration="4" p1_height="0.454545" p1_last_height="0.000000" p2_height="0.136364" p2_last_height="0.000000" color="#ff9900" value="3.000000" label="BK 3"/>
+<plot_line side="left" iteration="4" p1_height="0.545455" p1_last_height="0.000000" p2_height="0.090909" p2_last_height="0.000000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="4" p1_height="0.590909" p1_last_height="0.000000" p2_height="0.045455" p2_last_height="0.000000" color="#666666" value="1.000000" label="BK 5"/>
+<plot_line side="left" iteration="4" p1_height="-0.181818" p1_last_height="0.000000" p2_height="0.000000" p2_last_height="0.000000" color="#4942cc" value="0.000000" label="BK 6"/>
+<x_iterations_label iteration="5">Friday</x_iterations_label>
+<plot_line side="left" iteration="5" p1_height="0.227273" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#4684ee" value="-2.000000" label="BK 1"/>
+<plot_line side="left" iteration="5" p1_height="0.181818" p1_last_height="0.000000" p2_height="-0.136364" p2_last_height="0.000000" color="#dc3912" value="-3.000000" label="BK 2"/>
+<plot_line side="left" iteration="5" p1_height="0.136364" p1_last_height="0.000000" p2_height="-0.181818" p2_last_height="0.000000" color="#ff9900" value="-4.000000" label="BK 3"/>
+<plot_line side="left" iteration="5" p1_height="0.090909" p1_last_height="0.000000" p2_height="-0.227273" p2_last_height="0.000000" color="#008000" value="-5.000000" label="BK 4"/>
+<plot_line side="left" iteration="5" p1_height="0.045455" p1_last_height="0.000000" p2_height="-0.272727" p2_last_height="0.000000" color="#666666" value="-6.000000" label="BK 5"/>
+<plot_line side="left" iteration="5" p1_height="0.000000" p1_last_height="0.000000" p2_height="-0.318182" p2_last_height="0.000000" color="#4942cc" value="-7.000000" label="BK 6"/>
+<x_iterations_label iteration="6">Saturday</x_iterations_label>
+<plot_line side="left" iteration="6" p1_height="-0.090909" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#4684ee" value="-2.000000" label="BK 1"/>
+<plot_line side="left" iteration="6" p1_height="-0.136364" p1_last_height="0.000000" p2_height="0.090909" p2_last_height="0.000000" color="#dc3912" value="2.000000" label="BK 2"/>
+<plot_line side="left" iteration="6" p1_height="-0.181818" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#ff9900" value="-2.000000" label="BK 3"/>
+<plot_line side="left" iteration="6" p1_height="-0.227273" p1_last_height="0.000000" p2_height="0.090909" p2_last_height="0.000000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="6" p1_height="-0.272727" p1_last_height="0.000000" p2_height="-0.090909" p2_last_height="0.000000" color="#666666" value="-2.000000" label="BK 5"/>
+<plot_line side="left" iteration="6" p1_height="-0.318182" p1_last_height="0.000000" p2_height="0.090909" p2_last_height="0.000000" color="#4942cc" value="2.000000" label="BK 6"/>
+</graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Stacked Line Charts!</title>
+<x_axis_title>Day Of Week</x_axis_title>
+<y_axis_title side="left">OS $$$</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>7</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>7</y_iterations>
+<limits side="left" min="-30.000000" max="40.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-30</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-20</y_iterations_label>
+<y_iterations_label side="left" iteration="2">-10</y_iterations_label>
+<y_iterations_label side="left" iteration="3">000</y_iterations_label>
+<y_iterations_label side="left" iteration="4">010</y_iterations_label>
+<y_iterations_label side="left" iteration="5">020</y_iterations_label>
+<y_iterations_label side="left" iteration="6">030</y_iterations_label>
+<y_iterations_label side="left" iteration="7">040</y_iterations_label>
+<x_iterations_label iteration="0">Sunday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.071429" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.090909" p2_height="0.142857" p2_last_height="0.071429" color="#dc3912" value="10.000000" label="BK 2"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="-0.090909" p2_height="-0.028571" p2_last_height="0.000000" color="#ff9900" value="-2.000000" label="BK 3"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.090909" p2_height="-0.057143" p2_last_height="-0.028571" color="#008000" value="-4.000000" label="BK 4"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="-0.090909" p2_height="0.057143" p2_last_height="0.214286" color="#666666" value="4.000000" label="BK 5"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.090909" p2_height="-0.014286" p2_last_height="-0.085714" color="#4942cc" value="-1.000000" label="BK 6"/>
+<x_iterations_label iteration="1">Monday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="0.071429" p1_last_height="0.000000" p2_height="-0.028571" p2_last_height="0.000000" color="#4684ee" value="-2.000000" label="BK 1"/>
+<plot_line side="left" iteration="1" p1_height="0.142857" p1_last_height="0.071429" p2_height="0.057143" p2_last_height="0.000000" color="#dc3912" value="4.000000" label="BK 2"/>
+<plot_line side="left" iteration="1" p1_height="-0.028571" p1_last_height="0.000000" p2_height="0.042857" p2_last_height="0.057143" color="#ff9900" value="3.000000" label="BK 3"/>
+<plot_line side="left" iteration="1" p1_height="-0.057143" p1_last_height="-0.028571" p2_height="-0.028571" p2_last_height="-0.028571" color="#008000" value="-2.000000" label="BK 4"/>
+<plot_line side="left" iteration="1" p1_height="0.057143" p1_last_height="0.214286" p2_height="0.028571" p2_last_height="0.100000" color="#666666" value="2.000000" label="BK 5"/>
+<plot_line side="left" iteration="1" p1_height="-0.014286" p1_last_height="-0.085714" p2_height="-0.028571" p2_last_height="-0.057143" color="#4942cc" value="-2.000000" label="BK 6"/>
+<x_iterations_label iteration="2">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="-0.028571" p1_last_height="0.000000" p2_height="0.171429" p2_last_height="0.000000" color="#4684ee" value="12.000000" label="BK 1"/>
+<plot_line side="left" iteration="2" p1_height="0.057143" p1_last_height="0.000000" p2_height="0.171429" p2_last_height="0.171429" color="#dc3912" value="12.000000" label="BK 2"/>
+<plot_line side="left" iteration="2" p1_height="0.042857" p1_last_height="0.057143" p2_height="-0.071429" p2_last_height="0.000000" color="#ff9900" value="-5.000000" label="BK 3"/>
+<plot_line side="left" iteration="2" p1_height="-0.028571" p1_last_height="-0.028571" p2_height="0.028571" p2_last_height="0.342857" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="2" p1_height="0.028571" p1_last_height="0.100000" p2_height="-0.057143" p2_last_height="-0.071429" color="#666666" value="-4.000000" label="BK 5"/>
+<plot_line side="left" iteration="2" p1_height="-0.028571" p1_last_height="-0.057143" p2_height="0.071429" p2_last_height="0.371429" color="#4942cc" value="5.000000" label="BK 6"/>
+<x_iterations_label iteration="3">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.171429" p1_last_height="0.000000" p2_height="-0.071429" p2_last_height="0.000000" color="#4684ee" value="-5.000000" label="BK 1"/>
+<plot_line side="left" iteration="3" p1_height="0.171429" p1_last_height="0.171429" p2_height="-0.028571" p2_last_height="-0.071429" color="#dc3912" value="-2.000000" label="BK 2"/>
+<plot_line side="left" iteration="3" p1_height="-0.071429" p1_last_height="0.000000" p2_height="0.142857" p2_last_height="0.000000" color="#ff9900" value="10.000000" label="BK 3"/>
+<plot_line side="left" iteration="3" p1_height="0.028571" p1_last_height="0.342857" p2_height="0.171429" p2_last_height="0.142857" color="#008000" value="12.000000" label="BK 4"/>
+<plot_line side="left" iteration="3" p1_height="-0.057143" p1_last_height="-0.071429" p2_height="0.185714" p2_last_height="0.314286" color="#666666" value="13.000000" label="BK 5"/>
+<plot_line side="left" iteration="3" p1_height="0.071429" p1_last_height="0.371429" p2_height="-0.057143" p2_last_height="-0.100000" color="#4942cc" value="-4.000000" label="BK 6"/>
+<x_iterations_label iteration="4">Thusday</x_iterations_label>
+<plot_line side="left" iteration="4" p1_height="-0.071429" p1_last_height="0.000000" p2_height="0.071429" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="4" p1_height="-0.028571" p1_last_height="-0.071429" p2_height="0.057143" p2_last_height="0.071429" color="#dc3912" value="4.000000" label="BK 2"/>
+<plot_line side="left" iteration="4" p1_height="0.142857" p1_last_height="0.000000" p2_height="0.042857" p2_last_height="0.128571" color="#ff9900" value="3.000000" label="BK 3"/>
+<plot_line side="left" iteration="4" p1_height="0.171429" p1_last_height="0.142857" p2_height="0.028571" p2_last_height="0.171429" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="4" p1_height="0.185714" p1_last_height="0.314286" p2_height="0.014286" p2_last_height="0.200000" color="#666666" value="1.000000" label="BK 5"/>
+<plot_line side="left" iteration="4" p1_height="-0.057143" p1_last_height="-0.100000" p2_height="0.000000" p2_last_height="0.214286" color="#4942cc" value="0.000000" label="BK 6"/>
+<x_iterations_label iteration="5">Friday</x_iterations_label>
+<plot_line side="left" iteration="5" p1_height="0.071429" p1_last_height="0.000000" p2_height="-0.028571" p2_last_height="0.000000" color="#4684ee" value="-2.000000" label="BK 1"/>
+<plot_line side="left" iteration="5" p1_height="0.057143" p1_last_height="0.071429" p2_height="-0.042857" p2_last_height="-0.028571" color="#dc3912" value="-3.000000" label="BK 2"/>
+<plot_line side="left" iteration="5" p1_height="0.042857" p1_last_height="0.128571" p2_height="-0.057143" p2_last_height="-0.071429" color="#ff9900" value="-4.000000" label="BK 3"/>
+<plot_line side="left" iteration="5" p1_height="0.028571" p1_last_height="0.171429" p2_height="-0.071429" p2_last_height="-0.128571" color="#008000" value="-5.000000" label="BK 4"/>
+<plot_line side="left" iteration="5" p1_height="0.014286" p1_last_height="0.200000" p2_height="-0.085714" p2_last_height="-0.200000" color="#666666" value="-6.000000" label="BK 5"/>
+<plot_line side="left" iteration="5" p1_height="0.000000" p1_last_height="0.214286" p2_height="-0.100000" p2_last_height="-0.285714" color="#4942cc" value="-7.000000" label="BK 6"/>
+<x_iterations_label iteration="6">Saturday</x_iterations_label>
+<plot_line side="left" iteration="6" p1_height="-0.028571" p1_last_height="0.000000" p2_height="-0.028571" p2_last_height="0.000000" color="#4684ee" value="-2.000000" label="BK 1"/>
+<plot_line side="left" iteration="6" p1_height="-0.042857" p1_last_height="-0.028571" p2_height="0.028571" p2_last_height="0.000000" color="#dc3912" value="2.000000" label="BK 2"/>
+<plot_line side="left" iteration="6" p1_height="-0.057143" p1_last_height="-0.071429" p2_height="-0.028571" p2_last_height="-0.028571" color="#ff9900" value="-2.000000" label="BK 3"/>
+<plot_line side="left" iteration="6" p1_height="-0.071429" p1_last_height="-0.128571" p2_height="0.028571" p2_last_height="0.028571" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="6" p1_height="-0.085714" p1_last_height="-0.200000" p2_height="-0.028571" p2_last_height="-0.057143" color="#666666" value="-2.000000" label="BK 5"/>
+<plot_line side="left" iteration="6" p1_height="-0.100000" p1_last_height="-0.285714" p2_height="0.028571" p2_last_height="0.057143" color="#4942cc" value="2.000000" label="BK 6"/>
+</graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Percent Line Charts!</title>
+<x_axis_title>Day Of Week</x_axis_title>
+<y_axis_title side="left">OS $$$</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>7</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="0.000000" max="100.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">010</y_iterations_label>
+<y_iterations_label side="left" iteration="2">020</y_iterations_label>
+<y_iterations_label side="left" iteration="3">030</y_iterations_label>
+<y_iterations_label side="left" iteration="4">040</y_iterations_label>
+<y_iterations_label side="left" iteration="5">050</y_iterations_label>
+<y_iterations_label side="left" iteration="6">060</y_iterations_label>
+<y_iterations_label side="left" iteration="7">070</y_iterations_label>
+<y_iterations_label side="left" iteration="8">080</y_iterations_label>
+<y_iterations_label side="left" iteration="9">090</y_iterations_label>
+<y_iterations_label side="left" iteration="10">100</y_iterations_label>
+<x_iterations_label iteration="0">Sunday</x_iterations_label>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.192308" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.384615" p2_last_height="0.192308" color="#dc3912" value="10.000000" label="BK 2"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.076923" p2_last_height="0.576923" color="#ff9900" value="2.000000" label="BK 3"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.153846" p2_last_height="0.653846" color="#008000" value="4.000000" label="BK 4"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.153846" p2_last_height="0.807692" color="#666666" value="4.000000" label="BK 5"/>
+<plot_line side="left" iteration="0" p1_height="0.000000" p1_last_height="0.000000" p2_height="0.038462" p2_last_height="0.961538" color="#4942cc" value="1.000000" label="BK 6"/>
+<x_iterations_label iteration="1">Monday</x_iterations_label>
+<plot_line side="left" iteration="1" p1_height="0.192308" p1_last_height="0.000000" p2_height="0.133333" p2_last_height="0.000000" color="#4684ee" value="2.000000" label="BK 1"/>
+<plot_line side="left" iteration="1" p1_height="0.384615" p1_last_height="0.192308" p2_height="0.266667" p2_last_height="0.133333" color="#dc3912" value="4.000000" label="BK 2"/>
+<plot_line side="left" iteration="1" p1_height="0.076923" p1_last_height="0.576923" p2_height="0.200000" p2_last_height="0.400000" color="#ff9900" value="3.000000" label="BK 3"/>
+<plot_line side="left" iteration="1" p1_height="0.153846" p1_last_height="0.653846" p2_height="0.133333" p2_last_height="0.600000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="1" p1_height="0.153846" p1_last_height="0.807692" p2_height="0.133333" p2_last_height="0.733333" color="#666666" value="2.000000" label="BK 5"/>
+<plot_line side="left" iteration="1" p1_height="0.038462" p1_last_height="0.961538" p2_height="0.133333" p2_last_height="0.866667" color="#4942cc" value="2.000000" label="BK 6"/>
+<x_iterations_label iteration="2">Tuesday</x_iterations_label>
+<plot_line side="left" iteration="2" p1_height="0.133333" p1_last_height="0.000000" p2_height="0.300000" p2_last_height="0.000000" color="#4684ee" value="12.000000" label="BK 1"/>
+<plot_line side="left" iteration="2" p1_height="0.266667" p1_last_height="0.133333" p2_height="0.300000" p2_last_height="0.300000" color="#dc3912" value="12.000000" label="BK 2"/>
+<plot_line side="left" iteration="2" p1_height="0.200000" p1_last_height="0.400000" p2_height="0.125000" p2_last_height="0.600000" color="#ff9900" value="5.000000" label="BK 3"/>
+<plot_line side="left" iteration="2" p1_height="0.133333" p1_last_height="0.600000" p2_height="0.050000" p2_last_height="0.725000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="2" p1_height="0.133333" p1_last_height="0.733333" p2_height="0.100000" p2_last_height="0.775000" color="#666666" value="4.000000" label="BK 5"/>
+<plot_line side="left" iteration="2" p1_height="0.133333" p1_last_height="0.866667" p2_height="0.125000" p2_last_height="0.875000" color="#4942cc" value="5.000000" label="BK 6"/>
+<x_iterations_label iteration="3">Wednesday</x_iterations_label>
+<plot_line side="left" iteration="3" p1_height="0.300000" p1_last_height="0.000000" p2_height="0.108696" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="3" p1_height="0.300000" p1_last_height="0.300000" p2_height="0.043478" p2_last_height="0.108696" color="#dc3912" value="2.000000" label="BK 2"/>
+<plot_line side="left" iteration="3" p1_height="0.125000" p1_last_height="0.600000" p2_height="0.217391" p2_last_height="0.152174" color="#ff9900" value="10.000000" label="BK 3"/>
+<plot_line side="left" iteration="3" p1_height="0.050000" p1_last_height="0.725000" p2_height="0.260870" p2_last_height="0.369565" color="#008000" value="12.000000" label="BK 4"/>
+<plot_line side="left" iteration="3" p1_height="0.100000" p1_last_height="0.775000" p2_height="0.282609" p2_last_height="0.630435" color="#666666" value="13.000000" label="BK 5"/>
+<plot_line side="left" iteration="3" p1_height="0.125000" p1_last_height="0.875000" p2_height="0.086957" p2_last_height="0.913043" color="#4942cc" value="4.000000" label="BK 6"/>
+<x_iterations_label iteration="4">Thusday</x_iterations_label>
+<plot_line side="left" iteration="4" p1_height="0.108696" p1_last_height="0.000000" p2_height="0.333333" p2_last_height="0.000000" color="#4684ee" value="5.000000" label="BK 1"/>
+<plot_line side="left" iteration="4" p1_height="0.043478" p1_last_height="0.108696" p2_height="0.266667" p2_last_height="0.333333" color="#dc3912" value="4.000000" label="BK 2"/>
+<plot_line side="left" iteration="4" p1_height="0.217391" p1_last_height="0.152174" p2_height="0.200000" p2_last_height="0.600000" color="#ff9900" value="3.000000" label="BK 3"/>
+<plot_line side="left" iteration="4" p1_height="0.260870" p1_last_height="0.369565" p2_height="0.133333" p2_last_height="0.800000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="4" p1_height="0.282609" p1_last_height="0.630435" p2_height="0.066667" p2_last_height="0.933333" color="#666666" value="1.000000" label="BK 5"/>
+<plot_line side="left" iteration="4" p1_height="0.086957" p1_last_height="0.913043" p2_height="0.000000" p2_last_height="1.000000" color="#4942cc" value="0.000000" label="BK 6"/>
+<x_iterations_label iteration="5">Friday</x_iterations_label>
+<plot_line side="left" iteration="5" p1_height="0.333333" p1_last_height="0.000000" p2_height="0.074074" p2_last_height="0.000000" color="#4684ee" value="2.000000" label="BK 1"/>
+<plot_line side="left" iteration="5" p1_height="0.266667" p1_last_height="0.333333" p2_height="0.111111" p2_last_height="0.074074" color="#dc3912" value="3.000000" label="BK 2"/>
+<plot_line side="left" iteration="5" p1_height="0.200000" p1_last_height="0.600000" p2_height="0.148148" p2_last_height="0.185185" color="#ff9900" value="4.000000" label="BK 3"/>
+<plot_line side="left" iteration="5" p1_height="0.133333" p1_last_height="0.800000" p2_height="0.185185" p2_last_height="0.333333" color="#008000" value="5.000000" label="BK 4"/>
+<plot_line side="left" iteration="5" p1_height="0.066667" p1_last_height="0.933333" p2_height="0.222222" p2_last_height="0.518519" color="#666666" value="6.000000" label="BK 5"/>
+<plot_line side="left" iteration="5" p1_height="0.000000" p1_last_height="1.000000" p2_height="0.259259" p2_last_height="0.740741" color="#4942cc" value="7.000000" label="BK 6"/>
+<x_iterations_label iteration="6">Saturday</x_iterations_label>
+<plot_line side="left" iteration="6" p1_height="0.074074" p1_last_height="0.000000" p2_height="0.166667" p2_last_height="0.000000" color="#4684ee" value="2.000000" label="BK 1"/>
+<plot_line side="left" iteration="6" p1_height="0.111111" p1_last_height="0.074074" p2_height="0.166667" p2_last_height="0.166667" color="#dc3912" value="2.000000" label="BK 2"/>
+<plot_line side="left" iteration="6" p1_height="0.148148" p1_last_height="0.185185" p2_height="0.166667" p2_last_height="0.333333" color="#ff9900" value="2.000000" label="BK 3"/>
+<plot_line side="left" iteration="6" p1_height="0.185185" p1_last_height="0.333333" p2_height="0.166667" p2_last_height="0.500000" color="#008000" value="2.000000" label="BK 4"/>
+<plot_line side="left" iteration="6" p1_height="0.222222" p1_last_height="0.518519" p2_height="0.166667" p2_last_height="0.666667" color="#666666" value="2.000000" label="BK 5"/>
+<plot_line side="left" iteration="6" p1_height="0.259259" p1_last_height="0.740741" p2_height="0.166667" p2_last_height="0.833333" color="#4942cc" value="2.000000" label="BK 6"/>
+</graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Dow       </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 1 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 2 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 3 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 4 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 5 </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >BK 6 </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Sunday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   10</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -1</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Monday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >    4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >    3</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >    2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Tuesday   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   12</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   12</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Wednesday </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   10</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   12</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   13</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Thusday   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    3</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    1</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    0</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Friday    </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -3</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -6</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >   -7</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Saturday  </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >   -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="5" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Normal Bar Charts!</title>
+<x_axis_title>i can label a x axis</x_axis_title>
+<y_axis_title side="left">y axis</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>9</y_iterations>
+<limits side="left" min="2100.000000" max="4800.000000" origin="2100.000000"/>
+<y_iterations_label side="left" iteration="0">2100</y_iterations_label>
+<y_iterations_label side="left" iteration="1">2400</y_iterations_label>
+<y_iterations_label side="left" iteration="2">2700</y_iterations_label>
+<y_iterations_label side="left" iteration="3">3000</y_iterations_label>
+<y_iterations_label side="left" iteration="4">3300</y_iterations_label>
+<y_iterations_label side="left" iteration="5">3600</y_iterations_label>
+<y_iterations_label side="left" iteration="6">3900</y_iterations_label>
+<y_iterations_label side="left" iteration="7">4200</y_iterations_label>
+<y_iterations_label side="left" iteration="8">4500</y_iterations_label>
+<y_iterations_label side="left" iteration="9">4800</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.333333" color="#4684ee" last_height="0.000000" divide_iterations="true" value="3000.000000" label="Sales"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.111111" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2400.000000" label="Sales"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.703704" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4000.000000" label="Sales"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.962963" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4700.000000" label="Sales"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.148148" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2500.000000" label="Sales"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 2</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>8</y_iterations>
+<limits side="left" min="1600.000000" max="5600.000000" origin="1600.000000"/>
+<y_iterations_label side="left" iteration="0">1600</y_iterations_label>
+<y_iterations_label side="left" iteration="1">2100</y_iterations_label>
+<y_iterations_label side="left" iteration="2">2600</y_iterations_label>
+<y_iterations_label side="left" iteration="3">3100</y_iterations_label>
+<y_iterations_label side="left" iteration="4">3600</y_iterations_label>
+<y_iterations_label side="left" iteration="5">4100</y_iterations_label>
+<y_iterations_label side="left" iteration="6">4600</y_iterations_label>
+<y_iterations_label side="left" iteration="7">5100</y_iterations_label>
+<y_iterations_label side="left" iteration="8">5600</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.350000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="3000.000000" label="TY Sales"/><plot_bar side="left" iteration="0" plot="1" height_percent="0.425000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="3300.000000" label="LY Sales"/><plot_bar side="left" iteration="0" plot="2" height_percent="0.425000" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3300.000000" label="Projection"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.200000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2400.000000" label="TY Sales"/><plot_bar side="left" iteration="1" plot="1" height_percent="0.125000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="2100.000000" label="LY Sales"/><plot_bar side="left" iteration="1" plot="2" height_percent="0.425250" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3301.000000" label="Projection"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.600000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4000.000000" label="TY Sales"/><plot_bar side="left" iteration="2" plot="1" height_percent="0.625000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="2" plot="2" height_percent="0.425500" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3302.000000" label="Projection"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.775000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="4700.000000" label="TY Sales"/><plot_bar side="left" iteration="3" plot="1" height_percent="0.625000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="3" plot="2" height_percent="0.425750" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3303.000000" label="Projection"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.225000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2500.000000" label="TY Sales"/><plot_bar side="left" iteration="4" plot="1" height_percent="0.975000" color="#dc3912" last_height="0.000000" divide_iterations="true" value="5500.000000" label="LY Sales"/><plot_bar side="left" iteration="4" plot="2" height_percent="0.426000" color="#ff9900" last_height="0.000000" divide_iterations="true" value="3304.000000" label="Projection"/></graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 3</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="-2.000000" max="8.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-2</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-1</y_iterations_label>
+<y_iterations_label side="left" iteration="2">00</y_iterations_label>
+<y_iterations_label side="left" iteration="3">01</y_iterations_label>
+<y_iterations_label side="left" iteration="4">02</y_iterations_label>
+<y_iterations_label side="left" iteration="5">03</y_iterations_label>
+<y_iterations_label side="left" iteration="6">04</y_iterations_label>
+<y_iterations_label side="left" iteration="7">05</y_iterations_label>
+<y_iterations_label side="left" iteration="8">06</y_iterations_label>
+<y_iterations_label side="left" iteration="9">07</y_iterations_label>
+<y_iterations_label side="left" iteration="10">08</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="-0.150000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-1.500000" label="Sold"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.100000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="1.000000" label="Sold"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.200000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="2.000000" label="Sold"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.300000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="3.000000" label="Sold"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.800000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="8.000000" label="Sold"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 4</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="-10.000000" max="0.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-10</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-09</y_iterations_label>
+<y_iterations_label side="left" iteration="2">-08</y_iterations_label>
+<y_iterations_label side="left" iteration="3">-07</y_iterations_label>
+<y_iterations_label side="left" iteration="4">-06</y_iterations_label>
+<y_iterations_label side="left" iteration="5">-05</y_iterations_label>
+<y_iterations_label side="left" iteration="6">-04</y_iterations_label>
+<y_iterations_label side="left" iteration="7">-03</y_iterations_label>
+<y_iterations_label side="left" iteration="8">-02</y_iterations_label>
+<y_iterations_label side="left" iteration="9">-01</y_iterations_label>
+<y_iterations_label side="left" iteration="10">000</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="-0.200000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-2.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="-0.400000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-4.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="-0.600000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-6.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="-0.800000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-8.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="-1.000000" color="#4684ee" last_height="0.000000" divide_iterations="true" value="-10.000000" label="A Really Long Label Foo!"/></graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Stacked Bar Charts</title>
+<x_axis_title>i can label a x axis</x_axis_title>
+<y_axis_title side="left">y axis</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>8</y_iterations>
+<limits side="left" min="1100.000000" max="9100.000000" origin="1100.000000"/>
+<y_iterations_label side="left" iteration="0">1100</y_iterations_label>
+<y_iterations_label side="left" iteration="1">2100</y_iterations_label>
+<y_iterations_label side="left" iteration="2">3100</y_iterations_label>
+<y_iterations_label side="left" iteration="3">4100</y_iterations_label>
+<y_iterations_label side="left" iteration="4">5100</y_iterations_label>
+<y_iterations_label side="left" iteration="5">6100</y_iterations_label>
+<y_iterations_label side="left" iteration="6">7100</y_iterations_label>
+<y_iterations_label side="left" iteration="7">8100</y_iterations_label>
+<y_iterations_label side="left" iteration="8">9100</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.237500" color="#4684ee" last_height="0.000000" divide_iterations="false" value="3000.000000" label="Sales"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.275000" color="#dc3912" last_height="0.237500" divide_iterations="false" value="3300.000000" label="LY Sales"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.162500" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2400.000000" label="Sales"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.125000" color="#dc3912" last_height="0.162500" divide_iterations="false" value="2100.000000" label="LY Sales"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.362500" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4000.000000" label="Sales"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.375000" color="#dc3912" last_height="0.362500" divide_iterations="false" value="4100.000000" label="LY Sales"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.450000" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4700.000000" label="Sales"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.375000" color="#dc3912" last_height="0.450000" divide_iterations="false" value="4100.000000" label="LY Sales"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.175000" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2500.000000" label="Sales"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.550000" color="#dc3912" last_height="0.175000" divide_iterations="false" value="5500.000000" label="LY Sales"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 2</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>7</y_iterations>
+<limits side="left" min="100.000000" max="14100.000000" origin="100.000000"/>
+<y_iterations_label side="left" iteration="0">00100</y_iterations_label>
+<y_iterations_label side="left" iteration="1">02100</y_iterations_label>
+<y_iterations_label side="left" iteration="2">04100</y_iterations_label>
+<y_iterations_label side="left" iteration="3">06100</y_iterations_label>
+<y_iterations_label side="left" iteration="4">08100</y_iterations_label>
+<y_iterations_label side="left" iteration="5">10100</y_iterations_label>
+<y_iterations_label side="left" iteration="6">12100</y_iterations_label>
+<y_iterations_label side="left" iteration="7">14100</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.207143" color="#4684ee" last_height="0.000000" divide_iterations="false" value="3000.000000" label="TY Sales"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.228571" color="#dc3912" last_height="0.207143" divide_iterations="false" value="3300.000000" label="LY Sales"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.228571" color="#ff9900" last_height="0.435714" divide_iterations="false" value="3300.000000" label="Projection"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.164286" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2400.000000" label="TY Sales"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.142857" color="#dc3912" last_height="0.164286" divide_iterations="false" value="2100.000000" label="LY Sales"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.228643" color="#ff9900" last_height="0.307143" divide_iterations="false" value="3301.000000" label="Projection"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.278571" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4000.000000" label="TY Sales"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.285714" color="#dc3912" last_height="0.278571" divide_iterations="false" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.228714" color="#ff9900" last_height="0.564286" divide_iterations="false" value="3302.000000" label="Projection"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.328571" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4700.000000" label="TY Sales"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.285714" color="#dc3912" last_height="0.328571" divide_iterations="false" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.228786" color="#ff9900" last_height="0.614286" divide_iterations="false" value="3303.000000" label="Projection"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.171429" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2500.000000" label="TY Sales"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.385714" color="#dc3912" last_height="0.171429" divide_iterations="false" value="5500.000000" label="LY Sales"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.228857" color="#ff9900" last_height="0.557143" divide_iterations="false" value="3304.000000" label="Projection"/></graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 3</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>9</y_iterations>
+<limits side="left" min="-10.000000" max="8.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">-10</y_iterations_label>
+<y_iterations_label side="left" iteration="1">-08</y_iterations_label>
+<y_iterations_label side="left" iteration="2">-06</y_iterations_label>
+<y_iterations_label side="left" iteration="3">-04</y_iterations_label>
+<y_iterations_label side="left" iteration="4">-02</y_iterations_label>
+<y_iterations_label side="left" iteration="5">000</y_iterations_label>
+<y_iterations_label side="left" iteration="6">002</y_iterations_label>
+<y_iterations_label side="left" iteration="7">004</y_iterations_label>
+<y_iterations_label side="left" iteration="8">006</y_iterations_label>
+<y_iterations_label side="left" iteration="9">008</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="-0.083333" color="#4684ee" last_height="0.000000" divide_iterations="false" value="-1.500000" label="Sold"/><plot_bar side="left" iteration="0" plot="0" height_percent="-0.111111" color="#dc3912" last_height="-0.083333" divide_iterations="false" value="-2.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.055556" color="#4684ee" last_height="0.000000" divide_iterations="false" value="1.000000" label="Sold"/><plot_bar side="left" iteration="1" plot="0" height_percent="-0.222222" color="#dc3912" last_height="0.000000" divide_iterations="false" value="-4.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.111111" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2.000000" label="Sold"/><plot_bar side="left" iteration="2" plot="0" height_percent="-0.333333" color="#dc3912" last_height="0.000000" divide_iterations="false" value="-6.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.166667" color="#4684ee" last_height="0.000000" divide_iterations="false" value="3.000000" label="Sold"/><plot_bar side="left" iteration="3" plot="0" height_percent="-0.444444" color="#dc3912" last_height="0.000000" divide_iterations="false" value="-8.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.444444" color="#4684ee" last_height="0.000000" divide_iterations="false" value="8.000000" label="Sold"/><plot_bar side="left" iteration="4" plot="0" height_percent="-0.555556" color="#dc3912" last_height="0.000000" divide_iterations="false" value="-10.000000" label="A Really Long Label Foo!"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="center" bgcolor="#e5e5e5" >   Name   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >    Sold</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >Negative</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >  Ty Sales</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >  LY Sales</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >XX 1      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    -1.5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      3000</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      3300</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >XX 2      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >       1</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      -4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      2400</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      2100</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >XX 3      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >       2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      -6</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      4000</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      4100</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >XX 4      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >       3</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      -8</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      4700</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      4100</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >XX 5      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >       8</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >     -10</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      2500</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      5500</data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Percent Bar Charts</title>
+<x_axis_title>i can label a x axis</x_axis_title>
+<y_axis_title side="left">y axis</y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="0.000000" max="100.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">010</y_iterations_label>
+<y_iterations_label side="left" iteration="2">020</y_iterations_label>
+<y_iterations_label side="left" iteration="3">030</y_iterations_label>
+<y_iterations_label side="left" iteration="4">040</y_iterations_label>
+<y_iterations_label side="left" iteration="5">050</y_iterations_label>
+<y_iterations_label side="left" iteration="6">060</y_iterations_label>
+<y_iterations_label side="left" iteration="7">070</y_iterations_label>
+<y_iterations_label side="left" iteration="8">080</y_iterations_label>
+<y_iterations_label side="left" iteration="9">090</y_iterations_label>
+<y_iterations_label side="left" iteration="10">100</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.476190" color="#4684ee" last_height="0.000000" divide_iterations="false" value="3000.000000" label="Sales"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.523810" color="#dc3912" last_height="0.476190" divide_iterations="false" value="3300.000000" label="LY Sales"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.533333" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2400.000000" label="Sales"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.466667" color="#dc3912" last_height="0.533333" divide_iterations="false" value="2100.000000" label="LY Sales"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.493827" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4000.000000" label="Sales"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.506173" color="#dc3912" last_height="0.493827" divide_iterations="false" value="4100.000000" label="LY Sales"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.534091" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4700.000000" label="Sales"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.465909" color="#dc3912" last_height="0.534091" divide_iterations="false" value="4100.000000" label="LY Sales"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.312500" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2500.000000" label="Sales"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.687500" color="#dc3912" last_height="0.312500" divide_iterations="false" value="5500.000000" label="LY Sales"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 2</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="0.000000" max="100.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">010</y_iterations_label>
+<y_iterations_label side="left" iteration="2">020</y_iterations_label>
+<y_iterations_label side="left" iteration="3">030</y_iterations_label>
+<y_iterations_label side="left" iteration="4">040</y_iterations_label>
+<y_iterations_label side="left" iteration="5">050</y_iterations_label>
+<y_iterations_label side="left" iteration="6">060</y_iterations_label>
+<y_iterations_label side="left" iteration="7">070</y_iterations_label>
+<y_iterations_label side="left" iteration="8">080</y_iterations_label>
+<y_iterations_label side="left" iteration="9">090</y_iterations_label>
+<y_iterations_label side="left" iteration="10">100</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.312500" color="#4684ee" last_height="0.000000" divide_iterations="false" value="3000.000000" label="TY Sales"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.343750" color="#dc3912" last_height="0.312500" divide_iterations="false" value="3300.000000" label="LY Sales"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.343750" color="#ff9900" last_height="0.656250" divide_iterations="false" value="3300.000000" label="Projection"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.307653" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2400.000000" label="TY Sales"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.269196" color="#dc3912" last_height="0.307653" divide_iterations="false" value="2100.000000" label="LY Sales"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.423151" color="#ff9900" last_height="0.576849" divide_iterations="false" value="3301.000000" label="Projection"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.350816" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4000.000000" label="TY Sales"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.359586" color="#dc3912" last_height="0.350816" divide_iterations="false" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.289598" color="#ff9900" last_height="0.710402" divide_iterations="false" value="3302.000000" label="Projection"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.388333" color="#4684ee" last_height="0.000000" divide_iterations="false" value="4700.000000" label="TY Sales"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.338759" color="#dc3912" last_height="0.388333" divide_iterations="false" value="4100.000000" label="LY Sales"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.272908" color="#ff9900" last_height="0.727092" divide_iterations="false" value="3303.000000" label="Projection"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.221161" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2500.000000" label="TY Sales"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.486553" color="#dc3912" last_height="0.221161" divide_iterations="false" value="5500.000000" label="LY Sales"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.292286" color="#ff9900" last_height="0.707714" divide_iterations="false" value="3304.000000" label="Projection"/></graph>
+</td>
+</tr>
+<tr>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<graph width="370.000000" height="250.000000">
+<title>Test 3</title>
+<x_axis_title></x_axis_title>
+<y_axis_title side="left"></y_axis_title>
+<y_axis_title side="right"></y_axis_title>
+<x_iterations>5</x_iterations>
+<grid draw_lines="true"/>
+<y_iterations>10</y_iterations>
+<limits side="left" min="0.000000" max="100.000000" origin="0.000000"/>
+<y_iterations_label side="left" iteration="0">000</y_iterations_label>
+<y_iterations_label side="left" iteration="1">010</y_iterations_label>
+<y_iterations_label side="left" iteration="2">020</y_iterations_label>
+<y_iterations_label side="left" iteration="3">030</y_iterations_label>
+<y_iterations_label side="left" iteration="4">040</y_iterations_label>
+<y_iterations_label side="left" iteration="5">050</y_iterations_label>
+<y_iterations_label side="left" iteration="6">060</y_iterations_label>
+<y_iterations_label side="left" iteration="7">070</y_iterations_label>
+<y_iterations_label side="left" iteration="8">080</y_iterations_label>
+<y_iterations_label side="left" iteration="9">090</y_iterations_label>
+<y_iterations_label side="left" iteration="10">100</y_iterations_label>
+<x_iterations_label iteration="0">XX 1</x_iterations_label>
+<plot_bar side="left" iteration="0" plot="0" height_percent="0.428571" color="#4684ee" last_height="0.000000" divide_iterations="false" value="1.500000" label="Sold"/><plot_bar side="left" iteration="0" plot="0" height_percent="0.571429" color="#dc3912" last_height="0.428571" divide_iterations="false" value="2.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="1">XX 2</x_iterations_label>
+<plot_bar side="left" iteration="1" plot="0" height_percent="0.200000" color="#4684ee" last_height="0.000000" divide_iterations="false" value="1.000000" label="Sold"/><plot_bar side="left" iteration="1" plot="0" height_percent="0.800000" color="#dc3912" last_height="0.200000" divide_iterations="false" value="4.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="2">XX 3</x_iterations_label>
+<plot_bar side="left" iteration="2" plot="0" height_percent="0.250000" color="#4684ee" last_height="0.000000" divide_iterations="false" value="2.000000" label="Sold"/><plot_bar side="left" iteration="2" plot="0" height_percent="0.750000" color="#dc3912" last_height="0.250000" divide_iterations="false" value="6.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="3">XX 4</x_iterations_label>
+<plot_bar side="left" iteration="3" plot="0" height_percent="0.272727" color="#4684ee" last_height="0.000000" divide_iterations="false" value="3.000000" label="Sold"/><plot_bar side="left" iteration="3" plot="0" height_percent="0.727273" color="#dc3912" last_height="0.272727" divide_iterations="false" value="8.000000" label="A Really Long Label Foo!"/><x_iterations_label iteration="4">XX 5</x_iterations_label>
+<plot_bar side="left" iteration="4" plot="0" height_percent="0.444444" color="#4684ee" last_height="0.000000" divide_iterations="false" value="8.000000" label="Sold"/><plot_bar side="left" iteration="4" plot="0" height_percent="0.555556" color="#dc3912" last_height="0.444444" divide_iterations="false" value="10.000000" label="A Really Long Label Foo!"/></graph>
+</td>
+<td width="2.000000" ></td>
+<td width="48.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="center" bgcolor="#e5e5e5" >   Name   </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >    Sold</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >Negative</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >  Ty Sales</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" >  LY Sales</data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >XX 1      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >    -1.5</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      -2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      3000</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      3300</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >XX 2      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >       1</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      -4</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      2400</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      2100</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >XX 3      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >       2</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      -6</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      4000</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      4100</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >XX 4      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >       3</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      -8</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      4700</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >      4100</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >XX 5      </data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >       8</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="8" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >     -10</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      2500</data>
+<data col="0" width="1" font_point="12" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="1" width="10" font_point="12" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >      5500</data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="7" font_point="9" bold="0" italics="0" align="left" >Company</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="8" font_point="9" bold="0" italics="0" align="left" >District</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="3" width="6" font_point="9" bold="0" italics="0" align="left" >Region</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="4" width="5" font_point="9" bold="0" italics="0" align="left" >Store</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="47" font_point="9" bold="0" italics="0" align="right" >                                          Sales</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_headers>
+<break_header name="companybreak">
+<output>
+<line>
+<data col="1" width="11" font_point="9" bold="0" italics="0" align="left" type="string" >Foo, Inc.  </data>
+</line>
+</output>
+</break_header>
+<break_header name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="11" font_point="9" bold="0" italics="0" align="left" type="string" >Region A   </data>
+</line>
+</output>
+</break_header>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #1  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $1500.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #2  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $1300.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >District X</data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                           $2800.00</data>
+</line>
+</output>
+</break_footer>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #3  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $2000.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #4  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $1800.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >District Y</data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                           $3800.00</data>
+</line>
+</output>
+</break_footer>
+<break_footer name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="11" font_point="9" bold="0" italics="0" align="left" type="string" >Region A   </data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                           $6600.00</data>
+</line>
+</output>
+</break_footer>
+<break_header name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="11" font_point="9" bold="0" italics="0" align="left" type="string" >Region B   </data>
+</line>
+</output>
+</break_header>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #11 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $2500.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #12 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $2300.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >District M</data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                           $4800.00</data>
+</line>
+</output>
+</break_footer>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #13 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $3000.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >Store #14 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="33" font_point="9" bold="0" italics="0" align="right" type="number" >                         $2800.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >District N</data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                           $5800.00</data>
+</line>
+</output>
+</break_footer>
+<break_footer name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="11" font_point="9" bold="0" italics="0" align="left" type="string" >Region B   </data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                          $10600.00</data>
+</line>
+</output>
+</break_footer>
+<break_footer name="companybreak">
+<output>
+<line>
+<data col="1" width="12" font_point="9" bold="0" italics="0" align="left" type="string" >Foo, Inc.   </data>
+<data col="5" width="35" font_point="9" bold="0" italics="0" align="right" type="number" >                          $17200.00</data>
+</line>
+</output>
+</break_footer>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

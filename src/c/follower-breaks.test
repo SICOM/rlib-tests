@@ -1,0 +1,7 @@
+COMMAND=./follower-breaks
+FORMATS="pdf xml txt csv html"
+EXPECTED_pdf=
+EXPECTED_xml=
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html=

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rlib>
+<part>
+<part_page_footer>
+</part_page_footer>
+<part_header>
+<output>
+<line>
+<data col="0" width="21" font_point="16" bold="0" italics="0" align="center" >Testing relative path</data>
+</line>
+<line>
+<data col="0" width="42" font_point="16" bold="0" italics="0" align="left" >Below there should be a red A and a blue B</data>
+</line>
+<line>
+</line>
+<line>
+</line>
+<line>
+<data col="0" width="43" font_point="16" bold="0" italics="0" align="left" >Below there should be a green C and a red D</data>
+</line>
+<line>
+</line>
+<line>
+</line>
+</output>
+</part_header>
+<part_page_header>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<no_data>
+</no_data>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

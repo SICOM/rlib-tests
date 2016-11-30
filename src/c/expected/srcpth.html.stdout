@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style type="text/css">
+pre { margin:0; padding:0; margin-top:0; margin-bottom:0; font-size:12pt;}
+body { background-color: #ffffff;}
+TABLE { border: 0; border-spacing: 0; padding: 0; width:100%; }
+</style>
+<title>RLIB Report</title></head>
+<body>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="21" style="font-size: 18px; ">Testing relative path</span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="42" style="font-size: 18px; ">Below there should be a red A and a blue B</span></pre></div>
+<span style="float: left; position:absolute;"><img src="relpath/redA.jpg" width="64.000000" height="64.000000" alt="background image"/></span><div><pre style="font-size: 1pt"></pre></div>
+<span style="float: left; position:absolute;"><img src="relpath/blueB.jpg" width="64.000000" height="64.000000" alt="background image"/></span><div><pre style="font-size: 1pt"></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="43" style="font-size: 18px; ">Below there should be a green C and a red D</span></pre></div>
+<span style="float: left; position:absolute;"><img src="relpath/subdir/greenC.jpg" width="64.000000" height="64.000000" alt="background image"/></span><div><pre style="font-size: 1pt"></pre></div>
+<span style="float: left; position:absolute;"><img src="relpath/subdir/redD.jpg" width="64.000000" height="64.000000" alt="background image"/></span><div><pre style="font-size: 1pt"></pre></div>
+<table><!--start from part table--><tr><!--start from part tr--><td><!--started from part td--><!--start pages across--></td><!--ended from part td--><!--end pages across--></tr><!--ended from part tr--></table><!--ended from part table--></body></html>

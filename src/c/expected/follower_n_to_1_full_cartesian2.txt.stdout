@@ -1,0 +1,61 @@
+Test Report (Normal) AND THE REPORT FORMAT IS: TXT       3    
+Test Report (Bold)
+Test Report (Italics)
+Test Report (Bold and Italics)
+BOO: mike is a 
+First Name           Last Name            Color               
+Bob                  Doan                 blue                 WRD   WRD   MATCH    MATCH    MATCH    MATCH   
+Bob                  Doan                 blue                 TD    WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Doan                 blue                 ERB   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Doan                 blue                 WRD   TD    MATCH    MATCH    MATCH    MATCH   
+Bob                  Doan                 blue                 TD    TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Doan                 blue                 ERB   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Doan                 blue                 WRD   ERB   MATCH    MATCH    MATCH    MATCH   
+Bob                  Doan                 blue                 TD    ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Doan                 blue                 ERB   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 WRD   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 TD    WRD   MATCH    MATCH    MATCH    MATCH   
+Terry                Doan                 blue                 ERB   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 WRD   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 TD    TD    MATCH    MATCH    MATCH    MATCH   
+Terry                Doan                 blue                 ERB   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 WRD   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Terry                Doan                 blue                 TD    ERB   MATCH    MATCH    MATCH    MATCH   
+Terry                Doan                 blue                 ERB   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                WRD   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                TD    WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                ERB   WRD   MATCH    MATCH    MATCH    MATCH   
+Eric                 Buruschkin           green                WRD   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                TD    TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                ERB   TD    MATCH    MATCH    MATCH    MATCH   
+Eric                 Buruschkin           green                WRD   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                TD    ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Eric                 Buruschkin           green                ERB   ERB   MATCH    MATCH    MATCH    MATCH   
+Mike                 Roth                 yellow               WRD   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               TD    WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               ERB   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               WRD   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               TD    TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               ERB   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               WRD   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               TD    ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Mike                 Roth                 yellow               ERB   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 WRD   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 TD    WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 ERB   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 WRD   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 TD    TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 ERB   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 WRD   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 TD    ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Bob                  Kratz                pink                 ERB   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               WRD   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               TD    WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               ERB   WRD   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               WRD   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               TD    TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               ERB   TD    NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               WRD   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               TD    ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Steve                Tilden               purple               ERB   ERB   NO_MATCH NO_MATCH NO_MATCH NO_MATCH
+Page:   1

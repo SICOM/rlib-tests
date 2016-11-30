@@ -1,0 +1,113 @@
+RLIB IS Graphing       YES!
+THIS TEXT SHOULD NOT FLOW INTO THE GRAPH 
+THIS TEXT SHOULD NOT FLOW INTO THE GRAPH 
+THIS TEXT SHOULD NOT FLOW INTO THE GRAPH 
+THIS TEXT SHOULD NOT FLOW INTO THE GRAPH 
+THIS TEXT SHOULD NOT FLOW INTO THE GRAPH 
+THIS TEXT SHOULD NOT FLOW INTO THE GRAPH 
+Dow        Net Sales  Avg Check 
+Monday     8000       5.00      
+Tuesday    6000       5.50      
+Wednesday  6500       4.50      
+Thursday   5000       7.00      
+Emotion    Value
+Happy      25   
+Sad        25   
+Grumpy     25   
+Sleepy     25   
+Emotion    Value
+Happy      25   
+Sad        25   
+Grumpy     25   
+Sleepy     25   
+HEADER Testing SUM (Delayed): 275  
+Food!      Value
+Pizza      20   
+Chicken    30   
+Meat       20   
+Potatos    10   
+Vegies     10   
+Fruit      15   
+Fish       5    
+Pasta      20   
+Ice Cream  10   
+Fresca     50   
+Water      20   
+Soda       20   
+Milk       5    
+Oj         5    
+Cake       20   
+Pie        10   
+Pudding    5    
+Footer Testing SUM: 275  
+Emotion    Value
+Happy      25   
+Sad        25   
+Grumpy     25   
+Sleepy     25   
+Food       Value
+Pizza      20   
+Chicken    30   
+Meat       20   
+Potatos    10   
+Vegies     10   
+Fruit      15   
+Fish       5    
+Pasta      20   
+Ice Cream  10   
+Fresca     50   
+Water      20   
+Soda       20   
+Milk       5    
+Oj         5    
+Cake       20   
+Pie        10   
+Pudding    5    
+Dow        BK 1  BK 2  BK 3  BK 4  BK 5  BK 6 
+Sunday       100   120   130   110   120   130 
+Monday       120   110   120   140   150   160 
+Tuesday      110   130   110   120   130   120 
+Wednesday     30    50    40    90    30    40 
+Thusday       60   100    90    80    70    85 
+Friday       100   120   130   110   120   130 
+Saturday     120   110   120   140   150   160 
+Dow        BK 1  BK 2  BK 3  BK 4  BK 5  BK 6 
+Sunday         5    10    -2    -4     4    -1 
+Monday        -2     4     3    -2     2    -2 
+Tuesday       12    12    -5     2    -4     5 
+Wednesday     -5    -2    10    12    13    -4 
+Thusday        5     4     3     2     1     0 
+Friday        -2    -3    -4    -5    -6    -7 
+Saturday      -2     2    -2     2    -2     2 
+   Name        Sold Negative   Ty Sales   LY Sales
+XX 1           -1.5       -2       3000       3300
+XX 2              1       -4       2400       2100
+XX 3              2       -6       4000       4100
+XX 4              3       -8       4700       4100
+XX 5              8      -10       2500       5500
+   Name        Sold Negative   Ty Sales   LY Sales
+XX 1           -1.5       -2       3000       3300
+XX 2              1       -4       2400       2100
+XX 3              2       -6       4000       4100
+XX 4              3       -8       4700       4100
+XX 5              8      -10       2500       5500
+Company District Region Store                                           Sales 
+Foo, Inc.  
+ Region A   
+   Store #1                            $1500.00 
+   Store #2                            $1300.00 
+  District X                           $2800.00
+   Store #3                            $2000.00 
+   Store #4                            $1800.00 
+  District Y                           $3800.00
+ Region A                              $6600.00
+ Region B   
+   Store #11                           $2500.00 
+   Store #12                           $2300.00 
+  District M                           $4800.00
+   Store #13                           $3000.00 
+   Store #14                           $2800.00 
+  District N                           $5800.00
+ Region B                             $10600.00
+Foo, Inc.                             $17200.00
+Page:   1/  1
