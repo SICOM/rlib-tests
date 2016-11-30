@@ -48,7 +48,7 @@ runtest1 () {
 export RPDF_DEBUGGING=1
 
 for FORMAT in $FORMATS ; do
-	${COMMAND} $FORMAT >"${DIR}/results/${COMMAND}.${FORMAT}.stdout" 2>"${DIR}/results/${COMMAND}.${FORMAT}.stderr"
+	${COMMAND} $FORMAT >"${DIR}/results/${FILE}.${FORMAT}.stdout" 2>"${DIR}/results/${FILE}.${FORMAT}.stderr"
 
 	# Support multiple expected outputs for every formats
 	case $FORMAT in
@@ -90,8 +90,8 @@ for FORMAT in $FORMATS ; do
 	else
 		echo $FILE $FORMAT ${bold}FAILED${normal}
 		echo ${bold}Check these files:${normal}
-		echo "${DIR}/results/${COMMAND}.${FORMAT}.stdout"
-		echo "${DIR}/results/${COMMAND}.${FORMAT}.stderr"
+		echo "${DIR}/results/${FILE}.${FORMAT}.stdout"
+		echo "${DIR}/results/${FILE}.${FORMAT}.stderr"
 	fi
 done
 
