@@ -10,7 +10,7 @@ To run the tests, first you need to install RLIB from https://github.com/SICOM/r
 To be able to test the database interactions, you will need to
 execute the the database scripts for MySQL/MariaDB and PostgreSQL:
 
-cat src/db-scripts/mysql.sql | mysql -u root
+cat src/db-scripts/mysql.sql | mysql -u root mysql
 and
 psql -f src/db-scripts/postgresql.sql -U postgres postgres
 
