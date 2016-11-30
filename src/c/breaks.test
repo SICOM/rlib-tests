@@ -1,4 +1,4 @@
-COMMAND=breaks
+COMMAND=./breaks
 FORMATS="pdf xml txt csv html"
 EXPECTED_pdf=
 EXPECTED_xml=

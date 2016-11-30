@@ -17,25 +17,25 @@ fi
 . $DIR/$FILE.test
 
 runtest1 () {
-	EXP_FILE="${DIR}/expected/${COMMAND}.${FORMAT}.stdout${exp}"
+	EXP_FILE="${DIR}/expected/${FILE}.${FORMAT}.stdout${exp}"
 	if [ ! -f "$EXP_FILE" ]; then
 		EXP_FILE="/dev/null"
 	fi
-	diff -au ${EXP_FILE} ${DIR}/results/${COMMAND}.${FORMAT}.stdout >${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff
-	WC1=$(cat ${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff | wc -l)
+	diff -au ${EXP_FILE} ${DIR}/results/${FILE}.${FORMAT}.stdout >${DIR}/results/${FILE}.${FORMAT}.stdout.diff
+	WC1=$(cat ${DIR}/results/${FILE}.${FORMAT}.stdout.diff | wc -l)
 
-	EXP_FILE="${DIR}/expected/${COMMAND}.${FORMAT}.stderr${exp}"
+	EXP_FILE="${DIR}/expected/${FILE}.${FORMAT}.stderr${exp}"
 	if [ ! -f "$EXP_FILE" ]; then
 		EXP_FILE="/dev/null"
 	fi
-	diff -au ${EXP_FILE} ${DIR}/results/${COMMAND}.${FORMAT}.stderr >${DIR}/results/${COMMAND}.${FORMAT}.stderr.diff
-	WC2=$(cat ${DIR}/results/${COMMAND}.${FORMAT}.stderr.diff | wc -l)
+	diff -au ${EXP_FILE} ${DIR}/results/${FILE}.${FORMAT}.stderr >${DIR}/results/${FILE}.${FORMAT}.stderr.diff
+	WC2=$(cat ${DIR}/results/${FILE}.${FORMAT}.stderr.diff | wc -l)
 
 	if [ "$WC1" = "0" ]; then
-		rm -f ${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff
+		rm -f ${DIR}/results/${FILE}.${FORMAT}.stdout.diff
 
 		if [ "$WC2" = "0" ]; then
-			rm -f ${DIR}/results/${COMMAND}.${FORMAT}.stderr.diff
+			rm -f ${DIR}/results/${FILE}.${FORMAT}.stderr.diff
 			ERROR=0
 		else
 			ERROR=1
@@ -48,7 +48,7 @@ runtest1 () {
 export RPDF_DEBUGGING=1
 
 for FORMAT in $FORMATS ; do
-	"${DIR}/${COMMAND}" $FORMAT >"${DIR}/results/${COMMAND}.${FORMAT}.stdout" 2>"${DIR}/results/${COMMAND}.${FORMAT}.stderr"
+	${COMMAND} $FORMAT >"${DIR}/results/${COMMAND}.${FORMAT}.stdout" 2>"${DIR}/results/${COMMAND}.${FORMAT}.stderr"
 
 	# Support multiple expected outputs for every formats
 	case $FORMAT in
@@ -86,9 +86,9 @@ for FORMAT in $FORMATS ; do
 	fi
 
 	if [ "$ERROR" = "0" ]; then
-		echo $COMMAND $FORMAT ${bold}OK${normal}
+		echo $FILE $FORMAT ${bold}OK${normal}
 	else
-		echo $COMMAND $FORMAT ${bold}FAILED${normal}
+		echo $FILE $FORMAT ${bold}FAILED${normal}
 		echo ${bold}Check these files:${normal}
 		echo "${DIR}/results/${COMMAND}.${FORMAT}.stdout"
 		echo "${DIR}/results/${COMMAND}.${FORMAT}.stderr"
