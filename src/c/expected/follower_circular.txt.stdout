@@ -1,0 +1,31 @@
+adding follower data -> more_data, should succeed
+added rlib_add_resultset_follower_n_to_1(data, more_data) 0
+
+adding follower data -> more_data, should fail
+added rlib_add_resultset_follower_n_to_1(data, more_data) -1
+
+adding follower more_data -> data, should fail
+added rlib_add_resultset_follower_n_to_1(more_data, data) -1
+
+adding follower more_data -> more_data2, should fail (not existing query)
+added rlib_add_resultset_follower_n_to_1(more_data, data) -1 (not existing query)
+
+added query more_data2
+
+adding follower more_data -> more_data2, should succeed
+added rlib_add_resultset_follower_n_to_1(more_data, more_data2) 0
+
+adding follower more_data2 -> data, should fail
+added rlib_add_resultset_follower_n_to_1(more_data2, data) -1
+
+adding follower data -> more_data2, should fail (more_data2 would be a follower on two paths)
+added rlib_add_resultset_follower_n_to_1(more_data2, data) -1
+
+added query more_data3
+
+adding follower more_data2 -> more_data3, should succeed
+added rlib_add_resultset_follower_n_to_1(more_data2, more_data3) 0
+
+adding follower more_data3 -> more_data, should fail
+added rlib_add_resultset_follower_n_to_1(more_data3, more_data) 0
+

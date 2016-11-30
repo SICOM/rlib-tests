@@ -1,0 +1,7 @@
+COMMAND=./follower_circular
+FORMATS="txt"
+EXPECTED_pdf=
+EXPECTED_xml=
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html=

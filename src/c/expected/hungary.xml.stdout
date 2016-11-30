@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO8859-2" ?>
+<rlib>
+<part>
+<part_page_footer>
+<output>
+<line>
+<data col="0" width="6" font_point="9" bold="0" italics="0" align="left" >Page: </data>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="right" type="number" >  0</data>
+</line>
+</output>
+</part_page_footer>
+<part_header>
+<output>
+<line>
+<data col="0" width="22" font_point="11" bold="0" italics="0" align="left" >ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP</data>
+</line>
+<line>
+<data col="0" width="22" font_point="11" bold="0" italics="0" align="left" >árvíztűrő tükörfúrógép</data>
+</line>
+</output>
+</part_header>
+<part_page_header>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

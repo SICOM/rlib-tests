@@ -1,0 +1,6 @@
+Legacy format date string: 01 Fri                                                                   
+New style date format string: 01 Fri                                                                
+Legacy (valid) number format string - no colon - You have 100 apples                                
+Legacy (valid) number format string: You have 100 apples                                            
+Legacy (invalid) number format string: 100 %a                                                       
+New style (invalid) number format string: 100 %a                                                    

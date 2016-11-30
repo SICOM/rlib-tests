@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rlib>
+<part>
+<part_page_footer>
+</part_page_footer>
+<part_header>
+</part_header>
+<part_page_header>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="left" type="date" >Legacy format date string: 01 Fri                                                                   </data>
+</line>
+<line>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="left" type="date" >New style date format string: 01 Fri                                                                </data>
+</line>
+<line>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="left" type="number" >Legacy (valid) number format string - no colon - You have 100 apples                                </data>
+</line>
+<line>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="left" type="number" >Legacy (valid) number format string: You have 100 apples                                            </data>
+</line>
+<line>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="left" type="number" >Legacy (invalid) number format string: 100 %a                                                       </data>
+</line>
+<line>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="left" type="number" >New style (invalid) number format string: 100 %a                                                    </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

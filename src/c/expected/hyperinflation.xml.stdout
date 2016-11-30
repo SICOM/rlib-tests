@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rlib>
+<part>
+<part_page_footer>
+</part_page_footer>
+<part_header>
+<output>
+<line>
+<data col="0" width="40" font_point="11" bold="1" italics="0" align="left" type="string" >Hyperinflation salaries in Hungary, 1945</data>
+</line>
+<line>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >Total:    </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+</line>
+</output>
+</part_header>
+<part_page_header>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >Date      </data>
+<data col="0" width="80" font_point="9" bold="0" italics="0" align="left" >Salary in plain number                                                          </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="80" font_point="9" bold="0" italics="0" align="left" >Salary in national currency                                                     </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="80" font_point="9" bold="0" italics="0" align="left" >Salary in international currency                                                </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-01-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                              $10101010101010101010101010101010101010101010101010.10</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-02-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                               $1010101010101010101010101010101010101010101010101.01</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-03-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                              $10101010101010101010101010101010101010101010101010.10</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-04-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                               $1010101010101010101010101010101010101010101010101.01</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-05-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                              $10101010101010101010101010101010101010101010101010.10</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-06-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                               $1010101010101010101010101010101010101010101010101.01</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-07-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                              $10101010101010101010101010101010101010101010101010.10</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-08-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                               $1010101010101010101010101010101010101010101010101.01</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-09-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                              $10101010101010101010101010101010101010101010101010.10</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-10-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                               $1010101010101010101010101010101010101010101010101.01</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-11-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                              $10101010101010101010101010101010101010101010101010.10</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  *************10.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010,10</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" type="string" >1945-12-10</data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >                                               $1010101010101010101010101010101010101010101010101.01</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >               **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01 Ft</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+<data col="0" width="100" font_point="9" bold="0" italics="0" align="right" type="number" >             HUF  **************1.010.101.010.101.010.101.010.101.010.101.010.101.010.101.010.101,01</data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >Total:    </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >          </data>
+</line>
+</output>
+</report_footer>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

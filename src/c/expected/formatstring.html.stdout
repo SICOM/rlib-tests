@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style type="text/css">
+pre { margin:0; padding:0; margin-top:0; margin-bottom:0; font-size:12pt;}
+body { background-color: #ffffff;}
+TABLE { border: 0; border-spacing: 0; padding: 0; width:100%; }
+</style>
+<title>RLIB Report</title></head>
+<body>
+<table><!--start from part table--><tr><!--start from part tr--><td><!--started from part td--><!--start pages across--><div><pre style="font-size: 1pt"><span data-col="0" data-width="100" style="font-size: 11px; ">Legacy format date string: 01 Fri                                                                   </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="100" style="font-size: 11px; ">New style date format string: 01 Fri                                                                </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="100" style="font-size: 11px; ">Legacy (valid) number format string - no colon - You have 100 apples                                </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="100" style="font-size: 11px; ">Legacy (valid) number format string: You have 100 apples                                            </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="100" style="font-size: 11px; ">Legacy (invalid) number format string: 100 %a                                                       </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="100" style="font-size: 11px; ">New style (invalid) number format string: 100 %a                                                    </span></pre></div>
+</td><!--ended from part td--><!--end pages across--></tr><!--ended from part tr--></table><!--ended from part table--></body></html>
