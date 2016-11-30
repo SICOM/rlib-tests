@@ -17,10 +17,20 @@ fi
 . $DIR/$FILE.test
 
 runtest1 () {
-	diff -u ${DIR}/expected/${COMMAND}.${FORMAT}.stdout${exp} ${DIR}/results/${COMMAND}.${FORMAT}.stdout >${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff
+	EXP_FILE="${DIR}/expected/${COMMAND}.${FORMAT}.stdout${exp}"
+	if [ ! -f "$EXP_FILE" ]; then
+		EXP_FILE="/dev/null"
+	fi
+	diff -au ${EXP_FILE} ${DIR}/results/${COMMAND}.${FORMAT}.stdout >${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff
 	WC1=$(cat ${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff | wc -l)
-	diff -u ${DIR}/expected/${COMMAND}.${FORMAT}.stderr${exp} ${DIR}/results/${COMMAND}.${FORMAT}.stderr >${DIR}/results/${COMMAND}.${FORMAT}.stderr.diff
+
+	EXP_FILE="${DIR}/expected/${COMMAND}.${FORMAT}.stderr${exp}"
+	if [ ! -f "$EXP_FILE" ]; then
+		EXP_FILE="/dev/null"
+	fi
+	diff -au ${EXP_FILE} ${DIR}/results/${COMMAND}.${FORMAT}.stderr >${DIR}/results/${COMMAND}.${FORMAT}.stderr.diff
 	WC2=$(cat ${DIR}/results/${COMMAND}.${FORMAT}.stderr.diff | wc -l)
+
 	if [ "$WC1" = "0" ]; then
 		rm -f ${DIR}/results/${COMMAND}.${FORMAT}.stdout.diff
 

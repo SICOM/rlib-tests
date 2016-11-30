@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rlib>
+<part>
+<part_page_footer>
+<output>
+</output>
+</part_page_footer>
+<part_header>
+<output>
+</output>
+</part_header>
+<part_page_header>
+<output>
+<line>
+<data col="0" width="62" font_point="11" bold="1" italics="0" align="left" type="string" >Breaks Example To Demonstrate Mixed Expressions With Variables</data>
+</line>
+</output>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="7" font_point="9" bold="0" italics="0" align="left" >Company</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="8" font_point="9" bold="0" italics="0" align="left" >District</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="3" width="6" font_point="9" bold="0" italics="0" align="left" >Region</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="4" width="5" font_point="9" bold="0" italics="0" align="left" >Store</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" >     Sales</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="right" > District share</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="right" > Regional share</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="right" >  Company share</data>
+</line>
+</output>
+</field_headers>
+<break_header name="companybreak">
+<output>
+<line>
+<data col="1" width="24" font_point="9" bold="0" italics="0" align="left" type="string" >Foo, Inc.               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_header>
+<break_header name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="23" font_point="9" bold="0" italics="0" align="left" type="string" >Region A               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="33" font_point="9" bold="0" italics="0" align="left" >                                 </data>
+</line>
+</output>
+</break_header>
+<break_header name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District X            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_header>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #1                  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $1500.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #2                  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $1300.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District X            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_footer>
+<break_header name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District Y            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_header>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #3                  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $2000.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #4                  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $1800.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District Y            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_footer>
+<break_footer name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="23" font_point="9" bold="0" italics="0" align="left" type="string" >Region A               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="33" font_point="9" bold="0" italics="0" align="left" >                                 </data>
+</line>
+</output>
+</break_footer>
+<break_header name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="23" font_point="9" bold="0" italics="0" align="left" type="string" >Region B               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="33" font_point="9" bold="0" italics="0" align="left" >                                 </data>
+</line>
+</output>
+</break_header>
+<break_header name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District M            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_header>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #11                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $2500.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #12                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $2300.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District M            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_footer>
+<break_header name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District N            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_header>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #13                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $3000.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >   </data>
+<data col="4" width="26" font_point="9" bold="0" italics="0" align="left" type="string" >Store #14                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="right" type="number" >  $2800.00</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</field_details>
+<break_footer name="districtbreak">
+<output>
+<line>
+<data col="0" width="2" font_point="9" bold="0" italics="0" align="left" >  </data>
+<data col="3" width="22" font_point="9" bold="0" italics="0" align="left" type="string" >District N            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_footer>
+<break_footer name="regionbreak">
+<output>
+<line>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="2" width="23" font_point="9" bold="0" italics="0" align="left" type="string" >Region B               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+<data col="0" width="33" font_point="9" bold="0" italics="0" align="left" >                                 </data>
+</line>
+</output>
+</break_footer>
+<break_footer name="companybreak">
+<output>
+<line>
+<data col="1" width="24" font_point="9" bold="0" italics="0" align="left" type="string" >Foo, Inc.               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" > </data>
+</line>
+</output>
+</break_footer>
+<report_footer>
+<output>
+</output>
+</report_footer>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

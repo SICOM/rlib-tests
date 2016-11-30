@@ -1,0 +1,24 @@
+Breaks Example To Demonstrate Mixed Expressions With Variables
+Company District Region Store      Sales  District share  Regional share   Company share
+Foo, Inc.                      $17200.00
+ Region A                       $6600.00                                           38.37
+  District X                    $2800.00                           42.42           16.28
+   Store #1                     $1500.00           53.57           22.73            8.72   1 /  4
+   Store #2                     $1300.00           46.43           19.70            7.56   2 /  4
+  District X                    $2800.00                           42.42           16.28
+  District Y                    $3800.00                           57.58           22.09
+   Store #3                     $2000.00           52.63           30.30           11.63   3 /  4
+   Store #4                     $1800.00           47.37           27.27           10.47   4 /  4
+  District Y                    $3800.00                           57.58           22.09
+ Region A                       $6600.00                                           38.37
+ Region B                      $10600.00                                           61.63
+  District M                    $4800.00                           45.28           27.91
+   Store #11                    $2500.00           52.08           23.58           14.53   1 /  4
+   Store #12                    $2300.00           47.92           21.70           13.37   2 /  4
+  District M                    $4800.00                           45.28           27.91
+  District N                    $5800.00                           54.72           33.72
+   Store #13                    $3000.00           51.72           28.30           17.44   3 /  4
+   Store #14                    $2800.00           48.28           26.42           16.28   4 /  4
+  District N                    $5800.00                           54.72           33.72
+ Region B                      $10600.00                                           61.63
+Foo, Inc.                      $17200.00
