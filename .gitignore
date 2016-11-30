@@ -99,3 +99,5 @@ src/c/hyperinflation.xml
 src/c/formatstring
 src/c/formatstring.exe
 src/c/formatstring.xml
+
+src/c/results/*
