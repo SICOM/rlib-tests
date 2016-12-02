@@ -47,6 +47,9 @@
 #	one of them matches, the result is accepted.
 #	If one of this variable
 #
+# Any extra variables added to the testname.test file
+# may also be picked up by the test case.
+#
 
 DIR="$1"
 FILE="$2"

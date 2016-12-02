@@ -1,6 +1,6 @@
 COMMAND=./graph
 EXTRA_COMMAND="rm -f /tmp/*.png"
-FORMATS="pdf xml txt csv html"
+FORMATS="pdf txt html"
 EXPECTED_pdf=
 EXPECTED_xml=
 EXPECTED_txt=
