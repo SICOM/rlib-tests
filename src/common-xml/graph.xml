@@ -224,7 +224,7 @@
 					<Output>
 						<Line bgcolor="'0xe5e5e5'">
 							<literal col="1">HEADER Testing SUM (Delayed): </literal>
-							<field value="v.test" width="5" align="left" col="1" />
+							<field value="v.test" width="5" align="left" col="1" delayed="yes"/>
 						</Line>
 					</Output>
 				</ReportHeader>				
