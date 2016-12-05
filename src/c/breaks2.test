@@ -2,6 +2,6 @@ COMMAND=./breaks2
 FORMATS="txt"
 EXPECTED_pdf=
 EXPECTED_xml=
-EXPECTED_txt=
+EXPECTED_txt="1 2"
 EXPECTED_csv=
 EXPECTED_html=

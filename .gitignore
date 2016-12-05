@@ -36,6 +36,8 @@ mkinstalldirs
 stamp-h1
 stamp-h2
 
+core.*
+
 src/c/*.xml
 src/c/example_mysql
 src/c/example_mysql.exe

@@ -7,7 +7,7 @@
 #
 
 COMMAND=./hungary
-FORMATS="pdf xml txt csv html"
+FORMATS="pdf"
 EXPECTED_pdf=
 EXPECTED_xml=
 EXPECTED_txt=
