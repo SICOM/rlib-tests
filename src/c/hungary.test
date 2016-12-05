@@ -1,3 +1,11 @@
+#
+# This test crashes RLIB 2.0.x because it uses:
+#
+# rlib_set_output_parameter(r, "pdf_fontname", "Liberation Mono");
+#
+# RLIB 2.0.x doesn't handle fonts that are not in the 14 base fonts.
+#
+
 COMMAND=./hungary
 FORMATS="pdf xml txt csv html"
 EXPECTED_pdf=
