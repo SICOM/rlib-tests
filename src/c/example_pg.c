@@ -36,7 +36,9 @@ int main(int argc, char **argv) {
 	connstr = "dbname=rlib user=rlib";
 
 	r = rlib_init();
+#ifdef rlib_set_query_cache_size
 	rlib_set_query_cache_size(r, 2);
+#endif
 	if (rlib_add_datasource_postgres(r, "local_pg", connstr) < 0) {
 		rlib_free(r);
 		return 1;
