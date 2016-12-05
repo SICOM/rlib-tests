@@ -1,0 +1,232 @@
+<rlib>
+<part>
+<part_page_footer>
+<output>
+<line>
+<data col="0" width="6" font_point="9" bold="0" italics="0" align="left" >Page: </data>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="right" type="number" >  0</data>
+</line>
+</output>
+</part_page_footer>
+<part_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="15" font_point="12" bold="0" italics="0" align="left" >Products Report</data>
+</line>
+<line>
+</line>
+</output>
+</part_header>
+<part_page_header>
+<output>
+<line>
+<data col="0" width="29" font_point="11" bold="0" italics="0" align="left" >Products Report (Page Header)</data>
+</line>
+</output>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Number         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Name                </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Type      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Category  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000006    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >NRS                 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000008    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >food sales          </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000005    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >overring            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000007    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >refund              </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000010    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >gift cert sales     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000011    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >other sales         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000001    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >EI Sales            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000002    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >TO Sales            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000003    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DT Sales            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000009    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >nonfood sales       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000013    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >credits issued      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000014    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >promo sales         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >10000000015    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >gift cert redeemed  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >10000000060    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >reserved            </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >9999      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+</table>
+</part>
+</rlib>

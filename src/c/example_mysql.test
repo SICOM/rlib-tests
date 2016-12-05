@@ -1,7 +1,7 @@
 COMMAND=./example_mysql
 FORMATS="pdf xml txt csv html"
-EXPECTED_pdf=
-EXPECTED_xml=
+EXPECTED_pdf="1 2"
+EXPECTED_xml="1 2"
 EXPECTED_txt=
 EXPECTED_csv=
-EXPECTED_html=
+EXPECTED_html="1 2"
