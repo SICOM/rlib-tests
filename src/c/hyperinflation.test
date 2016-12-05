@@ -1,5 +1,5 @@
 COMMAND=./hyperinflation
-FORMATS="pdf xml txt csv html"
+FORMATS="txt"
 EXPECTED_pdf=
 EXPECTED_xml=
 EXPECTED_txt=

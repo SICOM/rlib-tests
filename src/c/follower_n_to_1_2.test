@@ -1,5 +1,5 @@
 COMMAND=./follower_n_to_1_2
-FORMATS="pdf xml txt csv html"
+FORMATS="txt"
 EXPECTED_pdf=
 EXPECTED_xml=
 EXPECTED_txt=
