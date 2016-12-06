@@ -242,7 +242,6 @@
 	$sales_data[4][1] = "5000";
 	$sales_data[4][2] = "7.00";
 
-
 	$sales_data2[0] = array('company', 'region', 'district', 'store', 'sales');
 
 	$sales_data2[1] = array('Foo, Inc.', 'Region A','District X', 'Store #1', 1500.00);
@@ -254,7 +253,15 @@
 	$sales_data2[7] = array('Foo, Inc.', 'Region B','District N', 'Store #13', 3000.00);
 	$sales_data2[8] = array('Foo, Inc.', 'Region B','District N', 'Store #14', 2800.00);
 
+	$RLIB_DEBUGGING="1";
+	$RPDF_DEBUGGING="1";
+
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
+
 	$rlib =	rlib_init();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_query_as($rlib, "local_array", "line_data", "line_data");
@@ -265,15 +272,6 @@
 	rlib_set_output_parameter($rlib, "html_image_directory", "/tmp");
 	rlib_set_output_parameter($rlib, "trim_links", "1");
 	rlib_add_report($rlib, "graph.xml");
-
-	$allowable_formats = array('pdf', 'xml', 'txt', 'csv', 'html');
-
-	if (isset($argv[1]) && in_array($argv[1], $allowable_formats))
-		rlib_set_output_format_from_text($rlib, $argv[1]);
-	else if (isset($_REQUEST['format']) && in_array($_REQUEST['format'], $allowable_formats))
-		rlib_set_output_format_from_text($rlib, $_REQUEST['format']);
-	else
-		rlib_set_output_format_from_text($rlib, "xml");
 	rlib_execute($rlib);
 	//header(rlib_get_content_type($rlib));
 	$ct = rlib_get_content_type($rlib);
