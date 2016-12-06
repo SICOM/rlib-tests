@@ -41,7 +41,6 @@
 	$data[6][3] = "2";
 	$data[6][4] = "Dude";
 
-
 	$more_data[0][0] = "first_name";
 	$more_data[0][1] = "last_name";
 	$more_data[0][2] = "initials";
@@ -58,13 +57,17 @@
 	$more_data[3][1] = "Buruschkin";
 	$more_data[3][2] = "ERB";
 
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
+
 	$rlib =	rlib_init();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_query_as($rlib, "local_array", "more_data", "more_data");
 	rlib_add_resultset_follower_n_to_1($rlib, "data", "[data.first_name;data.last_name]", "more_data", "[more_data.first_name;more_data.last_name]");
 	rlib_add_report($rlib, "follower.xml");
-	rlib_set_output_format_from_text($rlib, "txt");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));
 	rlib_spool($rlib);

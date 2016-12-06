@@ -11,9 +11,8 @@
 		rlib_query_refresh($rlib);
 
 		return "WHEEEE";
-	}  
-  
-  
+	}
+
 	$yields[0][0] = "item";
 	$yields[0][1] = "portions";
 	$yields[0][2] = "eqv";
@@ -110,7 +109,6 @@
 	$inv_transfer[2][2] = "1121";
 	$inv_transfer[2][3] = "4499";
 
-
 	$inventory[0][0] = "num";
 	$inventory[0][1] = "name";
 	$inventory[0][2] = "amount";	
@@ -149,7 +147,12 @@
 
 	$sillypants = 5;
 
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
+
 	$rlib = rlib_init();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "yields", "yields");
 	rlib_add_query_as($rlib, "local_array", "coupons", "coupons");
@@ -159,7 +162,6 @@
 	rlib_add_query_as($rlib, "local_array", "inv_transfer", "inv_transfer");
 	rlib_add_query_as($rlib, "local_array", "inventory", "inventory");
 	rlib_add_report($rlib, "fixed_part.xml");
-	rlib_set_output_format_from_text($rlib, "xml");
 	rlib_signal_connect($rlib, "part_iteration", "callback");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));

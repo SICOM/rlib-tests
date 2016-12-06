@@ -1,0 +1,24 @@
+Breaks Example                          
+Company District Region Store                                           Sales 
+Foo, Inc.                              $1500.00
+ Region A                               $1500.00
+  District X                            $1500.00
+   Store #1                            $1500.00 
+   Store #2                            $1300.00 
+  District X                            $2800.00
+  District Y                            $2000.00
+   Store #3                            $2000.00 
+   Store #4                            $1800.00 
+  District Y                            $3800.00
+ Region A                               $6600.00
+ Region B                               $2500.00
+  District M                            $2500.00
+   Store #11                           $2500.00 
+   Store #12                           $2300.00 
+  District M                            $4800.00
+  District N                            $3000.00
+   Store #13                           $3000.00 
+   Store #14                           $2800.00 
+  District N                            $5800.00
+ Region B                              $10600.00
+Foo, Inc.                              $17200.00

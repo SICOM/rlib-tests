@@ -51,6 +51,10 @@
 # may also be picked up by the test case.
 #
 
+if [ -z "$2" ]; then
+	exit 1
+fi
+
 DIR="$1"
 FILE="$2"
 

@@ -13,14 +13,18 @@
 
 	$Alloc_Cnt = "-1";
 
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
+
 	$rlib =	rlib_init();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_set_locale($rlib, "pt_BR");	
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_report($rlib, "expressions.xml");
 	rlib_add_function($rlib, "bobdoan", "bobdoan", 1);
 	rlib_add_function($rlib, "mikeroth", "mike_roth", 2);
-	rlib_set_output_format_from_text($rlib, "text");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));
 	rlib_spool($rlib);

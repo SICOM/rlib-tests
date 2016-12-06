@@ -158,12 +158,16 @@
 		$data[$spot+3][3] = "1";
 	}
 	
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
+
 	$rlib =	rlib_init();
 	rlib_version();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_report($rlib, "multiline.xml");
-	rlib_set_output_format_from_text($rlib, "pdf");
 	rlib_set_output_parameter($rlib, "debugging", "yes");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));

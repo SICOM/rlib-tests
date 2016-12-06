@@ -90,14 +90,17 @@
 	$moredata[58][0] = "58";
 	$moredata[59][0] = "59";
 
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
 
 	$rlib =	rlib_init();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_search_path($rlib, "parts/subdir2");
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_query_as($rlib, "local_array", "moredata", "moredata");
 	rlib_add_report($rlib, "parts/flow_part_subdir.xml");
-	rlib_set_output_format_from_text($rlib, "pdf");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));
 	rlib_spool($rlib);

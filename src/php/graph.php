@@ -273,7 +273,7 @@
 	rlib_set_output_parameter($rlib, "trim_links", "1");
 	rlib_add_report($rlib, "graph.xml");
 	rlib_execute($rlib);
-	//header(rlib_get_content_type($rlib));
+	header(rlib_get_content_type($rlib));
 	$ct = rlib_get_content_type($rlib);
 	$my_header = explode(PHP_EOL, rlib_get_content_type($rlib));
 	foreach($my_header as $x) {

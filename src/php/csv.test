@@ -1,0 +1,8 @@
+COMMAND="php csv.php"
+EXTRA_COMMAND=
+FORMATS="pdf txt html"
+EXPECTED_pdf="1 2"
+EXPECTED_xml=
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html="1 2"

@@ -98,5 +98,6 @@ src/c/results/*
 !src/c/results/.dummy
 
 src/php/*.xml
+src/php/*.csv
 src/php/results/*
 !src/php/results/.dummy

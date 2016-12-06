@@ -69,7 +69,6 @@
 	$data[9][4] = "PA";
 	$data[9][5] = "18901";
 
-
 	$data[10][0] = "SICOM Systems 10";
 	$data[10][1] = "4140 Skyron Drive";
 	$data[10][2] = "Test Suite Abc";
@@ -280,13 +279,16 @@
 	$data[39][4] = "PA";
 	$data[39][5] = "18901";
 
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
 
 	$rlib =	rlib_init();
 	rlib_version();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_report($rlib, "labels.xml");
-	rlib_set_output_format_from_text($rlib, "pdf");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));
 	rlib_spool($rlib);

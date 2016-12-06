@@ -27,10 +27,10 @@
 	rlib_set_output_parameter($rlib, "only_quote_strings", "yes");
 	rlib_set_locale($rlib, "en_US");
 	rlib_execute($rlib);
-	//header(rlib_get_content_type($rlib));
+	header(rlib_get_content_type($rlib));
 	rlib_spool($rlib);
 	rlib_free($rlib);
-	
+
 	function mike_roth($a, $b) {
 		return "pancakes are yummier then $a and $b";
 	}
@@ -38,5 +38,4 @@
 	function bobdoan($a) {
 		return strtoupper($a);
 	}
-	
 ?>

@@ -79,12 +79,16 @@
 	$data[15][2] = "purple";
 	$data[15][3] = "2";
 
+	$output_format = 'txt';
+	if (isset($argv[1]))
+		$output_format = $argv[1];
+
 	$rlib =	rlib_init();
+	rlib_set_output_format_from_text($rlib, $output_format);
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_report($rlib, "pages_across.xml");
 //	rlib_add_report($rlib, "x.xml");
-	rlib_set_output_format_from_text($rlib, "html");
 	rlib_execute($rlib);
 	header(rlib_get_content_type($rlib));
 	rlib_spool($rlib);
