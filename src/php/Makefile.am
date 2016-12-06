@@ -1,7 +1,7 @@
 ## src/examples/php/Makefile.am for RLIB-TESTS
 
 RLIB_TESTS = \
-	array breaks csv example expressions fixed_part \
+	array breaks csv csv-newheader example expressions fixed_part \
 	flow_part flow_part_subdir \
 	follower follower2 \
 	follower_n_to_1_full_cartesian \
