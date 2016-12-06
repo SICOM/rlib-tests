@@ -40,6 +40,7 @@ AC_CONFIG_FILES([
 Makefile
 src/Makefile
 src/c/Makefile
+src/php/Makefile
 ])
 
 AC_OUTPUT

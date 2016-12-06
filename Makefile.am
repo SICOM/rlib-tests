@@ -10,4 +10,10 @@ test-c: all
 	@echo
 	$(MAKE) -C src/c test
 
-test: test-c
+test-php: all
+	@echo
+	@echo Running PHP test cases
+	@echo
+	$(MAKE) -C src/php test
+
+test: test-c test-php

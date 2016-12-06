@@ -95,3 +95,8 @@ src/c/formatstring
 src/c/formatstring.exe
 
 src/c/results/*
+!src/c/results/.dummy
+
+src/php/*.xml
+src/php/results/*
+!src/php/results/.dummy
