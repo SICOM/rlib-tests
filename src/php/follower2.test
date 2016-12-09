@@ -1,0 +1,7 @@
+COMMAND="php follower2.php"
+FORMATS="txt"
+EXPECTED_pdf=
+EXPECTED_xml=
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html=

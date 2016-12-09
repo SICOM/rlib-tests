@@ -41,17 +41,9 @@
 	$data[6][3] = "2";
 	$data[6][4] = "Dude";
 
-	$more_data[0][0] = "last_name";
-	$more_data[0][1] = "initials";
-
-	$more_data[1][0] = "Doan";
-	$more_data[1][1] = "WRD";
-
-	$more_data[2][0] = "Doan";
-	$more_data[2][1] = "TD";
-
-	//$more_data[3][0] = "Buruschkin";
-	//$more_data[3][1] = "ERB";
+	$more_data[0][0] = "first_name";
+	$more_data[0][1] = "last_name";
+	$more_data[0][2] = "initials";
 
 	$output_format = 'txt';
 	if (isset($argv[1]))
