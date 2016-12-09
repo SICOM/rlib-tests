@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style type="text/css">
+pre { margin:0; padding:0; margin-top:0; margin-bottom:0; font-size:12pt;}
+body { background-color: #ffffff;}
+TABLE { border: 0; border-spacing: 0; padding: 0; width:100%; }
+</style>
+<title>RLIB Report</title></head>
+<body>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: HI)                 GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">HI)       </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: )                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">)         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 15                  GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">15        </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 9                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">9         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 7                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">7         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 50                  GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">50        </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 5                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">5         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: bacon and eggs      GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">bacon and eggs      </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 6                   GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">6                   </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: four                GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">four                </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: true                GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">true                </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 2                   GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">2                   </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: WORKS               GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">WORKS               </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: WORKS               GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">WORKS               </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 2                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">2         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 1                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">1         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 1                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">1         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="36" style="font-size: 11px; ">SHOULD GET: R$ 12.345           GOT:</span><span data-col="0" data-width="10" style="font-size: 11px; "> R$ 12.345</span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="36" style="font-size: 11px; ">SHOULD GET: 9876,54             GOT:</span><span data-col="0" data-width="10" style="font-size: 11px; "> 9876,54  </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="36" style="font-size: 11px; ">SHOULD GET: R$ 9.876,54         GOT:</span><span data-col="0" data-width="20" style="font-size: 11px; "> R$ 9.876,54        </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="36" style="font-size: 11px; ">SHOULD GET: BRL 9.876,54        GOT:</span><span data-col="0" data-width="20" style="font-size: 11px; "> BRL 9.876,54       </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: XX N/A              GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">XX N/A    </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: FOO1                GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">FOO1      </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 0,0098 (RLIB 2.0.x) GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">0,0098              </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 0,0099 (RLIB 3.0.x) GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">0,0098              </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 1,23                GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">1,23                </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 200.00              GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">200.00              </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 200,00              GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">200,00              </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: blue                GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">blue                </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: BOB2007-09-25       GOT: </span><span data-col="0" data-width="20" style="font-size: 11px; ">BOB2007-09-25       </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 2                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">2         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: 3                   GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">3         </span></pre></div>
+<div><pre style="font-size: 1pt"><span data-col="0" data-width="37" style="font-size: 11px; ">SHOULD GET: dunno  489          GOT: </span><span data-col="0" data-width="10" style="font-size: 11px; ">570       </span></pre></div>
+<table><!--start from part table--><tr><!--start from part tr--><td><!--started from part td--><!--start pages across--></td><!--ended from part td--><!--end pages across--></tr><!--ended from part tr--></table><!--ended from part table--></body></html>

@@ -81,7 +81,7 @@
 				<field value="(6+5) - (4+3+2+1)" width="10"/>
 			</Line>
 			<Line>
-				<literal>SHOULD GET: 12.345,00           GOT:</literal>
+				<literal>SHOULD GET: R$ 12.345           GOT:</literal>
 				<field value="12345" format="'!$ %n'" width="10"/>
 			</Line>
 			<Line>
@@ -89,12 +89,12 @@
 				<field value="9876.54" format="'!# %.2f'" width="10"/>
 			</Line>
 			<Line>
-				<literal>SHOULD GET: 9.876,54            GOT:</literal>
-				<field value="format(9876.54, '!$ %n')"  width="10"/>
+				<literal>SHOULD GET: R$ 9.876,54         GOT:</literal>
+				<field value="format(9876.54, '!$ %n')"  width="20"/>
 			</Line>
 			<Line>
-				<literal>SHOULD GET: 9.876,54            GOT:</literal>
-				<field value="format(9876.54, '!$ %n')"  width="10"/>
+				<literal>SHOULD GET: BRL 9.876,54        GOT:</literal>
+				<field value="format(9876.54, '!$ %i')"  width="20"/>
 			</Line>
 			<Line>
 				<literal>SHOULD GET: XX N/A              GOT: </literal>
@@ -105,7 +105,11 @@
 				<field value="1" format="'FOO%d'" width="10"/>
 			</Line>
 			<Line>
-				<literal>SHOULD GET: 0,0098              GOT: </literal>
+				<literal>SHOULD GET: 0,0098 (RLIB 2.0.x) GOT: </literal>
+				<field value="fxpval('987000',8)" format="'%.4d'" width="20"/>
+			</Line>
+			<Line>
+				<literal>SHOULD GET: 0,0099 (RLIB 3.0.x) GOT: </literal>
 				<field value="fxpval('987000',8)" format="'%.4d'" width="20"/>
 			</Line>
 			<Line>

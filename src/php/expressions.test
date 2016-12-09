@@ -1,0 +1,8 @@
+COMMAND="php expressions.php"
+EXTRA_COMMAND=
+FORMATS="pdf txt html xml"
+EXPECTED_pdf="1 2"
+EXPECTED_xml="1 2"
+EXPECTED_txt="1 2"
+EXPECTED_csv=
+EXPECTED_html="1 2"

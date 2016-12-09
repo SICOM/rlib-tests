@@ -19,7 +19,7 @@
 
 	$rlib =	rlib_init();
 	rlib_set_output_format_from_text($rlib, $output_format);
-	rlib_set_locale($rlib, "pt_BR");	
+	rlib_set_locale($rlib, "pt_BR");
 	rlib_add_datasource_array($rlib, "local_array");
 	rlib_add_query_as($rlib, "local_array", "data", "data");
 	rlib_add_report($rlib, "expressions.xml");
@@ -37,5 +37,4 @@
 	function bobdoan($a) {
 		return strtoupper($a);
 	}
-	
 ?>

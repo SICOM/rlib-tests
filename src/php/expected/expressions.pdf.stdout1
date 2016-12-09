@@ -1,0 +1,156 @@
+%PDF-1.3
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 6 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /Frpdf0
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+3 0 obj
+<<
+/Type /Outlines
+/Count 0
+>>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<</Length 3640>>
+stream
+1.0000 0.0000 0.0000 1.0000 0.0000 792.0000 cm
+0.0000 -1.0000 1.0000 0.0000 0.0 0.0 cm
+BT
+/Frpdf0 9.000 Tf
+1.0000 0.0000 -0.0000 1.0000 14.4000 590.7600 Tm
+(SHOULD GET: HI\)                 GOT: HI\)       ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 581.7600 Tm
+(SHOULD GET: \)                   GOT: \)         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 572.7600 Tm
+(SHOULD GET: 15                  GOT: 15        ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 563.7600 Tm
+(SHOULD GET: 9                   GOT: 9         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 554.7600 Tm
+(SHOULD GET: 7                   GOT: 7         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 545.7600 Tm
+(SHOULD GET: 50                  GOT: 50        ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 536.7600 Tm
+(SHOULD GET: 5                   GOT: 5         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 527.7600 Tm
+(SHOULD GET: bacon and eggs      GOT: bacon and eggs      ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 518.7600 Tm
+(SHOULD GET: 6                   GOT: 6                   ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 509.7600 Tm
+(SHOULD GET: four                GOT: four                ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 500.7600 Tm
+(SHOULD GET: true                GOT: true                ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 491.7600 Tm
+(SHOULD GET: 2                   GOT: 2                   ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 482.7600 Tm
+(SHOULD GET: WORKS               GOT: WORKS               ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 473.7600 Tm
+(SHOULD GET: WORKS               GOT: WORKS               ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 464.7600 Tm
+(SHOULD GET: 2                   GOT: 2         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 455.7600 Tm
+(SHOULD GET: 1                   GOT: 1         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 446.7600 Tm
+(SHOULD GET: 1                   GOT: 1         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 437.7600 Tm
+(SHOULD GET: R$ 12.345           GOT: R$ 12.345) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 428.7600 Tm
+(SHOULD GET: 9876,54             GOT: 9876,54  ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 419.7600 Tm
+(SHOULD GET: R$ 9.876,54         GOT: R$ 9.876,54        ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 410.7600 Tm
+(SHOULD GET: BRL 9.876,54        GOT: BRL 9.876,54       ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 401.7600 Tm
+(SHOULD GET: XX N/A              GOT: XX N/A    ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 392.7600 Tm
+(SHOULD GET: FOO1                GOT: FOO1      ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 383.7600 Tm
+(SHOULD GET: 0,0098 \(RLIB 2.0.x\) GOT: 0,0098              ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 374.7600 Tm
+(SHOULD GET: 0,0099 \(RLIB 3.0.x\) GOT: 0,0098              ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 365.7600 Tm
+(SHOULD GET: 1,23                GOT: 1,23                ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 356.7600 Tm
+(SHOULD GET: 200.00              GOT: 200.00              ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 347.7600 Tm
+(SHOULD GET: 200,00              GOT: 200,00              ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 338.7600 Tm
+(SHOULD GET: blue                GOT: blue                ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 329.7600 Tm
+(SHOULD GET: BOB2007-09-25       GOT: BOB2007-09-25       ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 320.7600 Tm
+(SHOULD GET: 2                   GOT: 2         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 311.7600 Tm
+(SHOULD GET: 3                   GOT: 3         ) Tj
+1.0000 0.0000 -0.0000 1.0000 14.4000 302.7600 Tm
+(SHOULD GET: dunno  489          GOT: 570       ) Tj
+ET
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Page
+/Parent 1 0 R
+/Resources <<
+/Font <<
+/Frpdf0 2 0 R
+>>
+/ProcSet 4 0 R >>
+/MediaBox [0 0 612 792]
+/CropBox [0 0 612 792]
+/Rotate 270
+/Contents 5 0 R
+>>
+endobj
+7 0 obj
+<<
+/Creator (RPDF By SICOM Systems)
+/CreationDate (D:19700101000000)
+/Producer (RPDF 1.0)
+/Author (RPDF)
+/Title (RLIB Report)
+/Subject (None)
+/Keywords (RPDF)
+>>
+endobj
+8 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Outlines 3 0 R
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000068 00000 n 
+0000000177 00000 n 
+0000000223 00000 n 
+0000000252 00000 n 
+0000003942 00000 n 
+0000004122 00000 n 
+0000004299 00000 n 
+trailer
+<<
+/Size 9
+/Root 8 0 R
+/Info 7 0 R
+>>
+startxref
+4364
+%%EOF

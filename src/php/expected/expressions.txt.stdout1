@@ -1,0 +1,33 @@
+SHOULD GET: HI)                 GOT: HI)       
+SHOULD GET: )                   GOT: )         
+SHOULD GET: 15                  GOT: 15        
+SHOULD GET: 9                   GOT: 9         
+SHOULD GET: 7                   GOT: 7         
+SHOULD GET: 50                  GOT: 50        
+SHOULD GET: 5                   GOT: 5         
+SHOULD GET: bacon and eggs      GOT: bacon and eggs      
+SHOULD GET: 6                   GOT: 6                   
+SHOULD GET: four                GOT: four                
+SHOULD GET: true                GOT: true                
+SHOULD GET: 2                   GOT: 2                   
+SHOULD GET: WORKS               GOT: WORKS               
+SHOULD GET: WORKS               GOT: WORKS               
+SHOULD GET: 2                   GOT: 2         
+SHOULD GET: 1                   GOT: 1         
+SHOULD GET: 1                   GOT: 1         
+SHOULD GET: R$ 12.345           GOT: R$ 12.345
+SHOULD GET: 9876,54             GOT: 9876,54  
+SHOULD GET: R$ 9.876,54         GOT: R$ 9.876,54        
+SHOULD GET: BRL 9.876,54        GOT: BRL 9.876,54       
+SHOULD GET: XX N/A              GOT: XX N/A    
+SHOULD GET: FOO1                GOT: FOO1      
+SHOULD GET: 0,0098 (RLIB 2.0.x) GOT: 0,0098              
+SHOULD GET: 0,0099 (RLIB 3.0.x) GOT: 0,0098              
+SHOULD GET: 1,23                GOT: 1,23                
+SHOULD GET: 200.00              GOT: 200.00              
+SHOULD GET: 200,00              GOT: 200,00              
+SHOULD GET: blue                GOT: blue                
+SHOULD GET: BOB2007-09-25       GOT: BOB2007-09-25       
+SHOULD GET: 2                   GOT: 2         
+SHOULD GET: 3                   GOT: 3         
+SHOULD GET: dunno  489          GOT: 570       
