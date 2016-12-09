@@ -1,0 +1,74 @@
+<rlib>
+<part>
+<part_page_footer>
+</part_page_footer>
+<part_header>
+</part_header>
+<part_page_header>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ff0000" type="string" >  dude</data>
+<data col="2" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#0000ff" type="string" > sweet</data>
+<data col="3" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffff00" type="string" >  xxxx</data>
+<data col="4" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >zzzzzz</data>
+<data col="5" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffffff" type="number" > 12345</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ff0000" type="string" >  dude</data>
+<data col="2" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#0000ff" type="string" > sweet</data>
+<data col="3" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffff00" type="string" >  xxxx</data>
+<data col="4" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >zzzzzz</data>
+<data col="5" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="number" > 12345</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ff0000" type="string" >  dude</data>
+<data col="2" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#0000ff" type="string" > sweet</data>
+<data col="3" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffff00" type="string" >  xxxx</data>
+<data col="4" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >zzzzzz</data>
+<data col="5" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffffff" type="number" > 12345</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ff0000" type="string" >  dude</data>
+<data col="2" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#0000ff" type="string" > sweet</data>
+<data col="3" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffff00" type="string" >  xxxx</data>
+<data col="4" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="string" >zzzzzz</data>
+<data col="5" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#e5e5e5" type="number" > 12345</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ff0000" type="string" >  dude</data>
+<data col="2" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#0000ff" type="string" > sweet</data>
+<data col="3" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffff00" type="string" >  xxxx</data>
+<data col="4" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffffff" type="string" >zzzzzz</data>
+<data col="5" width="6" font_point="20" bold="0" italics="0" align="right" bgcolor="#ffffff" type="number" > 12345</data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+</table>
+</part>
+</rlib>
