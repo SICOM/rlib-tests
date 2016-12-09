@@ -1,0 +1,1342 @@
+<rlib>
+<part>
+<part_page_footer>
+<output>
+<line>
+<data col="0" width="6" font_point="14" bold="0" italics="0" align="left" >Page: </data>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="right" type="number" >  0</data>
+</line>
+<line>
+<data col="0" width="37" font_point="14" bold="0" italics="0" align="left" >Wheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee: </data>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="right" type="number" >  0</data>
+</line>
+</output>
+</part_page_footer>
+<part_header>
+</part_header>
+<part_page_header>
+<output>
+<line>
+<data col="0" width="15" font_point="26" bold="0" italics="0" align="left" >Fixed Part Test</data>
+</line>
+<line>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="left" >ICR</data>
+</line>
+</output>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="22" font_point="9" bold="0" italics="0" align="left" >      INVENTORY REPORT</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NUM</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NAME                </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >UNIT      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >OPEN      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >USAGE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >RECEIVED  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS IN  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS OUT </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >WASTE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >BUN, REG/PREMIUM    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >2  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >BUN, KAISER         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="30.000000" height="81.000000" ><report_header>
+<output>
+<line>
+<data col="0" width="6" font_point="9" bold="0" italics="0" align="left" >YIELDS</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Item      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Portions </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="7" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >EQV    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >REG EQUIV </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Hamburger </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1        </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >100       </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Chicken   </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >1        </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >150       </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Pasta     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1        </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >190       </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >      YIELDS</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >      YIELDS</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >      YIELDS</data>
+</line>
+</output>
+</report_footer>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >   WWW.DT TIMING</data>
+<data col="0" width="5" font_point="9" bold="0" italics="0" align="left" type="string" >5    </data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >NUMBER OF CARS</data>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >NUMBER PARKED</data>
+</line>
+<line>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >EXCEED COUNT</data>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >NUMBER PARKED</data>
+</line>
+<line>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >AVE PARK TIME</data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >AVE TOTAL TIME</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+<td width="30.000000" height="81.000000" ><report_header>
+<output>
+<line>
+<data col="0" width="8" font_point="9" bold="0" italics="0" align="left" >DEPOSITS</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >  TIME  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > BAG ID   </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > MGR. ID </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >   AMOUNT </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >12:00   </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DEPOSIT 1 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >101      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >2000.00   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >4:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >DEPOSIT 2 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >102      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >1000.00   </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="left" > TOTAL DEPOSITS</data>
+</line>
+</output>
+</report_footer>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="9" font_point="9" bold="0" italics="0" align="left" >OTHER??? </data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >BREAK FAST SALES</data>
+</line>
+<line>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="left" >BREAKFAST SALES</data>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >SALAD SALES</data>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >SALAD SALES</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >DRIVE-THRU SALES</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >DRIVE-THRU SALES</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >OVER-RINGS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >OVER-RINGS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >OVER-RINGS</data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >COUPONS MEALS WASTE</data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >COUPONS MEALS WASTE</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="24" font_point="9" bold="0" italics="0" align="left" >      INVENTORY TRANSFER</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="5" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >QTY  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Name           </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >FROM</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TO  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="5" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >100  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Buns           </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1121</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >4452</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="5" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >400  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pattys         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >1121</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >4499</data>
+</line>
+</output>
+</field_details>
+</td>
+<td width="40.000000" height="81.000000" ><report_header>
+<output>
+<line>
+<data col="0" width="25" font_point="9" bold="0" italics="0" align="left" >     CASH RECONCILIATION </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >NET SALES </data>
+</line>
+<line>
+<data col="0" width="5" font_point="9" bold="0" italics="0" align="left" >TAX 	</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >GROSS SALES </data>
+</line>
+<line>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="left" >RESTAURANT BANK</data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >ADJUSTED GROSS CASH</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >AMOUNT DEPOSITED</data>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >GIFT REDEEMED</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >MISC. INCOME</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >PETTY CASH</data>
+</line>
+<line>
+<data col="0" width="9" font_point="9" bold="0" italics="0" align="left" >NET SALES</data>
+</line>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >TAX</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >CASH OVER/SHORT </data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >CASHIER OVER/SHORT </data>
+</line>
+<line>
+<data col="0" width="25" font_point="9" bold="0" italics="0" align="left" >OVER/SHORT RECONCILIATION</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >NET SALES </data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >GIFT CERT. SOLD </data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >OTHER NON-FOOD</data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >NET FOOD SALES</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >      PETTY CASH</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >  TIME  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > NAME               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >    AMOUNT  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Sugar               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20.00       </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >2:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pants               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >40.00       </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" > TOTAL PETTY CASH</data>
+</line>
+</output>
+</report_footer>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >      MISC INCOME</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >  TIME  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > NAME               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >    AMOUNT  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Birthday Party      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20.00       </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="18" font_point="9" bold="0" italics="0" align="left" > TOTAL MISC INCOME</data>
+</line>
+</output>
+</report_footer>
+</td>
+</tr>
+<tr>
+<td width="30.000000" height="15.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >     LABOR </data>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >FORMULA HRS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >ACTUAL HRS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >DIFFERENCE</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+<td width="70.000000" height="15.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="42" font_point="9" bold="0" italics="0" align="left" > ---------    Comments  ------------------</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >slashdot.org</data>
+</line>
+<line>
+<data col="0" width="22" font_point="9" bold="0" italics="0" align="left" >philadelphiaeagles.com</data>
+</line>
+<line>
+<data col="0" width="72" font_point="9" bold="0" italics="0" align="left" >sicom.com                  EAT               MORE                 CHEESE</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="100.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="22" font_point="9" bold="0" italics="0" align="left" >      INVENTORY REPORT</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NUM</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NAME                </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >UNIT      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >OPEN      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >USAGE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >RECEIVED  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS IN  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS OUT </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >WASTE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >BUN, REG/PREMIUM    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >2  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >BUN, KAISER         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+</table>
+</part>
+<part>
+<part_page_footer>
+<output>
+<line>
+<data col="0" width="6" font_point="14" bold="0" italics="0" align="left" >Page: </data>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="right" type="number" >  1</data>
+</line>
+<line>
+<data col="0" width="37" font_point="14" bold="0" italics="0" align="left" >Wheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee: </data>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="right" type="number" >  1</data>
+</line>
+</output>
+</part_page_footer>
+<part_header>
+</part_header>
+<part_page_header>
+<output>
+<line>
+<data col="0" width="15" font_point="26" bold="0" italics="0" align="left" >Fixed Part Test</data>
+</line>
+<line>
+<data col="0" width="3" font_point="14" bold="0" italics="0" align="left" >ICR</data>
+</line>
+</output>
+</part_page_header>
+<table>
+<tr>
+<td width="100.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="22" font_point="9" bold="0" italics="0" align="left" >      INVENTORY REPORT</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NUM</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NAME                </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >UNIT      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >OPEN      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >USAGE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >RECEIVED  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS IN  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS OUT </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >WASTE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >BUN, REG/PREMIUM    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >2  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >BUN, KAISER         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="30.000000" height="81.000000" ><report_header>
+<output>
+<line>
+<data col="0" width="6" font_point="9" bold="0" italics="0" align="left" >YIELDS</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Item      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Portions </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="7" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >EQV    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >REG EQUIV </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Hamburger </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1        </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >100       </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Chicken   </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >1        </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >150       </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >MIKEROTH  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >CALL     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >BACK      </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >      YIELDS</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >      YIELDS</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >      YIELDS</data>
+</line>
+</output>
+</report_footer>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >   WWW.DT TIMING</data>
+<data col="0" width="5" font_point="9" bold="0" italics="0" align="left" type="string" >5    </data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >NUMBER OF CARS</data>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >NUMBER PARKED</data>
+</line>
+<line>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >EXCEED COUNT</data>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >NUMBER PARKED</data>
+</line>
+<line>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >AVE PARK TIME</data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >AVE TOTAL TIME</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+<td width="30.000000" height="81.000000" ><report_header>
+<output>
+<line>
+<data col="0" width="8" font_point="9" bold="0" italics="0" align="left" >DEPOSITS</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >  TIME  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > BAG ID   </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > MGR. ID </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >   AMOUNT </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >12:00   </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DEPOSIT 1 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >101      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >2000.00   </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >4:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >DEPOSIT 2 </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="9" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >102      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >1000.00   </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="left" > TOTAL DEPOSITS</data>
+</line>
+</output>
+</report_footer>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="9" font_point="9" bold="0" italics="0" align="left" >OTHER??? </data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >BREAK FAST SALES</data>
+</line>
+<line>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="left" >BREAKFAST SALES</data>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >SALAD SALES</data>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >SALAD SALES</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >DRIVE-THRU SALES</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >DRIVE-THRU SALES</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >OVER-RINGS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >OVER-RINGS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >OVER-RINGS</data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >COUPONS MEALS WASTE</data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >COUPONS MEALS WASTE</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="24" font_point="9" bold="0" italics="0" align="left" >      INVENTORY TRANSFER</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="5" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >QTY  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >Name           </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >FROM</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TO  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="5" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >100  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Buns           </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1121</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >4452</data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="5" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >400  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="15" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pattys         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >1121</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="4" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >4499</data>
+</line>
+</output>
+</field_details>
+</td>
+<td width="40.000000" height="81.000000" ><report_header>
+<output>
+<line>
+<data col="0" width="25" font_point="9" bold="0" italics="0" align="left" >     CASH RECONCILIATION </data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >NET SALES </data>
+</line>
+<line>
+<data col="0" width="5" font_point="9" bold="0" italics="0" align="left" >TAX 	</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >GROSS SALES </data>
+</line>
+<line>
+<data col="0" width="15" font_point="9" bold="0" italics="0" align="left" >RESTAURANT BANK</data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >ADJUSTED GROSS CASH</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >AMOUNT DEPOSITED</data>
+</line>
+<line>
+<data col="0" width="13" font_point="9" bold="0" italics="0" align="left" >GIFT REDEEMED</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >MISC. INCOME</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >PETTY CASH</data>
+</line>
+<line>
+<data col="0" width="9" font_point="9" bold="0" italics="0" align="left" >NET SALES</data>
+</line>
+<line>
+<data col="0" width="3" font_point="9" bold="0" italics="0" align="left" >TAX</data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >CASH OVER/SHORT </data>
+</line>
+<line>
+<data col="0" width="19" font_point="9" bold="0" italics="0" align="left" >CASHIER OVER/SHORT </data>
+</line>
+<line>
+<data col="0" width="25" font_point="9" bold="0" italics="0" align="left" >OVER/SHORT RECONCILIATION</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >NET SALES </data>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >GIFT CERT. SOLD </data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >OTHER NON-FOOD</data>
+</line>
+<line>
+<data col="0" width="14" font_point="9" bold="0" italics="0" align="left" >NET FOOD SALES</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="16" font_point="9" bold="0" italics="0" align="left" >      PETTY CASH</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >  TIME  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > NAME               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >    AMOUNT  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Sugar               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20.00       </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >2:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >Pants               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >40.00       </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" > TOTAL PETTY CASH</data>
+</line>
+</output>
+</report_footer>
+<report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="17" font_point="9" bold="0" italics="0" align="left" >      MISC INCOME</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >  TIME  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > NAME               </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >    AMOUNT  </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="8" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1:00    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >Birthday Party      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="12" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >20.00       </data>
+</line>
+</output>
+</field_details>
+<report_footer>
+<output>
+<line>
+<data col="0" width="18" font_point="9" bold="0" italics="0" align="left" > TOTAL MISC INCOME</data>
+</line>
+</output>
+</report_footer>
+</td>
+</tr>
+<tr>
+<td width="30.000000" height="15.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >     LABOR </data>
+</line>
+<line>
+<data col="0" width="11" font_point="9" bold="0" italics="0" align="left" >FORMULA HRS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >ACTUAL HRS</data>
+</line>
+<line>
+<data col="0" width="10" font_point="9" bold="0" italics="0" align="left" >DIFFERENCE</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+<td width="70.000000" height="15.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="42" font_point="9" bold="0" italics="0" align="left" > ---------    Comments  ------------------</data>
+</line>
+<line>
+<data col="0" width="12" font_point="9" bold="0" italics="0" align="left" >slashdot.org</data>
+</line>
+<line>
+<data col="0" width="22" font_point="9" bold="0" italics="0" align="left" >philadelphiaeagles.com</data>
+</line>
+<line>
+<data col="0" width="72" font_point="9" bold="0" italics="0" align="left" >sicom.com                  EAT               MORE                 CHEESE</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+</field_headers>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+<field_details>
+</field_details>
+</td>
+</tr>
+<tr>
+<td width="100.000000" ><report_header>
+<output>
+<line>
+</line>
+<line>
+<data col="0" width="22" font_point="9" bold="0" italics="0" align="left" >      INVENTORY REPORT</data>
+</line>
+</output>
+</report_header>
+<field_headers>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NUM</data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >NAME                </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >UNIT      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >OPEN      </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >USAGE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >RECEIVED  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS IN  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >TRANS OUT </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" >WASTE     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_headers>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >1  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >BUN, REG/PREMIUM    </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#ffffff" > </data>
+</line>
+</output>
+</field_details>
+<field_details>
+<output>
+<line>
+<data col="1" width="3" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >2  </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="2" width="20" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >BUN, KAISER         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="3" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >DOZEN     </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="4" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >176       </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="5" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="6" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="7" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="8" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+<data col="9" width="10" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" type="string" >0         </data>
+<data col="0" width="1" font_point="9" bold="0" italics="0" align="left" bgcolor="#e5e5e5" > </data>
+</line>
+</output>
+</field_details>
+</td>
+</tr>
+</table>
+</part>
+</rlib>
