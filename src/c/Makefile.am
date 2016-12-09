@@ -33,6 +33,9 @@ noinst_DATA = \
 	$(LN_S) ../common-xml/$@ $@
 
 test: $(noinst_DATA) $(noinst_PROGRAMS)
+	@echo
+	@echo Running C test cases
+	@echo
 	@$(top_srcdir)/src/scripts/runtests.sh $(abs_builddir) $(RLIB_TESTS)
 
 CLEANFILES = $(noinst_DATA)

@@ -102,6 +102,8 @@ runtest1 () {
 export RPDF_DEBUGGING=1
 export RLIB_DEBUGGING=1
 
+echo "${bold}Test:${normal} $FILE"
+
 for FORMAT in $FORMATS ; do
 	${COMMAND} $FORMAT >"${DIR}/results/${FILE}.${FORMAT}.stdout" 2>"${DIR}/results/${FILE}.${FORMAT}.stderr"
 
@@ -141,12 +143,12 @@ for FORMAT in $FORMATS ; do
 	fi
 
 	if [ "$ERROR" = "0" ]; then
-		echo $FILE $FORMAT ${bold}OK${normal}
+		echo -e "${bold}Output:${normal} $FORMAT\t\t${bold}OK${normal}"
 	else
-		echo $FILE $FORMAT ${bold}FAILED${normal}
+		echo "${bold}Output:${normal} $FORMAT ${bold}FAILED${normal}"
 		echo ${bold}Check these files:${normal}
-		echo "${DIR}/results/${FILE}.${FORMAT}.stdout"
-		echo "${DIR}/results/${FILE}.${FORMAT}.stderr"
+		echo -e "\tresults/${FILE}.${FORMAT}.stdout"
+		echo -e "\tresults/${FILE}.${FORMAT}.stderr"
 	fi
 
 	if [ -n "$EXTRA_COMMAND" ]; then
