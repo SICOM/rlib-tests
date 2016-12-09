@@ -12,7 +12,7 @@ RLIB_TESTS = \
 	odbc pages_across xml
 
 noinst_DATA = \
-	array.xml breaks.xml breaks2.xml csv.xml data.xml \
+	array.xml array2.xml breaks.xml breaks2.xml csv.xml data.xml \
 	expressions.xml fixed_part.xml flow_part.xml \
 	follower-breaks.xml follower.xml formatstring.xml \
 	formatstring2.xml gantt2.xml gantt_colors.xml \

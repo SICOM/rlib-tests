@@ -1,0 +1,8 @@
+COMMAND="php flow_part.php"
+EXTRA_COMMAND=
+FORMATS="pdf xml txt html"
+EXPECTED_pdf="1 2"
+EXPECTED_xml="1 2"
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html="1 2"
