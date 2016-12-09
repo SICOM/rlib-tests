@@ -53,7 +53,7 @@
 	$more_data[2][1] = "Doan";
 	$more_data[2][2] = "TD";
 
-	$more_data[3][0] = "Bob";
+	$more_data[3][0] = "Eric";
 	$more_data[3][1] = "Buruschkin";
 	$more_data[3][2] = "ERB";
 
