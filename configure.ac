@@ -26,6 +26,21 @@ AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 AC_PROG_LN_S
 
+AC_ARG_ENABLE([new-http-headers],
+	[AS_HELP_STRING([--enable-new-http-headers],[Test new style usage of rlib_get_content_type() in PHP test cases])],,
+	[enable_new_http_headers=no])
+AM_CONDITIONAL(TEST_NEW_HTTP_HEADER, test x$enable_new_http_headers = xyes)
+
+AC_CHECK_LIB(r, rlib_add_datasource_array,
+	[enable_c_array_datasource=yes],
+	[enable_c_array_datasource=no])
+AM_CONDITIONAL(TEST_C_ARRAY_DATASOURCE, test x$enable_c_array_datasource = xyes)
+
+AC_CHECK_LIB(r, rlib_add_search_path,
+	[enable_add_search_path=yes],
+	[enable_add_search_path=no])
+AM_CONDITIONAL(TEST_SEARCH_PATH, test x$enable_add_search_path = xyes)
+
 PKG_CHECK_MODULES(LIBGLIB, glib-2.0)
 AC_SUBST(LIBGLIB_LIBS)
 AC_SUBST(LIBGLIB_CFLAGS)

@@ -1,8 +1,9 @@
 ## src/examples/c/Makefile.am for RLIB-TESTS
 
-noinst_PROGRAMS = \
-	example_mysql example_pg example_odbc \
-	relpth1 relpth1-gen relpth2 srcpth relprt graph \
+if TEST_C_ARRAY_DATASOURCE
+
+ARRAY_DATASOURCE_TESTS = \
+	breaks breaks2 \
 	follower follower2 \
 	follower_n_to_1 follower_n_to_1_2 \
 	follower_n_to_1_full_cartesian \
@@ -13,13 +14,26 @@ noinst_PROGRAMS = \
 	follower_1_to_1_then_n_to_1 \
 	follower_circular \
 	follower-breaks \
-	breaks breaks2 \
-	hyperinflation \
-	formatstring \
-	hungary
+	formatstring graph hungary \
+	hyperinflation
 
-RLIB_TESTS = $(noinst_PROGRAMS) \
-	relprt-noquery
+endif
+
+if TEST_SEARCH_PATH
+if TEST_C_ARRAY_DATASOURCE
+SEARCH_PATH_TESTS = relprt relpth1-gen srcpth
+EXTRA_TESTS = relprt-noquery
+else
+SEARCH_PATH_TESTS = relpth1-gen srcpth
+endif
+endif
+
+noinst_PROGRAMS = \
+	example_mysql example_pg example_odbc \
+	relpth1 relpth2 $(SEARCH_PATH_TESTS) \
+	$(ARRAY_DATASOURCE_TESTS)
+
+RLIB_TESTS = $(noinst_PROGRAMS) $(EXTRA_TESTS)
 
 AM_CFLAGS = $(RLIB_CFLAGS) $(LIBGLIB_CFLAGS)
 AM_LDFLAGS = $(RLIB_LIBS)
