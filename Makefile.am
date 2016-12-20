@@ -12,5 +12,3 @@ test-c:
 
 test-php:
 	$(MAKE) -C src $@
-
-test: test-c test-php
