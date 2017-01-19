@@ -4,6 +4,8 @@
 			$idx = 2;
 		else
 			$idx = 1;
+	} else {
+		$idx = 1;
 	}
 
 	$output_format = 'txt';
@@ -18,7 +20,7 @@
 	rlib_set_output_parameter($rlib, "debugging", "yes");
 	rlib_execute($rlib);
 
-	if ($idx = 2) {
+	if ($idx == 2) {
 		$content_type = rlib_get_content_type($rlib);
 		$replace_header = true;
 		while (strlen($content_type) > 0) {
