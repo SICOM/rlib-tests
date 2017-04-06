@@ -1,4 +1,4 @@
-COMMAND="php fixed_part.php"
+COMMAND="$PHP fixed_part.php"
 EXTRA_COMMAND=
 FORMATS="pdf xml txt html"
 EXPECTED_pdf="1 2"

@@ -14,7 +14,11 @@
 	rlib_add_query_as($rlib, "local_mysql", "select * FROM products", "products");
 	rlib_add_report($rlib, "products.xml");
 	rlib_execute($rlib);
-	header(rlib_get_content_type($rlib));
+	$my_header = explode("\n", rlib_get_content_type($rlib));
+	foreach($my_header as $x) {
+		if($x != '')
+			header($x);
+	}
 	rlib_spool($rlib);
 	rlib_free($rlib);
 ?>

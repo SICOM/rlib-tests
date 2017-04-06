@@ -1,4 +1,4 @@
-COMMAND="php xml.php"
+COMMAND="$PHP xml.php"
 EXTRA_COMMAND=
 FORMATS="pdf xml txt html"
 EXPECTED_pdf="1 2"

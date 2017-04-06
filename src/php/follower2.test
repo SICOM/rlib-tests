@@ -1,4 +1,4 @@
-COMMAND="php follower2.php"
+COMMAND="$PHP follower2.php"
 FORMATS="txt"
 EXPECTED_pdf=
 EXPECTED_xml=

@@ -164,7 +164,11 @@
 	rlib_add_report($rlib, "fixed_part.xml");
 	rlib_signal_connect($rlib, "part_iteration", "callback");
 	rlib_execute($rlib);
-	header(rlib_get_content_type($rlib));
+	$my_header = explode("\n", rlib_get_content_type($rlib));
+	foreach($my_header as $x) {
+		if($x != '')
+			header($x);
+	}
 	rlib_spool($rlib);
 	rlib_free($rlib);
 ?>

@@ -102,7 +102,11 @@
 	rlib_add_query_as($rlib, "local_array", "moredata", "moredata");
 	rlib_add_report($rlib, "flow_part.xml");
 	rlib_execute($rlib);
-	header(rlib_get_content_type($rlib));
+	$my_header = explode("\n", rlib_get_content_type($rlib));
+	foreach($my_header as $x) {
+		if($x != '')
+			header($x);
+	}
 	rlib_spool($rlib);
 	rlib_free($rlib);
 ?>

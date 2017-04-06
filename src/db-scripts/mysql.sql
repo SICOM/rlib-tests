@@ -1,10 +1,17 @@
 DROP DATABASE IF EXISTS rlib;
 CREATE DATABASE rlib;
 
-DROP USER 'rlib@localhost';
-CREATE USER 'rlib@localhost' IDENTIFIED BY 'rlib';
+--DROP USER 'rlib'@'localhost';
+CREATE USER 'rlib'@'localhost' IDENTIFIED BY 'rlib';
+GRANT ALL PRIVILEGES ON rlib.* TO 'rlib'@'localhost' IDENTIFIED BY 'rlib' WITH GRANT OPTION;
 
-GRANT ALL PRIVILEGES ON rlib.* TO rlib@localhost IDENTIFIED BY 'rlib' WITH GRANT OPTION;
+--DROP USER 'rlib'@'127.0.0.1';
+CREATE USER 'rlib'@'127.0.0.1' IDENTIFIED BY 'rlib';
+GRANT ALL PRIVILEGES ON rlib.* TO 'rlib'@'127.0.0.1' IDENTIFIED BY 'rlib' WITH GRANT OPTION;
+
+--DROP USER 'rlib'@'::1';
+CREATE USER 'rlib'@'::1' IDENTIFIED BY 'rlib';
+GRANT ALL PRIVILEGES ON rlib.* TO 'rlib'@'::1' IDENTIFIED BY 'rlib' WITH GRANT OPTION;
 
 USE rlib;
 

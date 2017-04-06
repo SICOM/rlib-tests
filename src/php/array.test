@@ -1,4 +1,4 @@
-COMMAND="php array.php"
+COMMAND="$PHP array.php"
 EXTRA_COMMAND=
 FORMATS="pdf txt html"
 EXPECTED_pdf="1 2"

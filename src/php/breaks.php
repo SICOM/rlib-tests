@@ -24,7 +24,11 @@
 	rlib_set_output_parameter($rlib, "only_quote_strings", "yes");
 	rlib_set_locale($rlib, "en_US");
 	rlib_execute($rlib);
-	header(rlib_get_content_type($rlib));
+	$my_header = explode("\n", rlib_get_content_type($rlib));
+	foreach($my_header as $x) {
+		if($x != '')
+			header($x);
+	}
 	rlib_spool($rlib);
 	rlib_free($rlib);
 ?>

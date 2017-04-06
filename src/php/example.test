@@ -1,4 +1,4 @@
-COMMAND="php example.php"
+COMMAND="$PHP example.php"
 EXTRA_COMMAND=
 FORMATS="pdf txt html csv xml"
 EXPECTED_pdf="1 2"

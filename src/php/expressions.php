@@ -26,7 +26,11 @@
 	rlib_add_function($rlib, "bobdoan", "bobdoan", 1);
 	rlib_add_function($rlib, "mikeroth", "mike_roth", 2);
 	rlib_execute($rlib);
-	header(rlib_get_content_type($rlib));
+	$my_header = explode("\n", rlib_get_content_type($rlib));
+	foreach($my_header as $x) {
+		if($x != '')
+			header($x);
+	}
 	rlib_spool($rlib);
 	rlib_free($rlib);
 	

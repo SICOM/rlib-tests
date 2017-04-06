@@ -1,11 +1,7 @@
 ## src/examples/php/Makefile.am for RLIB-TESTS
 
-if TEST_NEW_HTTP_HEADER
-CSV_NEWHEADER = csv-newheader
-endif
-
 RLIB_TESTS = \
-	array breaks csv $(CSV_NEWHEADER) example expressions fixed_part \
+	array breaks csv example expressions fixed_part \
 	flow_part flow_part_subdir \
 	follower follower2 \
 	follower_n_to_1_full_cartesian \
@@ -36,6 +32,6 @@ test: $(noinst_DATA) $(noinst_PROGRAMS)
 	@echo
 	@echo Running PHP test cases
 	@echo
-	@$(top_srcdir)/src/scripts/runtests.sh $(abs_builddir) $(RLIB_TESTS)
+	@PHP=$(PHP) $(top_srcdir)/src/scripts/runtests.sh $(abs_builddir) $(RLIB_TESTS)
 
 CLEANFILES = $(noinst_DATA)
