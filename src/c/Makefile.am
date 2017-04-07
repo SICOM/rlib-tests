@@ -2,6 +2,11 @@
 
 if TEST_C_ARRAY_DATASOURCE
 
+noinst_PROGRAMS = \
+	example_mysql example_pg example_odbc \
+	relpth1 relpth2 $(SEARCH_PATH_TESTS) \
+	$(ARRAY_DATASOURCE_TESTS)
+
 ARRAY_DATASOURCE_TESTS = \
 	breaks breaks2 \
 	follower follower2 \
@@ -19,19 +24,17 @@ ARRAY_DATASOURCE_TESTS = \
 
 endif
 
+SEARCH_PATH_TESTS =
+EXTRA_TESTS = example_mysql_gen
+
 if TEST_SEARCH_PATH
 if TEST_C_ARRAY_DATASOURCE
-SEARCH_PATH_TESTS = relprt relpth1-gen srcpth
-EXTRA_TESTS = relprt-noquery
+SEARCH_PATH_TESTS += relprt relpth1-gen srcpth
+EXTRA_TESTS += relprt-noquery
 else
-SEARCH_PATH_TESTS = relpth1-gen srcpth
+SEARCH_PATH_TESTS += relpth1-gen srcpth
 endif
 endif
-
-noinst_PROGRAMS = \
-	example_mysql example_pg example_odbc \
-	relpth1 relpth2 $(SEARCH_PATH_TESTS) \
-	$(ARRAY_DATASOURCE_TESTS)
 
 RLIB_TESTS = $(noinst_PROGRAMS) $(EXTRA_TESTS)
 

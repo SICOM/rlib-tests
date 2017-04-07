@@ -1,0 +1,10 @@
+COMMAND=./example_mysql
+FORMATS="txt"
+EXPECTED_pdf=
+EXPECTED_xml=
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html=
+
+export RLIB_CREATE_TEST_CASE=1
+export RLIB_TEST_CASE_DIR=generated

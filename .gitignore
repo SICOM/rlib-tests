@@ -97,6 +97,9 @@ src/c/formatstring.exe
 src/c/results/*
 !src/c/results/.dummy
 
+src/c/generated/*
+!src/c/generated/.dummy
+
 src/php/*.xml
 src/php/*.csv
 src/php/results/*
