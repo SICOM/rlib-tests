@@ -1,7 +1,7 @@
 COMMAND=./graph
 EXTRA_COMMAND="rm -f /tmp/*.png"
 FORMATS="pdf txt html"
-EXPECTED_pdf="1 2"
+EXPECTED_pdf="1 2 3"
 EXPECTED_xml=
 EXPECTED_txt=
 EXPECTED_csv=

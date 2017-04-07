@@ -1,7 +1,7 @@
 COMMAND="$PHP example.php"
 EXTRA_COMMAND=
 FORMATS="pdf txt html csv xml"
-EXPECTED_pdf="1 2"
+EXPECTED_pdf="1 2 3"
 EXPECTED_xml="1 2"
 EXPECTED_txt=
 EXPECTED_csv=
