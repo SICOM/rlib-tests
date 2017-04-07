@@ -1,6 +1,6 @@
 COMMAND=./example_pg
 FORMATS="pdf xml txt csv html"
-EXPECTED_pdf="1 2"
+EXPECTED_pdf="1 2 3"
 EXPECTED_xml="1 2"
 EXPECTED_txt=
 EXPECTED_csv=
