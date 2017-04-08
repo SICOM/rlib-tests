@@ -6,7 +6,7 @@
 # RLIB 2.0.x doesn't handle fonts that are not in the 14 base fonts.
 #
 
-COMMAND=./hungary
+COMMAND="$PHP hungary.php"
 FORMATS="pdf"
 EXPECTED_pdf=
 EXPECTED_xml=

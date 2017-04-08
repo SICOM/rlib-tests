@@ -23,51 +23,6 @@
 #include <stdio.h>
 #include <rlib.h>
 
-char *data[7][5] = {
-	[0][0] = "first_name",
-	[0][1] = "last_name",
-	[0][2] = "color",
-	[0][3] = "group",
-	[0][4] = "breakfast",
-
-	[1][0] = "Bob",
-	[1][1] = "Doan",
-	[1][2] = "blue",
-	[1][3] = "1",
-	[1][4] = "Green Eggs And Spam I Am I Am",
-
-	[2][0] = "Terry",
-	[2][1] = "Doan",
-	[2][2] = "blue",
-	[2][3] = "1",
-	[2][4] = "Ham and Eggs",
-
-	[3][0] = "Eric",
-	[3][1] = "Buruschkin",
-	[3][2] = "green",
-	[3][3] = "1",
-	[3][4] = "Green Eggs And Spam I Am I Am",
-
-	[4][0] = "Mike",
-	[4][1] = "Roth",
-	[4][2] = "yellow",
-	[4][3] = "2",
-	[4][4] = "Green Eggs And Spam I Am I Am",
-
-	[5][0] = "Bob",
-	[5][1] = "Kratz",
-	[5][2] = "pink",
-	[5][3] = "2",
-	[5][4] = "Green Eggs And Spam I Am I Am",
-
-	[6][0] = "Steve",
-	[6][1] = "Tilden",
-	[6][2] = "purple",
-	[6][3] = "2",
-	[6][4] = "Dude",
-};
-
-
 int main(int argc, char **argv) {
 	rlib *r;
 
@@ -77,8 +32,6 @@ int main(int argc, char **argv) {
 	}
 
 	r = rlib_init();
-	rlib_add_datasource_array(r, "local_array");
-	rlib_add_query_array_as(r, "local_array", data, 7, 5, "data");
 	rlib_add_report(r, "hungary.xml");
 	rlib_set_output_format_from_text(r, argv[1]);
 	rlib_set_output_encoding(r, "ISO8859-2");
