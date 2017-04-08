@@ -1,0 +1,7 @@
+#
+# Same test as relpth1 but it uses PNG images and PDF compression
+# RLIB 2.0.x fails to add the PNG images to the PDF output.
+#
+COMMAND=./relpth3
+FORMATS="pdf"
+EXPECTED_pdf=

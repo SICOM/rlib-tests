@@ -4,7 +4,7 @@ if TEST_C_ARRAY_DATASOURCE
 
 noinst_PROGRAMS = \
 	example_mysql example_pg example_odbc \
-	relpth1 relpth2 $(SEARCH_PATH_TESTS) \
+	relpth1 relpth2 relpth3 $(SEARCH_PATH_TESTS) \
 	$(ARRAY_DATASOURCE_TESTS)
 
 ARRAY_DATASOURCE_TESTS = \
