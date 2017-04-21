@@ -4,6 +4,12 @@
 	$password = "rlib";
 	$database = "rlib";	
 
+	$RLIB_DEBUGGING="1";
+	$RPDF_DEBUGGING="1";
+
+	$RLIB_CREATE_TEST_CASE="on";
+	$RLIB_TEST_CASE_DIR="generated";
+
 	$output_format = 'txt';
 	if (isset($argv[1]))
 		$output_format = $argv[1];
