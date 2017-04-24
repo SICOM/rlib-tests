@@ -1,0 +1,15 @@
+#
+# This test crashes RLIB 2.0.x because it uses:
+#
+# rlib_set_output_parameter(r, "pdf_fontname", "Liberation Mono");
+#
+# RLIB 2.0.x doesn't handle fonts that are not in the 14 base fonts.
+#
+
+COMMAND="$PHP hungary2.php"
+FORMATS="pdf"
+EXPECTED_pdf=
+EXPECTED_xml=
+EXPECTED_txt=
+EXPECTED_csv=
+EXPECTED_html=

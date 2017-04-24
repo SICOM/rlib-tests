@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE report >
+<Report fontSize="9" orientation="landscape">
+	<ReportHeader>
+		<Output>
+			<Line fontSize="11">
+				<literal>ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP</literal>
+			</Line>
+			<Line fontSize="11">
+				<literal>árvíztűrő tükörfúrógép</literal>
+			</Line>
+			<HorizontalLine size="4" bgcolor="'white'"/>
+		</Output>
+	</ReportHeader>		
+
+	<Detail>
+		<FieldHeaders>
+			<Output>
+				<HorizontalLine size="1" bgcolor="'black'"/>
+				<Line bgcolor="'0xe5e5e5'">
+				<literal width="20" col="1">Key</literal>
+				<literal width="1"/>
+				<literal width="20" col="2">Value</literal>
+				</Line>
+			</Output>
+		</FieldHeaders>
+		<FieldDetails>
+			<Output>
+				<Line bgcolor="iif(r.detailcnt%2,'0xe5e5e5','white')">
+				<field value="key" width="20" align="left" col="1"/>
+				<literal width="1"/>
+				<field value="value" width="20" align="left" col="2"/>
+				</Line>
+			</Output>
+		</FieldDetails>
+	</Detail>
+
+	<PageFooter>
+		<Output>
+			<Line>
+				<literal>Page: </literal>	
+				<field value="r.pageno" width="3" align="right"/>
+			</Line>
+		</Output>
+	</PageFooter>
+
+	<ReportFooter>
+	</ReportFooter>
+</Report>

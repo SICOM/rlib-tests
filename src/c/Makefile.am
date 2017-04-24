@@ -19,7 +19,8 @@ ARRAY_DATASOURCE_TESTS = \
 	follower_1_to_1_then_n_to_1 \
 	follower_circular \
 	follower-breaks \
-	formatstring graph hungary \
+	formatstring graph \
+	hungary hungary2 russian \
 	hyperinflation
 
 endif
@@ -44,7 +45,7 @@ AM_LDFLAGS = $(RLIB_LIBS)
 noinst_DATA = \
 	graph.xml products.xml follower.xml follower-breaks.xml \
 	follower-3data.xml breaks.xml breaks2.xml hyperinflation.xml \
-	formatstring.xml hungary.xml
+	formatstring.xml hungary.xml hungary2.xml russian.xml
 
 %.xml:
 	$(LN_S) ../common-xml/$@ $@
