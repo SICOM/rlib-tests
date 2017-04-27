@@ -44,8 +44,8 @@ src/c/*
 !src/c/*.test
 !src/c/expected
 src/c/expected/*
-!src/c/expected/*.stderr
-!src/c/expected/*.stdout
+!src/c/expected/*.stderr*
+!src/c/expected/*.stdout*
 !src/c/results
 src/c/results/*
 !src/c/results/.dummy
@@ -59,8 +59,8 @@ src/php/*
 !src/php/*.test
 !src/php/expected
 src/php/expected/*
-!src/php/expected/*.stderr
-!src/php/expected/*.stdout
+!src/php/expected/*.stderr*
+!src/php/expected/*.stdout*
 !src/php/results
 src/php/results/*
 !src/php/results/.dummy
