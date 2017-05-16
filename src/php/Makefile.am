@@ -19,7 +19,7 @@ noinst_DATA = \
 	formatstring2.xml gantt2.xml gantt_colors.xml \
 	gantt.xml graph.xml \
 	\
-	hungary.xml russian.xml \
+	hungary.xml hungary2.xml russian.xml \
 	\
 	hyperinflation.xml images.xml labels.xml multiline.xml \
 	pages_across.xml products.xml \

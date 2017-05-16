@@ -1,8 +1,4 @@
 COMMAND="$PHP expressions.php"
 EXTRA_COMMAND=
 FORMATS="txt"
-EXPECTED_pdf="1 2 3"
-EXPECTED_xml="1 2"
 EXPECTED_txt="1 2"
-EXPECTED_csv=
-EXPECTED_html="1 2"
