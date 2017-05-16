@@ -17,6 +17,7 @@ SHOULD GET: 1                   GOT: 1
 SHOULD GET: 1                   GOT: 1         
 SHOULD GET: R$ 12.345           GOT: R$ 12.345
 SHOULD GET: 9876,54             GOT: 9876,54  
+SHOULD GET: 9.876,54            GOT: 9.876,54
 SHOULD GET: R$ 9.876,54         GOT: R$ 9.876,54        
 SHOULD GET: BRL 9.876,54        GOT: BRL 9.876,54       
 SHOULD GET: XX N/A              GOT: XX N/A    
@@ -31,3 +32,5 @@ SHOULD GET: BOB2007-09-25       GOT: BOB2007-09-25
 SHOULD GET: 2                   GOT: 2         
 SHOULD GET: 3                   GOT: 3         
 SHOULD GET: dunno  489          GOT: 570       
+SHOULD GET: X: Y                GOT: X: Y
+SHOULD GET: You have: 6.50 apples  GOT: You have: 6.50 apples

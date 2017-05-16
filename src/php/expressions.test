@@ -1,6 +1,6 @@
 COMMAND="$PHP expressions.php"
 EXTRA_COMMAND=
-FORMATS="pdf txt html xml"
+FORMATS="txt"
 EXPECTED_pdf="1 2 3"
 EXPECTED_xml="1 2"
 EXPECTED_txt="1 2"
