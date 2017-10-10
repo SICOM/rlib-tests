@@ -1,0 +1,15 @@
+No translation (1): You have 1 apple(s)
+No translation (2): You have 1 apple(s)
+No translation (3): You have 1 plum(s)
+No translation (4): You have 1 pear(s)
+No translation (5): You have 1 apple(s)
+Translation (plain): You have 1 apple(s) - yay, translated!
+Translation (context): You have 1 apple(s) - yay, translated with 'apple' context!
+Translation (none): You have 0 pears - yay, translated!
+Translation (singular): You have 1 pear - yay, translated!
+Translation (dual): You have 2 pears - yay, translated!
+Translation (plural): You have 3 or more pearses - yay, translated!
+Translation (context, none): You have 0 plums - yay, translated with 'plum' context!
+Translation (context, singular): You have 1 plum - yay, translated with 'plum' context!
+Translation (context, dual): You have 2 plums - yay, translated with 'plum' context!
+Translation (context, plural): You have 3 plumses - yay, translated with 'plum' context!

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE report>
+<Report fontSize="9" orientation="landscape">
+	<ReportHeader>
+		<Output>
+			<Line>
+				<literal>No translation (1): You have 1 </literal>
+				<field value="'apple(s)'" />
+			</Line>
+			<Line>
+				<literal>No translation (2): You have 1 </literal>
+				<field value="'apple(s)'" translate="no" />
+			</Line>
+			<Line>
+				<literal>No translation (3): You have 1 </literal>
+				<field value="'plum(s)'" translate="no" translatectx="'apple'" />
+			</Line>
+			<Line>
+				<literal>No translation (4): You have 1 </literal>
+				<field value="'pear(s)'" translate="no" translateplural="0" />
+			</Line>
+			<Line>
+				<literal>No translation (5): You have 1 </literal>
+				<field value="'apple(s)'" translate="no" translatectx="'plum'" translateplural="1" />
+			</Line>
+			<Line>
+				<literal>Translation (plain): You have 1 </literal>
+				<field value="'apple(s)'" translate="yes" />
+			</Line>
+			<Line>
+				<literal>Translation (context): You have 1 </literal>
+				<field value="'plum(s)'" translate="yes" translatectx="'apple'"  />
+			</Line>
+			<Line>
+				<literal>Translation (none): You have 0 </literal>
+				<field value="'pear(s)'" translate="yes" translateplural="0" />
+			</Line>
+			<Line>
+				<literal>Translation (singular): You have 1 </literal>
+				<field value="'pear(s)'" translate="yes" translateplural="1" />
+			</Line>
+			<Line>
+				<literal>Translation (dual): You have 2 </literal>
+				<field value="'pear(s)'" translate="yes" translateplural="2" />
+			</Line>
+			<Line>
+				<literal>Translation (plural): You have 3 or more </literal>
+				<field value="'pear(s)'" translate="yes" translateplural="3" />
+			</Line>
+			<Line>
+				<literal>Translation (context, none): You have 0 </literal>
+				<field value="'apple(s)'" translate="yes" translatectx="'plum'" translateplural="0" />
+			</Line>
+			<Line>
+				<literal>Translation (context, singular): You have 1 </literal>
+				<field value="'apple(s)'" translate="yes" translatectx="'plum'" translateplural="1" />
+			</Line>
+			<Line>
+				<literal>Translation (context, dual): You have 2 </literal>
+				<field value="'apple(s)'" translate="yes" translatectx="'plum'" translateplural="2" />
+			</Line>
+			<Line>
+				<literal>Translation (context, plural): You have 3 </literal>
+				<field value="'apple(s)'" translate="yes" translatectx="'plum'" translateplural="3" />
+			</Line>
+		</Output>
+	</ReportHeader>
+</Report>

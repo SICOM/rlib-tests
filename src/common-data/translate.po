@@ -1,0 +1,41 @@
+# Translatable strings for translate.test
+# Copyright (C) 2017 Sicom Systems Inc.
+# This file is distributed under the same license as the main package.
+# Zoltán Böszörményi <zboszormenyi@sicom.com>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-09 15:56+0200\n"
+"PO-Revision-Date: 2017-10-09 15:56+0200\n"
+"Last-Translator: Zoltán Böszörményi <zboszormenyi@sicom.com>\n"
+"Language-Team: Chef-translators <chef@sicom.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n == 0 ? 0 : n == 1 ? 1 : n == 2 ? 2 : 3;"
+
+msgid "apple(s)"
+msgstr "apple(s) - yay, translated!"
+
+msgctxt "apple"
+msgid "plum(s)"
+msgstr "apple(s) - yay, translated with 'apple' context!"
+
+msgid "pear(s)"
+msgid_plural "pear(s)"
+msgstr[0] "pears - yay, translated!"
+msgstr[1] "pear - yay, translated!"
+msgstr[2] "pears - yay, translated!"
+msgstr[3] "pearses - yay, translated!"
+
+msgctxt "plum"
+msgid "apple(s)"
+msgid_plural "apple(s)"
+msgstr[0] "plums - yay, translated with 'plum' context!"
+msgstr[1] "plum - yay, translated with 'plum' context!"
+msgstr[2] "plums - yay, translated with 'plum' context!"
+msgstr[3] "plumses - yay, translated with 'plum' context!"

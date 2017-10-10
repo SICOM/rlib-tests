@@ -52,6 +52,9 @@ src/c/results/*
 !src/c/generated
 src/c/generated/*
 !src/c/generated/.dummy
+!src/c/locale
+src/c/locale/*/*/*.mo
+!src/c/locale/*/*/.dummy
 
 src/php/*
 !src/php/Makefile.am

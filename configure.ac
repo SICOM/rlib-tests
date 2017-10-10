@@ -26,6 +26,9 @@ AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 AC_PROG_LN_S
 
+AC_CHECK_PROG(MSGFMT,[msgfmt],[msgfmt])
+AM_CONDITIONAL(MSGFMT_FOUND, [test x$MSGFMT = xmsgfmt])
+
 AC_ARG_WITH([php],
 	[AS_HELP_STRING([--with-php=CMD],[Use a specific PHP interpreter, @<:@default=php@:>@])],
 	[AS_IF([test x$with_php = xyes],
